@@ -210,6 +210,12 @@ When rendering for these, aim for this level of considered craft.
 - **Decoration**: CSS-only perspective floor (crossed gradients rotated 68° on X). Starfield. Scanlines at overlay blend. Vertical Latin column right (faux katakana). HUD chrome top + bottom.
 - **Risk**: the word IS a marquee, not a headline. Sub-copy lives at the bottom like a footer. Trust the wordmark to hold the room.
 
+### tech-seminar · "ML/DL paper review style" (bilingual KR/EN)
+- **Palette**: white base, near-black sans for headlines, vivid blue (~#1f7ae0) for numerals + emphasis. Section banner uses purple→cyan horizontal gradient (~#7e5de8 → #5fd4e0). Section ornaments may add a third gradient fade (orange tail) when the slide is "intro/title" mood.
+- **Type**: clean humanist sans, Pretendard/Noto Sans KR-style. Korean and Latin coexist at NEAR-EQUAL weight — neither dominates. Headlines roman 600 at 60–80px (no italics, no all-caps for body). All-caps reserved for ID labels ("CONTENTS", "ASSIGNMENT 3 — REPORT PRESENTATION").
+- **Decoration**: signature **section banner** in top-left = small rectangular tag, gradient-filled (purple→cyan), label in white inside, with a tiny accent square sitting just below-right of the banner. Background ornament is a single recurring motif per section (mesh-wave for intro, polygon-network for DL, dotted-grid for data). Cards use thin 1.5px rounded-rectangle outlines (radius ~16px), occasional gradient stroke. Numbered TOC items: large vivid-blue numeral + light gray label, generous spacing. Step boxes (1→6 flow): small gradient-filled rounded squares with white numeral inside, connected by thin curved lines, each tied to an outlined card containing one line of body text.
+- **Risk**: the section banner is the entire identity. It's tiny but unmistakable. Hero images sit in their own gradient-stroke frames (never bleeds). Bilingual is a discipline, not an afterthought — Hangul and Latin lines align by baseline, and key technical terms keep English form (e.g., "ML/DL", "Taxonomy", "NIDS") inside Hangul prose. Avoid: heavy decoration, color-blocked backgrounds, illustration-heavy slides. The vibe is **quiet authority + technical precision**.
+
 ---
 
 ## How to use this reference

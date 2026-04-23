@@ -1,0 +1,18 @@
+id: tech-seminar-03
+category: tech-seminar
+brief: |
+  Lab weekly meeting — more casual, status-update vibe. Step-flow boxes (1→2→3)
+  showing the week's experiments, outlined cards with single-line summaries,
+  occasional small icon. Less ceremonial than a paper review; the slide reads
+  like a research-log entry. Bilingual but Korean-leaning for internal lab tone.
+constraints:
+  - Use the step-flow pattern (small gradient-filled square + curved connector + outlined card) as the dominant content element
+  - Include 1-3 simple line-art icons in black (gear, server, document, chart)
+  - Section banner present but smaller, less emphatic
+  - Body type slightly tighter and more compact than tech-seminar-01
+inspiration:
+  - research-log-entry
+  - lab-standup
+  - notion-research-ops
+  - kanban-academic
+paletteHint: White base, charcoal headline, lavender→cyan banner gradient, vivid blue numerals, neutral gray card outlines.

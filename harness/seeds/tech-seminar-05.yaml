@@ -1,0 +1,19 @@
+id: tech-seminar-05
+category: tech-seminar
+brief: |
+  Workshop tutorial — pedagogical, multi-step explainer. A practitioner
+  teaching a hands-on session ("Build your first transformer"). Numbered
+  step boxes are the entire point — they march across the slide as a process
+  diagram. Code snippets allowed in inline mono. Bilingual but English-leading
+  for code/technical terms.
+constraints:
+  - Step-flow MUST be horizontal across the slide with at least 4 steps
+  - Each step has a small line-art icon, a one-word verb, and a one-line description
+  - Inline monospace code snippets allowed in body (one-liners only)
+  - Section banner present; background completely plain (no motif)
+inspiration:
+  - huggingface-course-deck
+  - fastai-lesson-board
+  - karpathy-walkthrough
+  - dev-bootcamp-curriculum
+paletteHint: White base, charcoal headline, cyan→blue banner gradient, vivid blue numerals, mono accent green for code.

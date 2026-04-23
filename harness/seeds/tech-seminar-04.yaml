@@ -1,0 +1,18 @@
+id: tech-seminar-04
+category: tech-seminar
+brief: |
+  Industry tech briefing — corporate-academic hybrid. A tech lead presenting
+  to executives on AI/ML adoption. Polished but not flashy. Two-column compare
+  layouts (legacy vs. ML-based, on-prem vs. cloud), large stat callouts
+  ("3.4× faster", "85% precision"), business-readable bilingual labels.
+constraints:
+  - Two-column compare must be the dominant content gesture
+  - At least one oversized stat with vivid-blue accent underline
+  - Section banner present, gradient slightly more saturated (premium feel)
+  - Avoid step-flow boxes — this is conclusion-driven, not process-driven
+inspiration:
+  - mckinsey-ai-readiness
+  - samsung-sds-briefing
+  - kakao-enterprise-deck
+  - boardroom-tech-pitch
+paletteHint: White base, near-black headline, deep purple→teal banner gradient, vivid blue stat emphasis, warm gold thin accent rule for premium signal.

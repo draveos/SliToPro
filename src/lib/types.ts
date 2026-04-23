@@ -19,6 +19,7 @@ export const CATEGORIES = [
   'earth-tone',
   'newsletter-info',
   'korean-modern',
+  'tech-seminar',
 ] as const;
 
 export type Category = (typeof CATEGORIES)[number];
@@ -44,6 +45,7 @@ export const CATEGORY_LABEL: Record<Category, string> = {
   'earth-tone': 'Earth Tone',
   'newsletter-info': 'Newsletter Info',
   'korean-modern': 'Korean Modern',
+  'tech-seminar': 'Tech Seminar',
 };
 
 export const EXAMPLE_KINDS = ['title', 'content'] as const;

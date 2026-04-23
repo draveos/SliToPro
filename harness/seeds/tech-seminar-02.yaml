@@ -1,0 +1,18 @@
+id: tech-seminar-02
+category: tech-seminar
+brief: |
+  English-leaning international conference talk — NeurIPS / ICML poster spotlight
+  feel. Cleaner typography, fewer decorative motifs, one strong section banner,
+  numbered TOC pattern. For a Korean researcher giving the talk in English with
+  occasional Hangul technical glossary in margins.
+constraints:
+  - Banner gradient slightly cooler (less purple, more cyan-blue), more institutional
+  - Numbered TOC must show 5 items minimum with vivid-blue numerals
+  - Background is plain white — NO mesh wave, NO polygon network
+  - Allow one small Hangul margin gloss for one technical term
+inspiration:
+  - neurips-poster-spotlight
+  - icml-keynote-quiet
+  - oxford-academic-deck
+  - bilingual-glossary
+paletteHint: White base, deep charcoal headline, cool blue-cyan gradient banner, vivid blue (~#1f7ae0) numerals, hairline gray rules.
