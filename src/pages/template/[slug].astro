@@ -7,6 +7,7 @@ import PreviewPlaceholder from '../../components/PreviewPlaceholder.astro';
 import { templates, relatedTemplates } from '../../lib/loadTemplates';
 import { buildPrompt } from '../../lib/promptBuilder';
 import { STYLE_LABEL, USE_CASE_LABEL } from '../../lib/types';
+import { url } from '../../lib/url';
 
 export function getStaticPaths() {
   return templates.map((t) => ({ params: { slug: t.slug }, props: { template: t } }));
@@ -15,7 +16,6 @@ export function getStaticPaths() {
 const { template } = Astro.props;
 const prompt = buildPrompt(template);
 const related = relatedTemplates(template);
-const baseUrl = import.meta.env.BASE_URL;
 
 const llmLinks = [
   { name: 'Claude', url: 'https://claude.ai/new' },
@@ -25,7 +25,7 @@ const llmLinks = [
 ---
 <Base title={template.title} description={template.description}>
   <section class="max-w-5xl mx-auto px-6 pt-12 pb-8">
-    <a href={baseUrl} class="text-sm text-[var(--color-muted)] hover:text-[var(--color-accent)] transition-colors">← Gallery</a>
+    <a href={url()} class="text-sm text-[var(--color-muted)] hover:text-[var(--color-accent)] transition-colors">← Gallery</a>
     <div class="mt-6 flex flex-wrap items-start gap-x-6 gap-y-3 justify-between">
       <div class="space-y-3 max-w-2xl">
         <div class="flex flex-wrap gap-2">
