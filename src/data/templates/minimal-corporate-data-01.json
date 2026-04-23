@@ -1,11 +1,10 @@
 {
   "id": "minimal-corporate-data-01",
-  "title": "Signal Over Noise — Chart-First Data Canvas",
   "slug": "minimal-corporate-data-01",
-  "style": "minimal-corporate",
-  "useCase": "data",
-  "previewImage": "/previews/minimal-corporate-data-01.svg",
+  "title": "Signal Over Noise — Chart-First Data Canvas",
+  "category": "data-dashboard",
   "description": "A Tufte-influenced, chart-dominant layout built for analysts who let a single well-drawn line carry the argument. One chart commands the canvas, a conclusion-first headline sets the frame, and whisper-quiet annotations guide the eye without competing with the data.",
+  "philosophy": "Design a slide that treats the chart as the argument — one dominant visualization commands the canvas, a conclusion-first headline sets the frame flush left above it, and whisper-quiet annotations guide the eye without competing with the data. Tufte-influenced data-ink discipline governs every decision: clean negative space lets the signal breathe, with no decorative fills, borders, or visual scaffolding tolerated. The mood is analyst brief meets editorial authority — stripped-back, evidence-first, every element earning its presence.",
   "tags": [
     "data-forward",
     "chart-centric",
@@ -14,17 +13,21 @@
     "analytical",
     "single-metric"
   ],
-  "colorPalette": {
-    "primary": "#1c1c1c",
-    "secondary": "#ffffff",
-    "accent": "#e0735a"
-  },
-  "typography": {
-    "heading": "high-contrast transitional serif, semibold weight — conveys editorial authority for the conclusion headline",
-    "body": "compact humanist sans-serif, regular to light weight — used for axis labels, annotations, source lines, and supporting context"
-  },
-  "layoutNotes": "Pure white full-bleed canvas with a 12-column grid; the chart occupies columns 1–8 (roughly 65% of canvas width) and is vertically centered between a top margin of 14% and a bottom margin of 10%. The conclusion headline sits flush left above the chart in a single wide text column, limited to two lines maximum, with 6% left and right outer gutters. A source citation and date stamp are anchored in 10pt grey to the bottom-right corner outside the chart boundary, keeping data-ink separation clean.",
-  "promptCore": "Design a slide that treats the chart as the argument — one dominant visualization commands the canvas, a conclusion-first headline sets the frame flush left above it, and whisper-quiet annotations guide the eye without competing with the data. Tufte-influenced data-ink discipline governs every decision: clean negative space lets the signal breathe, with no decorative fills, borders, or visual scaffolding tolerated. The mood is analyst brief meets editorial authority — stripped-back, evidence-first, every element earning its presence.",
+  "examples": [
+    {
+      "kind": "title",
+      "promptCore": "Design a slide that treats the chart as the argument — one dominant visualization commands the canvas, a conclusion-first headline sets the frame flush left above it, and whisper-quiet annotations guide the eye without competing with the data. Tufte-influenced data-ink discipline governs every decision: clean negative space lets the signal breathe, with no decorative fills, borders, or visual scaffolding tolerated. The mood is analyst brief meets editorial authority — stripped-back, evidence-first, every element earning its presence.",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1920 1080\" preserveAspectRatio=\"xMidYMid meet\">\n  <rect width=\"1920\" height=\"1080\" fill=\"#1a1a1c\"/>\n  <rect x=\"160\" y=\"160\" width=\"200\" height=\"6\" fill=\"#e85a2f\"/>\n  <text x=\"160\" y=\"320\" font-family=\"Georgia, ui-serif, serif\" font-size=\"120\" font-weight=\"700\" fill=\"#ebe6e0\">Signal Over Noise</text>\n  <text x=\"160\" y=\"420\" font-family=\"Georgia, ui-serif, serif\" font-size=\"64\" font-weight=\"400\" fill=\"#52514f\" font-style=\"italic\">Chart-First Data Canvas</text>\n  <rect x=\"160\" y=\"900\" width=\"120\" height=\"2\" fill=\"#e85a2f\"/>\n  <text x=\"160\" y=\"950\" font-family=\"ui-monospace, monospace\" font-size=\"22\" letter-spacing=\"3\" fill=\"#e85a2f\">DATA</text>\n  <text x=\"1760\" y=\"990\" text-anchor=\"end\" font-family=\"ui-monospace, monospace\" font-size=\"20\" fill=\"#52514f\">01 / 02</text>\n</svg>",
+      "layoutNotes": "Pure white full-bleed canvas with a 12-column grid; the chart occupies columns 1–8 (roughly 65% of canvas width) and is vertically centered between a top margin of 14% and a bottom margin of 10%. The conclusion headline sits flush left above the chart in a single wide text column, limited to two lines maximum, with 6% left and right outer gutters. A source citation and date stamp are anchored in 10pt grey to the bottom-right corner outside the chart boundary, keeping data-ink separation clean."
+    },
+    {
+      "kind": "content",
+      "promptCore": "Design a slide that treats the chart as the argument — one dominant visualization commands the canvas, a conclusion-first headline sets the frame flush left above it, and whisper-quiet annotations guide the eye without competing with the data. Tufte-influenced data-ink discipline governs every decision: clean negative space lets the signal breathe, with no decorative fills, borders, or visual scaffolding tolerated. The mood is analyst brief meets editorial authority — stripped-back, evidence-first, every element earning its presence.",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1920 1080\" preserveAspectRatio=\"xMidYMid meet\">\n  <rect width=\"1920\" height=\"1080\" fill=\"#1a1a1c\"/>\n  <rect x=\"160\" y=\"160\" width=\"80\" height=\"6\" fill=\"#e85a2f\"/>\n  <text x=\"160\" y=\"280\" font-family=\"Georgia, ui-serif, serif\" font-size=\"80\" font-weight=\"700\" fill=\"#ebe6e0\">Signal Over Noise</text>\n  <text x=\"160\" y=\"360\" font-family=\"ui-sans-serif, system-ui, sans-serif\" font-size=\"32\" fill=\"#52514f\">A Tufte-influenced, chart-dominant layout built for analysts who let a single…</text>\n  <text x=\"200\" y=\"480\" font-family=\"ui-sans-serif, system-ui, sans-serif\" font-size=\"40\" fill=\"#ebe6e0\">— Single time-series or bar charts narrating one clear busi…</text>\n  <text x=\"200\" y=\"580\" font-family=\"ui-sans-serif, system-ui, sans-serif\" font-size=\"40\" fill=\"#ebe6e0\">— Quarterly and annual business review decks</text>\n  <text x=\"200\" y=\"680\" font-family=\"ui-sans-serif, system-ui, sans-serif\" font-size=\"40\" fill=\"#ebe6e0\">— Executive one-pagers where the chart must speak first</text>\n  <rect x=\"160\" y=\"900\" width=\"120\" height=\"2\" fill=\"#e85a2f\"/>\n  <text x=\"160\" y=\"950\" font-family=\"ui-monospace, monospace\" font-size=\"22\" letter-spacing=\"3\" fill=\"#e85a2f\">DATA</text>\n  <text x=\"1760\" y=\"990\" text-anchor=\"end\" font-family=\"ui-monospace, monospace\" font-size=\"20\" fill=\"#52514f\">02 / 02</text>\n</svg>",
+      "layoutNotes": "Pure white full-bleed canvas with a 12-column grid; the chart occupies columns 1–8 (roughly 65% of canvas width) and is vertically centered between a top margin of 14% and a bottom margin of 10%. The conclusion headline sits flush left above the chart in a single wide text column, limited to two lines maximum, with 6% left and right outer gutters. A source citation and date stamp are anchored in 10pt grey to the bottom-right corner outside the chart boundary, keeping data-ink separation clean."
+    }
+  ],
+  "defaultPaletteId": "volcanic-charcoal",
   "goodFor": [
     "Single time-series or bar charts narrating one clear business trend",
     "Quarterly and annual business review decks",
@@ -38,5 +41,5 @@
     "Comparative tables spanning more than five variables"
   ],
   "createdAt": "2026-04-23",
-  "author": "harness"
+  "author": "harness-migrated"
 }

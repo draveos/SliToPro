@@ -1,0 +1,17 @@
+id: aqua-glass-04
+category: aqua-glass
+brief: |
+  Boutique consulting deck — luxurious pearl-and-platinum glass over a dim
+  charcoal-blue field, with brushed gold hairlines framing the card. Reads
+  like the cover of a private-bank pitch or a Kering strategy memo. Restrained,
+  expensive, never tech-cyan. Glass surfaces feel warm, not icy.
+constraints:
+  - Warm pearl glass, not blue-tinted glass
+  - Gold hairline (0.5-1px) frame on key cards, no thick borders
+  - Serif display type for headings (Canela / GT Sectra feel)
+  - Background stays in the charcoal-to-deep-teal range, never black
+inspiration:
+  - kering-report
+  - hermes-press
+  - private-banking-deck
+paletteHint: Warm charcoal-teal base with pearl-white frosted surfaces, brushed champagne gold hairlines, and a deep ink accent.

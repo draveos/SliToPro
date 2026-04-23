@@ -1,11 +1,10 @@
 {
   "id": "maximalist-education-01",
-  "title": "Riso Riot — Zine-Layered Classroom",
   "slug": "maximalist-education-01",
-  "style": "maximalist",
-  "useCase": "education",
-  "previewImage": "/previews/maximalist-education-01.svg",
+  "title": "Riso Riot — Zine-Layered Classroom",
+  "category": "maximalist-collage",
   "description": "A Risograph zine dragged into the classroom at 2am — cream paper stacked under bleeding pink, yellow, and green ink layers, hand-scrawled arrows circling the one idea students absolutely must remember. Built for educators who know that felt-alive beats tidy every time.",
+  "philosophy": "Design a slide that feels like a risograph zine torn from an art-school print run at 2am — layered ink bleeds, misregistered color overprints, and hand-scrawled arrows circling the single idea that absolutely must land. Composition is asymmetric and intentionally colliding: one oversized display concept dominates the upper-left while secondary callouts retreat mid-to-lower-right, with hand-annotation marks — rough circles, underlines, emphatic arrows — living above all typeset layers in their own chaotic stratum. Felt-alive and tactile always wins over tidy; no clean grids, no corporate breathing room, no decorative borders that whisper \"template.",
   "tags": [
     "risograph",
     "zine",
@@ -14,17 +13,21 @@
     "maximalist",
     "education"
   ],
-  "colorPalette": {
-    "primary": "#f2ecd8",
-    "secondary": "#1b4a35",
-    "accent": "#f04e6e"
-  },
-  "typography": {
-    "heading": "bold ultra-condensed display face with dramatic weight contrast, intentionally collided at scale with a classical high-contrast serif — size differential of at least 3× enforces hierarchy",
-    "body": "compact transitional serif for typeset body copy; a loose, pressure-varied handwritten face reserved exclusively for annotation marks, labels, and circled emphasis overlaid above all other layers"
-  },
-  "layoutNotes": "Asymmetric two-column grid split roughly 58/42, with both columns allowed to bleed into ~9% side margins and ~7% top and bottom margins where texture and color overprint layers overflow intentionally. The dominant concept anchors top-left in oversized display type at no less than 18% of slide height; secondary callouts cluster mid-to-lower-right at 55–65% of that scale. Hand-annotation marks (arrows, underlines, rough circles) occupy a dedicated top z-layer above all typeset content and color blocks, applied with a 2–4 px simulated misregistration offset on the riso-pink and fluorescent-yellow elements. Despite layering density, the single largest typographic element must remain instantly legible on its own within a five-second scan.",
-  "promptCore": "Design a slide that feels like a risograph zine torn from an art-school print run at 2am — layered ink bleeds, misregistered color overprints, and hand-scrawled arrows circling the single idea that absolutely must land. Composition is asymmetric and intentionally colliding: one oversized display concept dominates the upper-left while secondary callouts retreat mid-to-lower-right, with hand-annotation marks — rough circles, underlines, emphatic arrows — living above all typeset layers in their own chaotic stratum. Felt-alive and tactile always wins over tidy; no clean grids, no corporate breathing room, no decorative borders that whisper \"template.",
+  "examples": [
+    {
+      "kind": "title",
+      "promptCore": "Design a slide that feels like a risograph zine torn from an art-school print run at 2am — layered ink bleeds, misregistered color overprints, and hand-scrawled arrows circling the single idea that absolutely must land. Composition is asymmetric and intentionally colliding: one oversized display concept dominates the upper-left while secondary callouts retreat mid-to-lower-right, with hand-annotation marks — rough circles, underlines, emphatic arrows — living above all typeset layers in their own chaotic stratum. Felt-alive and tactile always wins over tidy; no clean grids, no corporate breathing room, no decorative borders that whisper \"template.",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1920 1080\" preserveAspectRatio=\"xMidYMid meet\">\n  <rect width=\"1920\" height=\"1080\" fill=\"#f7eee0\"/>\n  <rect x=\"160\" y=\"160\" width=\"200\" height=\"6\" fill=\"#f08c70\"/>\n  <text x=\"160\" y=\"320\" font-family=\"Georgia, ui-serif, serif\" font-size=\"120\" font-weight=\"700\" fill=\"#2c4a52\">Riso Riot</text>\n  <text x=\"160\" y=\"420\" font-family=\"Georgia, ui-serif, serif\" font-size=\"64\" font-weight=\"400\" fill=\"#a8b8b5\" font-style=\"italic\">Zine-Layered Classroom</text>\n  <rect x=\"160\" y=\"900\" width=\"120\" height=\"2\" fill=\"#f08c70\"/>\n  <text x=\"160\" y=\"950\" font-family=\"ui-monospace, monospace\" font-size=\"22\" letter-spacing=\"3\" fill=\"#f08c70\">EDUCATION</text>\n  <text x=\"1760\" y=\"990\" text-anchor=\"end\" font-family=\"ui-monospace, monospace\" font-size=\"20\" fill=\"#a8b8b5\">01 / 02</text>\n</svg>",
+      "layoutNotes": "Asymmetric two-column grid split roughly 58/42, with both columns allowed to bleed into ~9% side margins and ~7% top and bottom margins where texture and color overprint layers overflow intentionally. The dominant concept anchors top-left in oversized display type at no less than 18% of slide height; secondary callouts cluster mid-to-lower-right at 55–65% of that scale. Hand-annotation marks (arrows, underlines, rough circles) occupy a dedicated top z-layer above all typeset content and color blocks, applied with a 2–4 px simulated misregistration offset on the riso-pink and fluorescent-yellow elements. Despite layering density, the single largest typographic element must remain instantly legible on its own within a five-second scan."
+    },
+    {
+      "kind": "content",
+      "promptCore": "Design a slide that feels like a risograph zine torn from an art-school print run at 2am — layered ink bleeds, misregistered color overprints, and hand-scrawled arrows circling the single idea that absolutely must land. Composition is asymmetric and intentionally colliding: one oversized display concept dominates the upper-left while secondary callouts retreat mid-to-lower-right, with hand-annotation marks — rough circles, underlines, emphatic arrows — living above all typeset layers in their own chaotic stratum. Felt-alive and tactile always wins over tidy; no clean grids, no corporate breathing room, no decorative borders that whisper \"template.",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1920 1080\" preserveAspectRatio=\"xMidYMid meet\">\n  <rect width=\"1920\" height=\"1080\" fill=\"#f7eee0\"/>\n  <rect x=\"160\" y=\"160\" width=\"80\" height=\"6\" fill=\"#f08c70\"/>\n  <text x=\"160\" y=\"280\" font-family=\"Georgia, ui-serif, serif\" font-size=\"80\" font-weight=\"700\" fill=\"#2c4a52\">Riso Riot</text>\n  <text x=\"160\" y=\"360\" font-family=\"ui-sans-serif, system-ui, sans-serif\" font-size=\"32\" fill=\"#a8b8b5\">A Risograph zine dragged into the classroom at 2am — cream paper stacked unde…</text>\n  <text x=\"200\" y=\"480\" font-family=\"ui-sans-serif, system-ui, sans-serif\" font-size=\"40\" fill=\"#2c4a52\">— single-concept explainer slides anchored by one dominant …</text>\n  <text x=\"200\" y=\"580\" font-family=\"ui-sans-serif, system-ui, sans-serif\" font-size=\"40\" fill=\"#2c4a52\">— student warm-up or attention-hook moments at the start of…</text>\n  <text x=\"200\" y=\"680\" font-family=\"ui-sans-serif, system-ui, sans-serif\" font-size=\"40\" fill=\"#2c4a52\">— 3–6 word callouts amplified by hand-drawn annotation circ…</text>\n  <rect x=\"160\" y=\"900\" width=\"120\" height=\"2\" fill=\"#f08c70\"/>\n  <text x=\"160\" y=\"950\" font-family=\"ui-monospace, monospace\" font-size=\"22\" letter-spacing=\"3\" fill=\"#f08c70\">EDUCATION</text>\n  <text x=\"1760\" y=\"990\" text-anchor=\"end\" font-family=\"ui-monospace, monospace\" font-size=\"20\" fill=\"#a8b8b5\">02 / 02</text>\n</svg>",
+      "layoutNotes": "Asymmetric two-column grid split roughly 58/42, with both columns allowed to bleed into ~9% side margins and ~7% top and bottom margins where texture and color overprint layers overflow intentionally. The dominant concept anchors top-left in oversized display type at no less than 18% of slide height; secondary callouts cluster mid-to-lower-right at 55–65% of that scale. Hand-annotation marks (arrows, underlines, rough circles) occupy a dedicated top z-layer above all typeset content and color blocks, applied with a 2–4 px simulated misregistration offset on the riso-pink and fluorescent-yellow elements. Despite layering density, the single largest typographic element must remain instantly legible on its own within a five-second scan."
+    }
+  ],
+  "defaultPaletteId": "shoreline-pastel",
   "goodFor": [
     "single-concept explainer slides anchored by one dominant idea",
     "student warm-up or attention-hook moments at the start of a lesson",
@@ -38,5 +41,5 @@
     "content requiring strict ADA contrast ratios without additional modification"
   ],
   "createdAt": "2026-04-23",
-  "author": "harness"
+  "author": "harness-migrated"
 }

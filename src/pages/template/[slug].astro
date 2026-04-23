@@ -2,11 +2,9 @@
 import Base from '../../layouts/Base.astro';
 import StyleTag from '../../components/StyleTag.astro';
 import TemplateCard from '../../components/TemplateCard.astro';
-import PromptBlock from '../../components/PromptBlock.tsx';
-import PreviewPlaceholder from '../../components/PreviewPlaceholder.astro';
-import { templates, relatedTemplates } from '../../lib/loadTemplates';
-import { buildPrompt } from '../../lib/promptBuilder';
-import { STYLE_LABEL, USE_CASE_LABEL } from '../../lib/types';
+import TemplateInteractive from '../../components/TemplateInteractive.tsx';
+import { templates, palettes, relatedTemplates } from '../../lib/loadTemplates';
+import { CATEGORY_LABEL } from '../../lib/types';
 import { url } from '../../lib/url';
 
 export function getStaticPaths() {
@@ -14,97 +12,46 @@ export function getStaticPaths() {
 }
 
 const { template } = Astro.props;
-const prompt = buildPrompt(template);
 const related = relatedTemplates(template);
-
-const llmLinks = [
-  { name: 'Claude', url: 'https://claude.ai/new' },
-  { name: 'ChatGPT', url: 'https://chat.openai.com/' },
-  { name: 'Gemini', url: 'https://gemini.google.com/' },
-];
 ---
 <Base title={template.title} description={template.description}>
   <section class="max-w-5xl mx-auto px-6 pt-12 pb-8">
     <a href={url()} class="text-sm text-[var(--color-muted)] hover:text-[var(--color-accent)] transition-colors">← Gallery</a>
-    <div class="mt-6 flex flex-wrap items-start gap-x-6 gap-y-3 justify-between">
-      <div class="space-y-3 max-w-2xl">
-        <div class="flex flex-wrap gap-2">
-          <StyleTag label={STYLE_LABEL[template.style]} variant="style" />
-          <StyleTag label={USE_CASE_LABEL[template.useCase]} variant="use" />
-        </div>
-        <h1 class="font-serif text-4xl sm:text-5xl leading-tight tracking-tight">{template.title}</h1>
-        <p class="text-lg text-[var(--color-muted)] leading-relaxed">{template.description}</p>
+    <div class="mt-6 space-y-3 max-w-2xl">
+      <div class="flex flex-wrap gap-2">
+        <StyleTag label={CATEGORY_LABEL[template.category]} variant="style" />
       </div>
+      <h1 class="font-serif text-4xl sm:text-5xl leading-tight tracking-tight">{template.title}</h1>
+      <p class="text-lg text-[var(--color-muted)] leading-relaxed">{template.description}</p>
+      <p class="text-sm text-[var(--color-fg)]/80 leading-relaxed pt-2 italic">{template.philosophy}</p>
     </div>
   </section>
 
-  <section class="max-w-5xl mx-auto px-6 pb-12">
-    <div class="border border-[var(--color-border)] rounded-lg overflow-hidden bg-[#0e0e0e]">
-      <PreviewPlaceholder template={template} size="detail" />
-    </div>
+  <section class="max-w-5xl mx-auto px-6 pb-16">
+    <TemplateInteractive template={template} palettes={palettes} client:load />
   </section>
 
-  <section class="max-w-5xl mx-auto px-6 pb-12 grid gap-10 lg:grid-cols-[2fr_1fr]">
+  <section class="max-w-5xl mx-auto px-6 pb-16 grid gap-10 sm:grid-cols-2">
     <div>
-      <h2 class="font-serif text-2xl mb-4">Prompt</h2>
-      <PromptBlock prompt={prompt} client:load />
-      <div class="mt-4 flex flex-wrap items-center gap-2 text-sm text-[var(--color-muted)]">
-        <span>Open in:</span>
-        {llmLinks.map((l) => (
-          <a href={l.url} target="_blank" rel="noopener" class="px-2.5 py-1 border border-[var(--color-border)] rounded-sm hover:border-[var(--color-accent)] hover:text-[var(--color-accent)] transition-colors">{l.name}</a>
-        ))}
-      </div>
+      <h3 class="text-xs uppercase tracking-wider text-[var(--color-accent)] mb-2">Good for</h3>
+      <ul class="space-y-1 text-sm">{template.goodFor.map((g) => <li>· {g}</li>)}</ul>
     </div>
+    <div>
+      <h3 class="text-xs uppercase tracking-wider text-[var(--color-muted)] mb-2">Avoid for</h3>
+      <ul class="space-y-1 text-sm text-[var(--color-muted)]">{template.avoidFor.map((a) => <li>· {a}</li>)}</ul>
+    </div>
+  </section>
 
-    <aside class="space-y-6">
-      <div>
-        <h3 class="text-xs uppercase tracking-wider text-[var(--color-muted)] mb-3">Palette</h3>
-        <div class="flex gap-3">
-          {(['primary', 'secondary', 'accent'] as const).map((key) => (
-            <div class="flex-1">
-              <div class="aspect-square rounded-md border border-[var(--color-border)]" style={`background:${template.colorPalette[key]}`}></div>
-              <div class="mt-1.5 text-xs text-[var(--color-muted)] font-mono">{template.colorPalette[key]}</div>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      <div>
-        <h3 class="text-xs uppercase tracking-wider text-[var(--color-muted)] mb-3">Typography</h3>
-        <dl class="space-y-2 text-sm">
-          <div><dt class="text-[var(--color-muted)] inline">Headings — </dt><dd class="inline">{template.typography.heading}</dd></div>
-          <div><dt class="text-[var(--color-muted)] inline">Body — </dt><dd class="inline">{template.typography.body}</dd></div>
-        </dl>
-      </div>
-
-      <div>
-        <h3 class="text-xs uppercase tracking-wider text-[var(--color-muted)] mb-3">Layout</h3>
-        <p class="text-sm leading-relaxed">{template.layoutNotes}</p>
-      </div>
-
-      <div class="grid grid-cols-2 gap-6">
-        <div>
-          <h3 class="text-xs uppercase tracking-wider text-[var(--color-accent)] mb-2">Good for</h3>
-          <ul class="space-y-1 text-sm">{template.goodFor.map((g) => <li>· {g}</li>)}</ul>
-        </div>
-        <div>
-          <h3 class="text-xs uppercase tracking-wider text-[var(--color-muted)] mb-2">Avoid for</h3>
-          <ul class="space-y-1 text-sm text-[var(--color-muted)]">{template.avoidFor.map((a) => <li>· {a}</li>)}</ul>
-        </div>
-      </div>
-
-      <div>
-        <h3 class="text-xs uppercase tracking-wider text-[var(--color-muted)] mb-2">Tags</h3>
-        <div class="flex flex-wrap gap-1.5">
-          {template.tags.map((t) => <span class="text-xs font-mono text-[var(--color-muted)]">#{t}</span>)}
-        </div>
-      </div>
-    </aside>
+  <section class="max-w-5xl mx-auto px-6 pb-16">
+    <h3 class="text-xs uppercase tracking-wider text-[var(--color-muted)] mb-2">Tags</h3>
+    <div class="flex flex-wrap gap-1.5">
+      {template.tags.map((t) => <span class="text-xs font-mono text-[var(--color-muted)]">#{t}</span>)}
+    </div>
   </section>
 
   {related.length > 0 && (
     <section class="max-w-6xl mx-auto px-6 pb-24">
-      <h2 class="font-serif text-2xl mb-6">Related</h2>
+      <h2 class="font-serif text-2xl mb-6">More in {CATEGORY_LABEL[template.category]}</h2>
       <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {related.map((t) => <TemplateCard template={t} />)}
       </div>

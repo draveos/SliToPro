@@ -1,0 +1,17 @@
+id: brutalist-01
+category: brutalist
+brief: |
+  Gallery exhibition wall — title slide built like a museum poster for a
+  mid-century retrospective. One enormous condensed sans headline crashing
+  against the top edge, exhibition dates set in tiny mono down at the bottom.
+  Off-white paper field, no images. Reads like Wim Crouwel curated it.
+constraints:
+  - Headline minimum 240pt feel, hard top-left or top-center alignment
+  - Off-white / bone background, never pure white
+  - Only two type sizes total: massive headline + tiny meta
+  - No images, no icons, no decorative rules beyond a single thin line
+inspiration:
+  - wim-crouwel
+  - moma-poster
+  - stedelijk-museum
+paletteHint: Bone-paper off-white background with deep ink-black type and one warm cadmium-red caption accent.

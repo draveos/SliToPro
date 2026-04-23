@@ -1,11 +1,10 @@
 {
   "id": "minimal-corporate-business-01",
-  "title": "Boardroom Restraint — Left-Aligned Executive Sans",
   "slug": "minimal-corporate-business-01",
-  "style": "minimal-corporate",
-  "useCase": "business",
-  "previewImage": "/previews/minimal-corporate-business-01.svg",
+  "title": "Boardroom Restraint — Left-Aligned Executive Sans",
+  "category": "corporate-pro",
   "description": "A boardroom-grade slide built for consulting decks, board updates, and investor letters where credibility speaks louder than decoration. Restrained geometric sans-serif, disciplined whitespace, and a single navy accent underline project quiet authority without a word of visual noise.",
+  "philosophy": "Design a slide that channels boardroom authority through deliberate restraint — left-anchored hierarchy, expansive negative space on the right, and a single sharp accent underline beneath the headline that does the work of ten decorative choices. Mood is a McKinsey cover page or Goldman investor letter: credibility communicated through what is absent, not what is added. Text mass is compressed to the left half of the canvas, letting silence carry the right. No gradients, no icon clusters, no visual noise of any kind.",
   "tags": [
     "boardroom",
     "executive",
@@ -14,17 +13,21 @@
     "left-aligned",
     "minimal-corporate"
   ],
-  "colorPalette": {
-    "primary": "#1f2126",
-    "secondary": "#ffffff",
-    "accent": "#1a3d6e"
-  },
-  "typography": {
-    "heading": "geometric sans-serif, medium weight, tight letter-spacing, high x-height — conveys precision without coldness",
-    "body": "humanist sans-serif, regular weight, generous line-height (1.6–1.8×), moderate tracking — optimised for single-paragraph legibility at distance"
-  },
-  "layoutNotes": "Canvas is built on a 12-column grid with a hard minimum 10% margin on all four sides, keeping the live area deliberately compressed. The primary text block is strictly left-aligned and caps at 55% of canvas width; the right 45% remains empty or holds at most one supporting element (logo lockup, single metric, or minimal line chart). The H1 sits at the upper visual-third of the live area and receives a 2 px navy accent underline spanning its exact text width — no wider. The supporting paragraph drops below with a spacing gap of at least 1.5× the headline's cap-height, reinforcing the hierarchy through space rather than weight contrast.",
-  "promptCore": "Design a slide that channels boardroom authority through deliberate restraint — left-anchored hierarchy, expansive negative space on the right, and a single sharp accent underline beneath the headline that does the work of ten decorative choices. Mood is a McKinsey cover page or Goldman investor letter: credibility communicated through what is absent, not what is added. Text mass is compressed to the left half of the canvas, letting silence carry the right. No gradients, no icon clusters, no visual noise of any kind.",
+  "examples": [
+    {
+      "kind": "title",
+      "promptCore": "Design a slide that channels boardroom authority through deliberate restraint — left-anchored hierarchy, expansive negative space on the right, and a single sharp accent underline beneath the headline that does the work of ten decorative choices. Mood is a McKinsey cover page or Goldman investor letter: credibility communicated through what is absent, not what is added. Text mass is compressed to the left half of the canvas, letting silence carry the right. No gradients, no icon clusters, no visual noise of any kind.",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1920 1080\" preserveAspectRatio=\"xMidYMid meet\">\n  <rect width=\"1920\" height=\"1080\" fill=\"#0d1428\"/>\n  <rect x=\"160\" y=\"160\" width=\"200\" height=\"6\" fill=\"#5a6fd8\"/>\n  <text x=\"160\" y=\"320\" font-family=\"Georgia, ui-serif, serif\" font-size=\"120\" font-weight=\"700\" fill=\"#e8eaf2\">Boardroom Restraint</text>\n  <text x=\"160\" y=\"420\" font-family=\"Georgia, ui-serif, serif\" font-size=\"64\" font-weight=\"400\" fill=\"#3a466a\" font-style=\"italic\">Left-Aligned Executive Sans</text>\n  <rect x=\"160\" y=\"900\" width=\"120\" height=\"2\" fill=\"#5a6fd8\"/>\n  <text x=\"160\" y=\"950\" font-family=\"ui-monospace, monospace\" font-size=\"22\" letter-spacing=\"3\" fill=\"#5a6fd8\">BUSINESS</text>\n  <text x=\"1760\" y=\"990\" text-anchor=\"end\" font-family=\"ui-monospace, monospace\" font-size=\"20\" fill=\"#3a466a\">01 / 02</text>\n</svg>",
+      "layoutNotes": "Canvas is built on a 12-column grid with a hard minimum 10% margin on all four sides, keeping the live area deliberately compressed. The primary text block is strictly left-aligned and caps at 55% of canvas width; the right 45% remains empty or holds at most one supporting element (logo lockup, single metric, or minimal line chart). The H1 sits at the upper visual-third of the live area and receives a 2 px navy accent underline spanning its exact text width — no wider. The supporting paragraph drops below with a spacing gap of at least 1.5× the headline's cap-height, reinforcing the hierarchy through space rather than weight contrast."
+    },
+    {
+      "kind": "content",
+      "promptCore": "Design a slide that channels boardroom authority through deliberate restraint — left-anchored hierarchy, expansive negative space on the right, and a single sharp accent underline beneath the headline that does the work of ten decorative choices. Mood is a McKinsey cover page or Goldman investor letter: credibility communicated through what is absent, not what is added. Text mass is compressed to the left half of the canvas, letting silence carry the right. No gradients, no icon clusters, no visual noise of any kind.",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1920 1080\" preserveAspectRatio=\"xMidYMid meet\">\n  <rect width=\"1920\" height=\"1080\" fill=\"#0d1428\"/>\n  <rect x=\"160\" y=\"160\" width=\"80\" height=\"6\" fill=\"#5a6fd8\"/>\n  <text x=\"160\" y=\"280\" font-family=\"Georgia, ui-serif, serif\" font-size=\"80\" font-weight=\"700\" fill=\"#e8eaf2\">Boardroom Restraint</text>\n  <text x=\"160\" y=\"360\" font-family=\"ui-sans-serif, system-ui, sans-serif\" font-size=\"32\" fill=\"#3a466a\">A boardroom-grade slide built for consulting decks, board updates, and invest…</text>\n  <text x=\"200\" y=\"480\" font-family=\"ui-sans-serif, system-ui, sans-serif\" font-size=\"40\" fill=\"#e8eaf2\">— Consulting firm deliverables and board-level status updates</text>\n  <text x=\"200\" y=\"580\" font-family=\"ui-sans-serif, system-ui, sans-serif\" font-size=\"40\" fill=\"#e8eaf2\">— Investor relations decks and annual-letter title or chapt…</text>\n  <text x=\"200\" y=\"680\" font-family=\"ui-sans-serif, system-ui, sans-serif\" font-size=\"40\" fill=\"#e8eaf2\">— Single KPI or key-metric announcement slides</text>\n  <rect x=\"160\" y=\"900\" width=\"120\" height=\"2\" fill=\"#5a6fd8\"/>\n  <text x=\"160\" y=\"950\" font-family=\"ui-monospace, monospace\" font-size=\"22\" letter-spacing=\"3\" fill=\"#5a6fd8\">BUSINESS</text>\n  <text x=\"1760\" y=\"990\" text-anchor=\"end\" font-family=\"ui-monospace, monospace\" font-size=\"20\" fill=\"#3a466a\">02 / 02</text>\n</svg>",
+      "layoutNotes": "Canvas is built on a 12-column grid with a hard minimum 10% margin on all four sides, keeping the live area deliberately compressed. The primary text block is strictly left-aligned and caps at 55% of canvas width; the right 45% remains empty or holds at most one supporting element (logo lockup, single metric, or minimal line chart). The H1 sits at the upper visual-third of the live area and receives a 2 px navy accent underline spanning its exact text width — no wider. The supporting paragraph drops below with a spacing gap of at least 1.5× the headline's cap-height, reinforcing the hierarchy through space rather than weight contrast."
+    }
+  ],
+  "defaultPaletteId": "indigo-night",
   "goodFor": [
     "Consulting firm deliverables and board-level status updates",
     "Investor relations decks and annual-letter title or chapter slides",
@@ -38,5 +41,5 @@
     "High-energy consumer pitch decks that depend on visual excitement"
   ],
   "createdAt": "2026-04-23",
-  "author": "harness"
+  "author": "harness-migrated"
 }

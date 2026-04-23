@@ -1,11 +1,10 @@
 {
   "id": "brutalist-portfolio-01",
-  "title": "Wheat-Paste Grotesk — Unfiltered Portfolio",
   "slug": "brutalist-portfolio-01",
-  "style": "brutalist",
-  "useCase": "portfolio",
-  "previewImage": "/previews/brutalist-portfolio-01.svg",
+  "title": "Wheat-Paste Grotesk — Unfiltered Portfolio",
+  "category": "brutalist",
   "description": "A confrontational, full-bleed portfolio template for creatives who refuse to be polite — oversized compressed grotesque headlines bleed past the viewport edge while a single violent neon accent detonates against raw concrete grey. Zero apologies, zero rounded corners, maximum intent.",
+  "philosophy": "Design a slide with confrontational brutalist character — raw, full-bleed, and unapologetic, where an oversized compressed headline tears across the canvas edge rather than sitting politely within it. One violent neon accent detonates against concrete grey on a single structural element only, never used decoratively. All geometry is hard right-angles and hairline borders; no shadows, no softness, no rounding. Grid discipline exists to be broken — one metadata element drops deliberately out of alignment as a structural statement, not an accident.",
   "tags": [
     "brutalist",
     "portfolio",
@@ -14,17 +13,21 @@
     "editorial",
     "grotesk"
   ],
-  "colorPalette": {
-    "primary": "#000000",
-    "secondary": "#e8e3db",
-    "accent": "#aaff00"
-  },
-  "typography": {
-    "heading": "compressed grotesque, ultra-black weight, extremely high x-height, negative tracking, optically aggressive stroke contrast",
-    "body": "fixed-pitch monospace, regular weight, wide letter-spacing, used exclusively for metadata and captions"
-  },
-  "layoutNotes": "Hard-left flush layout with zero left margin — the headline block originates at the raw canvas edge and is permitted to clip the right boundary at 200px+ scale. A loose 4-column grid governs secondary content, but one metadata element (project year, medium, or role) is deliberately dropped 10–15% below its natural baseline, breaking the grid as a structural statement. All containers and image frames use strict 90-degree corners with 1px hairline borders in either pure black or the neon accent; no shadows, no radius. The neon accent is applied aggressively to no more than one element per slide — a rule, a label, or a crop border — never decoratively.",
-  "promptCore": "Design a slide with confrontational brutalist character — raw, full-bleed, and unapologetic, where an oversized compressed headline tears across the canvas edge rather than sitting politely within it. One violent neon accent detonates against concrete grey on a single structural element only, never used decoratively. All geometry is hard right-angles and hairline borders; no shadows, no softness, no rounding. Grid discipline exists to be broken — one metadata element drops deliberately out of alignment as a structural statement, not an accident.",
+  "examples": [
+    {
+      "kind": "title",
+      "promptCore": "Design a slide with confrontational brutalist character — raw, full-bleed, and unapologetic, where an oversized compressed headline tears across the canvas edge rather than sitting politely within it. One violent neon accent detonates against concrete grey on a single structural element only, never used decoratively. All geometry is hard right-angles and hairline borders; no shadows, no softness, no rounding. Grid discipline exists to be broken — one metadata element drops deliberately out of alignment as a structural statement, not an accident.",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1920 1080\" preserveAspectRatio=\"xMidYMid meet\">\n  <rect width=\"1920\" height=\"1080\" fill=\"#0d0d0d\"/>\n  <rect x=\"160\" y=\"160\" width=\"200\" height=\"6\" fill=\"#d6a82f\"/>\n  <text x=\"160\" y=\"320\" font-family=\"Georgia, ui-serif, serif\" font-size=\"120\" font-weight=\"700\" fill=\"#f4ead8\">Wheat-Paste Grotesk</text>\n  <text x=\"160\" y=\"420\" font-family=\"Georgia, ui-serif, serif\" font-size=\"64\" font-weight=\"400\" fill=\"#5a4f3a\" font-style=\"italic\">Unfiltered Portfolio</text>\n  <rect x=\"160\" y=\"900\" width=\"120\" height=\"2\" fill=\"#d6a82f\"/>\n  <text x=\"160\" y=\"950\" font-family=\"ui-monospace, monospace\" font-size=\"22\" letter-spacing=\"3\" fill=\"#d6a82f\">PORTFOLIO</text>\n  <text x=\"1760\" y=\"990\" text-anchor=\"end\" font-family=\"ui-monospace, monospace\" font-size=\"20\" fill=\"#5a4f3a\">01 / 02</text>\n</svg>",
+      "layoutNotes": "Hard-left flush layout with zero left margin — the headline block originates at the raw canvas edge and is permitted to clip the right boundary at 200px+ scale. A loose 4-column grid governs secondary content, but one metadata element (project year, medium, or role) is deliberately dropped 10–15% below its natural baseline, breaking the grid as a structural statement. All containers and image frames use strict 90-degree corners with 1px hairline borders in either pure black or the neon accent; no shadows, no radius. The neon accent is applied aggressively to no more than one element per slide — a rule, a label, or a crop border — never decoratively."
+    },
+    {
+      "kind": "content",
+      "promptCore": "Design a slide with confrontational brutalist character — raw, full-bleed, and unapologetic, where an oversized compressed headline tears across the canvas edge rather than sitting politely within it. One violent neon accent detonates against concrete grey on a single structural element only, never used decoratively. All geometry is hard right-angles and hairline borders; no shadows, no softness, no rounding. Grid discipline exists to be broken — one metadata element drops deliberately out of alignment as a structural statement, not an accident.",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1920 1080\" preserveAspectRatio=\"xMidYMid meet\">\n  <rect width=\"1920\" height=\"1080\" fill=\"#0d0d0d\"/>\n  <rect x=\"160\" y=\"160\" width=\"80\" height=\"6\" fill=\"#d6a82f\"/>\n  <text x=\"160\" y=\"280\" font-family=\"Georgia, ui-serif, serif\" font-size=\"80\" font-weight=\"700\" fill=\"#f4ead8\">Wheat-Paste Grotesk</text>\n  <text x=\"160\" y=\"360\" font-family=\"ui-sans-serif, system-ui, sans-serif\" font-size=\"32\" fill=\"#5a4f3a\">A confrontational, full-bleed portfolio template for creatives who refuse to …</text>\n  <text x=\"200\" y=\"480\" font-family=\"ui-sans-serif, system-ui, sans-serif\" font-size=\"40\" fill=\"#f4ead8\">— oversized single-image hero showcases</text>\n  <text x=\"200\" y=\"580\" font-family=\"ui-sans-serif, system-ui, sans-serif\" font-size=\"40\" fill=\"#f4ead8\">— creative director or art director title cards</text>\n  <text x=\"200\" y=\"680\" font-family=\"ui-sans-serif, system-ui, sans-serif\" font-size=\"40\" fill=\"#f4ead8\">— 3-line project credits rendered in monospace</text>\n  <rect x=\"160\" y=\"900\" width=\"120\" height=\"2\" fill=\"#d6a82f\"/>\n  <text x=\"160\" y=\"950\" font-family=\"ui-monospace, monospace\" font-size=\"22\" letter-spacing=\"3\" fill=\"#d6a82f\">PORTFOLIO</text>\n  <text x=\"1760\" y=\"990\" text-anchor=\"end\" font-family=\"ui-monospace, monospace\" font-size=\"20\" fill=\"#5a4f3a\">02 / 02</text>\n</svg>",
+      "layoutNotes": "Hard-left flush layout with zero left margin — the headline block originates at the raw canvas edge and is permitted to clip the right boundary at 200px+ scale. A loose 4-column grid governs secondary content, but one metadata element (project year, medium, or role) is deliberately dropped 10–15% below its natural baseline, breaking the grid as a structural statement. All containers and image frames use strict 90-degree corners with 1px hairline borders in either pure black or the neon accent; no shadows, no radius. The neon accent is applied aggressively to no more than one element per slide — a rule, a label, or a crop border — never decoratively."
+    }
+  ],
+  "defaultPaletteId": "onyx-mustard",
   "goodFor": [
     "oversized single-image hero showcases",
     "creative director or art director title cards",
@@ -38,5 +41,5 @@
     "academic research or conference presentations"
   ],
   "createdAt": "2026-04-23",
-  "author": "harness"
+  "author": "harness-migrated"
 }

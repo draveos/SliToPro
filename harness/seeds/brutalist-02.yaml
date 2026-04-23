@@ -1,0 +1,17 @@
+id: brutalist-02
+category: brutalist
+brief: |
+  Bauhaus academic — primary-color geometric blocks (red square, blue circle,
+  yellow triangle) colliding with a strict 12-column grid. Built for a
+  design-history lecture or a typography studio crit. Intentional clash
+  between the playful shapes and the rigid grid; type is Futura-like caps.
+constraints:
+  - Use only red, blue, yellow, black, and paper-white — no other hues
+  - At least one primitive shape (square, circle, or triangle) sized over 40% of slide
+  - Grid lines visible but thin, never decorative
+  - Type is geometric sans, all caps, generously letter-spaced
+inspiration:
+  - bauhaus-dessau
+  - herbert-bayer
+  - vkhutemas
+paletteHint: Paper-white field with bauhaus primary red, cobalt blue, and cadmium yellow blocks set against ink-black grid lines.

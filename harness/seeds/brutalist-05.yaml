@@ -1,0 +1,17 @@
+id: brutalist-05
+category: brutalist
+brief: |
+  Manifesto / op-ed slide — a single stark statement set enormous and flush
+  against a saturated mono field. No images, no decoration, no second idea.
+  Built for the slide that has to feel like a slap: "WE WERE WRONG ABOUT
+  ATTENTION." Reads like a Jenny Holzer truism or a Barbara Kruger plate.
+constraints:
+  - Exactly one block of text, no subheadings, no body copy
+  - Background is one saturated flat color, never gradient or textured
+  - Type takes at least 60% of the slide area
+  - Type color is either pure black or pure white, no in-between
+inspiration:
+  - jenny-holzer
+  - barbara-kruger
+  - protest-placard
+paletteHint: Single saturated flood — either oxblood red, traffic yellow, or near-black — with type in pure white or pure black depending on field.

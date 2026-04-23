@@ -1,0 +1,17 @@
+id: brutalist-03
+category: brutalist
+brief: |
+  Punk-show flyer — high-friction xerox energy, type ransom-note-cut and
+  rotated, halftone scan textures bleeding through, tape marks at corners.
+  Intended for a hackathon kickoff or a counter-culture talk. Looks
+  photocopied seven times. Nothing is precisely aligned, on purpose.
+constraints:
+  - At least one rotated text block (-15° to +15°) and one torn/cut edge
+  - Halftone or photocopy noise texture on at least one surface
+  - Mix of two contrasting display fonts, one of which is hand-stamped feel
+  - No gradients, no shadows, no rounded corners anywhere
+inspiration:
+  - jamie-reid
+  - sex-pistols-flyer
+  - xerox-zine
+paletteHint: Bleached newsprint background with high-contrast black halftones and one searing hot-pink or acid-yellow tape accent.

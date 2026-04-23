@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "@anthropic-ai/claude-agent-sdk": "^0.2.118",
+    "@astrojs/check": "^0.9.8",
     "@types/js-yaml": "^4.0.9",
     "@types/node": "^22.0.0",
     "js-yaml": "^4.1.0",
@@ -33,6 +34,9 @@
   },
   "packageManager": "pnpm@10.14.0",
   "pnpm": {
-    "onlyBuiltDependencies": ["esbuild", "sharp"]
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "sharp"
+    ]
   }
 }

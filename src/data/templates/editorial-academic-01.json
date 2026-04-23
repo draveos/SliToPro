@@ -1,11 +1,10 @@
 {
   "id": "editorial-academic-01",
-  "title": "Quiet Authority — Scholarly Serif Editorial",
   "slug": "editorial-academic-01",
-  "style": "editorial",
-  "useCase": "academic",
-  "previewImage": "/previews/editorial-academic-01.svg",
+  "title": "Quiet Authority — Scholarly Serif Editorial",
+  "category": "academic-paper",
   "description": "A restrained, serif-led template modeled on literary reviews and Tufte handouts — built for ML paper seminars where equations, block quotes, and footnoted citations share the page in quiet authority.",
+  "philosophy": "Design a slide that carries the quiet authority of a Tufte handout or literary review — a single centered prose column flanked by wide margins held in reserve for marginalia, equation labels, and figure callouts. Hierarchy emerges from scale alone; no fills, shadows, or gradients disturb the scholarly calm. A single hairline rule in the accent tone divides the header from the body — beyond that, restraint is the only ornament. This is a seminar handout, not a deck.",
   "tags": [
     "academic",
     "editorial",
@@ -14,17 +13,21 @@
     "single-column",
     "typographic"
   ],
-  "colorPalette": {
-    "primary": "#f5f0e8",
-    "secondary": "#1c1a18",
-    "accent": "#7a2828"
-  },
-  "typography": {
-    "heading": "high-contrast transitional serif, regular weight, generous letter-spacing",
-    "body": "classical oldstyle serif, book weight, optimized for sustained reading at text sizes"
-  },
-  "layoutNotes": "Single-column body occupies a centered 58% content zone, flanked by a wide outer margin (~24% of slide width) reserved for marginalia, figure callouts, and equation labels. A hairline rule in the oxblood accent color separates the slide header from the body column; no other decorative elements appear. Typographic hierarchy is established through size scale and weight alone — no fills, shadows, or gradients. A fine-ruled footer zone at 8% slide height carries the superscript citation reference list at reduced size.",
-  "promptCore": "Design a slide that carries the quiet authority of a Tufte handout or literary review — a single centered prose column flanked by wide margins held in reserve for marginalia, equation labels, and figure callouts. Hierarchy emerges from scale alone; no fills, shadows, or gradients disturb the scholarly calm. A single hairline rule in the accent tone divides the header from the body — beyond that, restraint is the only ornament. This is a seminar handout, not a deck.",
+  "examples": [
+    {
+      "kind": "title",
+      "promptCore": "Design a slide that carries the quiet authority of a Tufte handout or literary review — a single centered prose column flanked by wide margins held in reserve for marginalia, equation labels, and figure callouts. Hierarchy emerges from scale alone; no fills, shadows, or gradients disturb the scholarly calm. A single hairline rule in the accent tone divides the header from the body — beyond that, restraint is the only ornament. This is a seminar handout, not a deck.",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1920 1080\" preserveAspectRatio=\"xMidYMid meet\">\n  <rect width=\"1920\" height=\"1080\" fill=\"#f5f0e6\"/>\n  <rect x=\"160\" y=\"160\" width=\"200\" height=\"6\" fill=\"#7d2a2a\"/>\n  <text x=\"160\" y=\"320\" font-family=\"Georgia, ui-serif, serif\" font-size=\"120\" font-weight=\"700\" fill=\"#1e1c1a\">Quiet Authority</text>\n  <text x=\"160\" y=\"420\" font-family=\"Georgia, ui-serif, serif\" font-size=\"64\" font-weight=\"400\" fill=\"#7a7468\" font-style=\"italic\">Scholarly Serif Editorial</text>\n  <rect x=\"160\" y=\"900\" width=\"120\" height=\"2\" fill=\"#7d2a2a\"/>\n  <text x=\"160\" y=\"950\" font-family=\"ui-monospace, monospace\" font-size=\"22\" letter-spacing=\"3\" fill=\"#7d2a2a\">ACADEMIC</text>\n  <text x=\"1760\" y=\"990\" text-anchor=\"end\" font-family=\"ui-monospace, monospace\" font-size=\"20\" fill=\"#7a7468\">01 / 02</text>\n</svg>",
+      "layoutNotes": "Single-column body occupies a centered 58% content zone, flanked by a wide outer margin (~24% of slide width) reserved for marginalia, figure callouts, and equation labels. A hairline rule in the oxblood accent color separates the slide header from the body column; no other decorative elements appear. Typographic hierarchy is established through size scale and weight alone — no fills, shadows, or gradients. A fine-ruled footer zone at 8% slide height carries the superscript citation reference list at reduced size."
+    },
+    {
+      "kind": "content",
+      "promptCore": "Design a slide that carries the quiet authority of a Tufte handout or literary review — a single centered prose column flanked by wide margins held in reserve for marginalia, equation labels, and figure callouts. Hierarchy emerges from scale alone; no fills, shadows, or gradients disturb the scholarly calm. A single hairline rule in the accent tone divides the header from the body — beyond that, restraint is the only ornament. This is a seminar handout, not a deck.",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1920 1080\" preserveAspectRatio=\"xMidYMid meet\">\n  <rect width=\"1920\" height=\"1080\" fill=\"#f5f0e6\"/>\n  <rect x=\"160\" y=\"160\" width=\"80\" height=\"6\" fill=\"#7d2a2a\"/>\n  <text x=\"160\" y=\"280\" font-family=\"Georgia, ui-serif, serif\" font-size=\"80\" font-weight=\"700\" fill=\"#1e1c1a\">Quiet Authority</text>\n  <text x=\"160\" y=\"360\" font-family=\"ui-sans-serif, system-ui, sans-serif\" font-size=\"32\" fill=\"#7a7468\">A restrained, serif-led template modeled on literary reviews and Tufte handou…</text>\n  <text x=\"200\" y=\"480\" font-family=\"ui-sans-serif, system-ui, sans-serif\" font-size=\"40\" fill=\"#1e1c1a\">— ML paper seminars with inline KaTeX equations</text>\n  <text x=\"200\" y=\"580\" font-family=\"ui-sans-serif, system-ui, sans-serif\" font-size=\"40\" fill=\"#1e1c1a\">— 3-plus line block quotes with source attribution</text>\n  <text x=\"200\" y=\"680\" font-family=\"ui-sans-serif, system-ui, sans-serif\" font-size=\"40\" fill=\"#1e1c1a\">— Dense prose slides with superscript citations and footer …</text>\n  <rect x=\"160\" y=\"900\" width=\"120\" height=\"2\" fill=\"#7d2a2a\"/>\n  <text x=\"160\" y=\"950\" font-family=\"ui-monospace, monospace\" font-size=\"22\" letter-spacing=\"3\" fill=\"#7d2a2a\">ACADEMIC</text>\n  <text x=\"1760\" y=\"990\" text-anchor=\"end\" font-family=\"ui-monospace, monospace\" font-size=\"20\" fill=\"#7a7468\">02 / 02</text>\n</svg>",
+      "layoutNotes": "Single-column body occupies a centered 58% content zone, flanked by a wide outer margin (~24% of slide width) reserved for marginalia, figure callouts, and equation labels. A hairline rule in the oxblood accent color separates the slide header from the body column; no other decorative elements appear. Typographic hierarchy is established through size scale and weight alone — no fills, shadows, or gradients. A fine-ruled footer zone at 8% slide height carries the superscript citation reference list at reduced size."
+    }
+  ],
+  "defaultPaletteId": "warm-document",
   "goodFor": [
     "ML paper seminars with inline KaTeX equations",
     "3-plus line block quotes with source attribution",
@@ -38,5 +41,5 @@
     "Presentations requiring vibrant multi-color data dashboards"
   ],
   "createdAt": "2026-04-23",
-  "author": "harness"
+  "author": "harness-migrated"
 }

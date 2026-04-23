@@ -1,0 +1,17 @@
+id: brutalist-04
+category: brutalist
+brief: |
+  Architecture studio — mono caps, technical-drawing aesthetic, dimension
+  lines and coordinate ticks framing the slide like a construction plan.
+  Built for a firm presenting a building proposal or an urban-planning brief.
+  Feels like an OMA or Herzog & de Meuron site-analysis page.
+constraints:
+  - Monospace type throughout, all caps for headings
+  - Visible dimension lines / tick marks framing at least two edges
+  - At least one orthographic line drawing or wireframe element
+  - Strictly two-color — ink on paper, plus one trace-paper warm tint
+inspiration:
+  - oma-rem-koolhaas
+  - herzog-de-meuron
+  - construction-document
+paletteHint: Trace-paper warm cream background with deep graphite ink lines and a single muted blueprint-cyan annotation tint.

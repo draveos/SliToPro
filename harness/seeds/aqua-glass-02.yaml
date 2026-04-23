@@ -1,0 +1,17 @@
+id: aqua-glass-02
+category: aqua-glass
+brief: |
+  SaaS product launch in the Stripe Sessions register — multiple translucent
+  cards layered at slight rotations over an iridescent purple-to-cyan mesh
+  gradient. Optimistic, slightly playful, built for showing off a feature
+  matrix or a "what shipped" recap. Cards overlap with visible refraction.
+constraints:
+  - Minimum 3 stacked glass cards at varied rotations (-6° to +6°)
+  - Mesh gradient backdrop, never a single linear ramp
+  - Tiny iconography allowed inside cards, no large illustration
+  - Card borders use 1px highlight + 1px inner shadow, never solid stroke
+inspiration:
+  - stripe-sessions
+  - linear-launch
+  - mesh-gradient
+paletteHint: Iridescent magenta-to-cyan mesh background with frosted lavender cards and a soft mint highlight.

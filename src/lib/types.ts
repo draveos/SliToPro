@@ -1,68 +1,87 @@
-export const STYLES = [
-  'editorial',
+export const CATEGORIES = [
+  'minimalist',
+  'aqua-glass',
+  'promo-bold',
+  'ad-banner',
+  'editorial-mag',
   'brutalist',
-  'bento',
-  'minimal-corporate',
-  'maximalist',
+  'bento-grid',
+  'corporate-pro',
+  'maximalist-collage',
+  'y2k-retro',
+  'sketchy-hand',
+  'luxe-dark-gold',
+  'pastel-soft',
+  'data-dashboard',
+  'pitch-hero',
+  'academic-paper',
+  'cyberpunk-neon',
+  'earth-tone',
+  'newsletter-info',
+  'korean-modern',
 ] as const;
 
-export const USE_CASES = [
-  'pitch',
-  'business',
-  'academic',
-  'education',
-  'portfolio',
-  'data',
-  'product',
-] as const;
+export type Category = (typeof CATEGORIES)[number];
 
-export type Style = (typeof STYLES)[number];
-export type UseCase = (typeof USE_CASES)[number];
+export const CATEGORY_LABEL: Record<Category, string> = {
+  'minimalist': 'Minimalist',
+  'aqua-glass': 'Aqua Glass',
+  'promo-bold': 'Promo Bold',
+  'ad-banner': 'Ad Banner',
+  'editorial-mag': 'Editorial Magazine',
+  'brutalist': 'Brutalist',
+  'bento-grid': 'Bento Grid',
+  'corporate-pro': 'Corporate Pro',
+  'maximalist-collage': 'Maximalist Collage',
+  'y2k-retro': 'Y2K Retro',
+  'sketchy-hand': 'Sketchy Hand-Drawn',
+  'luxe-dark-gold': 'Luxe Dark Gold',
+  'pastel-soft': 'Pastel Soft',
+  'data-dashboard': 'Data Dashboard',
+  'pitch-hero': 'Pitch Hero',
+  'academic-paper': 'Academic Paper',
+  'cyberpunk-neon': 'Cyberpunk Neon',
+  'earth-tone': 'Earth Tone',
+  'newsletter-info': 'Newsletter Info',
+  'korean-modern': 'Korean Modern',
+};
 
-export interface ColorPalette {
+export const EXAMPLE_KINDS = ['title', 'content'] as const;
+export type ExampleKind = (typeof EXAMPLE_KINDS)[number];
+
+export const EXAMPLE_KIND_LABEL: Record<ExampleKind, string> = {
+  title: 'Title slide',
+  content: 'Content slide',
+};
+
+export interface Palette {
+  id: string;
+  name: string;
   primary: string;
   secondary: string;
   accent: string;
+  neutral: string;
 }
 
-export interface Typography {
-  heading: string;
-  body: string;
+export interface Example {
+  kind: ExampleKind;
+  promptCore: string;
+  svg: string;
+  layoutNotes?: string;
 }
 
 export interface Template {
   id: string;
-  title: string;
   slug: string;
-  style: Style;
-  useCase: UseCase;
-  previewImage: string;
+  title: string;
+  category: Category;
   description: string;
+  philosophy: string;
   tags: string[];
-  colorPalette: ColorPalette;
-  typography: Typography;
-  layoutNotes: string;
-  promptCore: string;
+  examples: Example[];
+  defaultPaletteId: string;
   goodFor: string[];
   avoidFor: string[];
   createdAt: string;
   author: string;
 }
-
-export const STYLE_LABEL: Record<Style, string> = {
-  editorial: 'Editorial',
-  brutalist: 'Brutalist',
-  bento: 'Bento',
-  'minimal-corporate': 'Minimal Corporate',
-  maximalist: 'Maximalist',
-};
-
-export const USE_CASE_LABEL: Record<UseCase, string> = {
-  pitch: 'Pitch',
-  business: 'Business',
-  academic: 'Academic',
-  education: 'Education',
-  portfolio: 'Portfolio',
-  data: 'Data',
-  product: 'Product',
-};

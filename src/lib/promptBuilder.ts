@@ -1,34 +1,37 @@
-import type { Template } from './types';
-import { STYLE_LABEL, USE_CASE_LABEL } from './types';
+import type { Template, Palette, ExampleKind } from './types';
+import { CATEGORY_LABEL, EXAMPLE_KIND_LABEL } from './types';
 
 /**
- * Assembles the final user-copyable prompt.
+ * Assembles the user-copyable prompt for a single example slide of a template,
+ * with the chosen palette injected as the only source of concrete colors.
  *
- * Design contract: `template.promptCore` carries only mood/composition/
- * philosophy — no concrete hex values, no font specifics, no layout numbers.
- * Those structured fields are injected here so the user's LLM sees them
- * exactly once.
+ * `example.promptCore` carries mood/composition only — concrete hex values
+ * live in the palette and are added here exactly once.
  */
-export function buildPrompt(template: Template): string {
+export function buildPrompt(template: Template, kind: ExampleKind, palette: Palette): string {
+  const example = template.examples.find((e) => e.kind === kind);
+  if (!example) throw new Error(`Template ${template.slug} has no '${kind}' example`);
+
+  const layout = example.layoutNotes ? `\n\nLAYOUT:\n${example.layoutNotes}` : '';
+
   return `You are designing a single presentation slide.
 
-STYLE: ${STYLE_LABEL[template.style]} — for ${USE_CASE_LABEL[template.useCase]} use
+CATEGORY: ${CATEGORY_LABEL[template.category]}
+SLIDE KIND: ${EXAMPLE_KIND_LABEL[kind]}
+TEMPLATE: ${template.title}
 DESCRIPTION: ${template.description}
 
-DESIGN INTENT:
-${template.promptCore}
+DESIGN PHILOSOPHY:
+${template.philosophy}
 
-COLORS:
-- Primary: ${template.colorPalette.primary}
-- Secondary: ${template.colorPalette.secondary}
-- Accent: ${template.colorPalette.accent}
+DESIGN INTENT FOR THIS SLIDE:
+${example.promptCore}
 
-TYPOGRAPHY:
-- Headings: ${template.typography.heading}
-- Body: ${template.typography.body}
-
-LAYOUT:
-${template.layoutNotes}
+PALETTE — "${palette.name}":
+- Primary (background or dominant): ${palette.primary}
+- Secondary (text or supporting): ${palette.secondary}
+- Accent (emphasis, rules, callouts): ${palette.accent}
+- Neutral (muted text, borders): ${palette.neutral}${layout}
 
 CONTENT TO PLACE:
 [Replace this with your slide content: title, bullet points, image descriptions]

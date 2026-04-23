@@ -1,0 +1,17 @@
+id: aqua-glass-05
+category: aqua-glass
+brief: |
+  Startup metrics dashboard slide — a grid of small translucent panels showing
+  KPI tiles, sparklines, and number callouts over a soft blue-violet gradient.
+  Intended for board-update decks where the slide must hold real data without
+  feeling like a spreadsheet. Cards are uniform, gridded, data-first.
+constraints:
+  - 4-6 uniform glass tiles in a clear grid, no overlapping cards
+  - Each tile holds one number + one label + optional sparkline
+  - Numerals are tabular, monospaced-feeling, never display serif
+  - Single accent color reserved for positive deltas, never decorative
+inspiration:
+  - linear-insights
+  - vercel-analytics
+  - notion-dashboard
+paletteHint: Soft periwinkle-violet gradient base with frosted ice-blue tiles and a single lime-mint accent for positive metrics.

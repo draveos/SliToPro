@@ -1,0 +1,17 @@
+id: aqua-glass-03
+category: aqua-glass
+brief: |
+  Conference talk title card — one dramatic full-bleed frosted slab cutting
+  diagonally across a saturated teal-to-indigo gradient, like a glacier shelf
+  catching light. Built for opening a 40-minute keynote where the title needs
+  to land hard and quiet. Almost no UI chrome, just type and atmosphere.
+constraints:
+  - One single glass element, full-bleed or near full-bleed
+  - Diagonal composition (15-30°), never axis-aligned
+  - Title type at least 96pt feel, speaker name small and far below
+  - No icons, no logos, no secondary cards
+inspiration:
+  - config-figma-2023
+  - frosted-glass-mac
+  - ted-title-card
+paletteHint: Saturated teal-to-indigo gradient with a milky frosted slab and warm pearl-white title type.

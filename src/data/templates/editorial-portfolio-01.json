@@ -1,11 +1,10 @@
 {
   "id": "editorial-portfolio-01",
-  "title": "Eye on the Page — Asymmetric Editorial Spread",
   "slug": "editorial-portfolio-01",
-  "style": "editorial",
-  "useCase": "portfolio",
-  "previewImage": "/previews/editorial-portfolio-01.svg",
+  "title": "Eye on the Page — Asymmetric Editorial Spread",
+  "category": "editorial-mag",
   "description": "A bold, asymmetric opening spread that borrows its authority from print editorial — one hero image commands the canvas while an oversized display serif headline crashes into its edge, letting a designer or photographer's taste announce itself before the work even loads.",
+  "philosophy": "Design a slide that captures the authority of a bold print editorial spread — one hero image bleeds flush to the canvas edge and dominates the composition, while an oversized display serif headline crashes into or kisses the image boundary to create deliberate typographic tension. The mood is high-fashion magazine opener, not portfolio template: asymmetric, breathing, and opinionated, with generous outer margins that give the composition room to command rather than fill. Anchor sparse metadata in the lower-left corner and let negative space do the heavy lifting; avoid symmetry, decorative borders, gradient fills, or anything that signals a slideshow.",
   "tags": [
     "editorial",
     "portfolio",
@@ -14,17 +13,21 @@
     "print-inspired",
     "hero-image"
   ],
-  "colorPalette": {
-    "primary": "#f2efe8",
-    "secondary": "#0d0d0d",
-    "accent": "#c8251d"
-  },
-  "typography": {
-    "heading": "high-contrast display serif with dramatic thick-thin stroke variation and sharp hairline terminals, deployed at extreme display scale (80–120 pt equivalent) to dominate the type zone",
-    "body": "compact grotesque sans-serif at regular weight with tight tracking and slightly condensed proportions, used exclusively for small-caps captions and metadata labels to contrast the headline's register"
-  },
-  "layoutNotes": "Asymmetric two-zone layout: the hero image occupies 62–68% of the canvas width and bleeds flush to one edge (typically right), while the type zone anchors the remaining left column. Outer margins are generous — roughly 8–10% of canvas width on the non-bleed sides and 6–8% top — so the composition never crowds the edges. The display headline is scaled and positioned to overlap or kiss the image border, deliberately breaking the gutter to create editorial tension. Caption metadata (project title, year, medium) is pinned to the lower-left corner at ≤10 pt equivalent, set in small caps with a fine rule or hairline separator above it to distinguish it from surrounding negative space.",
-  "promptCore": "Design a slide that captures the authority of a bold print editorial spread — one hero image bleeds flush to the canvas edge and dominates the composition, while an oversized display serif headline crashes into or kisses the image boundary to create deliberate typographic tension. The mood is high-fashion magazine opener, not portfolio template: asymmetric, breathing, and opinionated, with generous outer margins that give the composition room to command rather than fill. Anchor sparse metadata in the lower-left corner and let negative space do the heavy lifting; avoid symmetry, decorative borders, gradient fills, or anything that signals a slideshow.",
+  "examples": [
+    {
+      "kind": "title",
+      "promptCore": "Design a slide that captures the authority of a bold print editorial spread — one hero image bleeds flush to the canvas edge and dominates the composition, while an oversized display serif headline crashes into or kisses the image boundary to create deliberate typographic tension. The mood is high-fashion magazine opener, not portfolio template: asymmetric, breathing, and opinionated, with generous outer margins that give the composition room to command rather than fill. Anchor sparse metadata in the lower-left corner and let negative space do the heavy lifting; avoid symmetry, decorative borders, gradient fills, or anything that signals a slideshow.",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1920 1080\" preserveAspectRatio=\"xMidYMid meet\">\n  <rect width=\"1920\" height=\"1080\" fill=\"#f4f1ea\"/>\n  <rect x=\"160\" y=\"160\" width=\"200\" height=\"6\" fill=\"#d83a2f\"/>\n  <text x=\"160\" y=\"320\" font-family=\"Georgia, ui-serif, serif\" font-size=\"120\" font-weight=\"700\" fill=\"#1a1a1a\">Eye on the Page</text>\n  <text x=\"160\" y=\"420\" font-family=\"Georgia, ui-serif, serif\" font-size=\"64\" font-weight=\"400\" fill=\"#3a4d8a\" font-style=\"italic\">Asymmetric Editorial Spread</text>\n  <rect x=\"160\" y=\"900\" width=\"120\" height=\"2\" fill=\"#d83a2f\"/>\n  <text x=\"160\" y=\"950\" font-family=\"ui-monospace, monospace\" font-size=\"22\" letter-spacing=\"3\" fill=\"#d83a2f\">PORTFOLIO</text>\n  <text x=\"1760\" y=\"990\" text-anchor=\"end\" font-family=\"ui-monospace, monospace\" font-size=\"20\" fill=\"#3a4d8a\">01 / 02</text>\n</svg>",
+      "layoutNotes": "Asymmetric two-zone layout: the hero image occupies 62–68% of the canvas width and bleeds flush to one edge (typically right), while the type zone anchors the remaining left column. Outer margins are generous — roughly 8–10% of canvas width on the non-bleed sides and 6–8% top — so the composition never crowds the edges. The display headline is scaled and positioned to overlap or kiss the image border, deliberately breaking the gutter to create editorial tension. Caption metadata (project title, year, medium) is pinned to the lower-left corner at ≤10 pt equivalent, set in small caps with a fine rule or hairline separator above it to distinguish it from surrounding negative space."
+    },
+    {
+      "kind": "content",
+      "promptCore": "Design a slide that captures the authority of a bold print editorial spread — one hero image bleeds flush to the canvas edge and dominates the composition, while an oversized display serif headline crashes into or kisses the image boundary to create deliberate typographic tension. The mood is high-fashion magazine opener, not portfolio template: asymmetric, breathing, and opinionated, with generous outer margins that give the composition room to command rather than fill. Anchor sparse metadata in the lower-left corner and let negative space do the heavy lifting; avoid symmetry, decorative borders, gradient fills, or anything that signals a slideshow.",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1920 1080\" preserveAspectRatio=\"xMidYMid meet\">\n  <rect width=\"1920\" height=\"1080\" fill=\"#f4f1ea\"/>\n  <rect x=\"160\" y=\"160\" width=\"80\" height=\"6\" fill=\"#d83a2f\"/>\n  <text x=\"160\" y=\"280\" font-family=\"Georgia, ui-serif, serif\" font-size=\"80\" font-weight=\"700\" fill=\"#1a1a1a\">Eye on the Page</text>\n  <text x=\"160\" y=\"360\" font-family=\"ui-sans-serif, system-ui, sans-serif\" font-size=\"32\" fill=\"#3a4d8a\">A bold, asymmetric opening spread that borrows its authority from print edito…</text>\n  <text x=\"200\" y=\"480\" font-family=\"ui-sans-serif, system-ui, sans-serif\" font-size=\"40\" fill=\"#1a1a1a\">— Full-bleed single-image project reveals</text>\n  <text x=\"200\" y=\"580\" font-family=\"ui-sans-serif, system-ui, sans-serif\" font-size=\"40\" fill=\"#1a1a1a\">— Designer or photographer 'about me' opener slides</text>\n  <text x=\"200\" y=\"680\" font-family=\"ui-sans-serif, system-ui, sans-serif\" font-size=\"40\" fill=\"#1a1a1a\">— Press feature, award, or publication callout slides</text>\n  <rect x=\"160\" y=\"900\" width=\"120\" height=\"2\" fill=\"#d83a2f\"/>\n  <text x=\"160\" y=\"950\" font-family=\"ui-monospace, monospace\" font-size=\"22\" letter-spacing=\"3\" fill=\"#d83a2f\">PORTFOLIO</text>\n  <text x=\"1760\" y=\"990\" text-anchor=\"end\" font-family=\"ui-monospace, monospace\" font-size=\"20\" fill=\"#3a4d8a\">02 / 02</text>\n</svg>",
+      "layoutNotes": "Asymmetric two-zone layout: the hero image occupies 62–68% of the canvas width and bleeds flush to one edge (typically right), while the type zone anchors the remaining left column. Outer margins are generous — roughly 8–10% of canvas width on the non-bleed sides and 6–8% top — so the composition never crowds the edges. The display headline is scaled and positioned to overlap or kiss the image border, deliberately breaking the gutter to create editorial tension. Caption metadata (project title, year, medium) is pinned to the lower-left corner at ≤10 pt equivalent, set in small caps with a fine rule or hairline separator above it to distinguish it from surrounding negative space."
+    }
+  ],
+  "defaultPaletteId": "bauhaus-primary",
   "goodFor": [
     "Full-bleed single-image project reveals",
     "Designer or photographer 'about me' opener slides",
@@ -38,5 +41,5 @@
     "Team rosters or org chart presentations"
   ],
   "createdAt": "2026-04-23",
-  "author": "harness"
+  "author": "harness-migrated"
 }

@@ -1,0 +1,17 @@
+id: aqua-glass-01
+category: aqua-glass
+brief: |
+  VisionOS keynote panel — boardroom-formal frosted slab floating over a deep
+  spatial-navy field with a faint orbital gradient halo. Intended for executive
+  product unveils where the title slide should feel weighted and ceremonial.
+  Type sits centered inside a single thick glass card with crisp specular edge.
+constraints:
+  - Single dominant frosted card, never a collage of small cards
+  - Backdrop must read as deep space, not a flat gradient
+  - One electric cyan accent line or dot, no secondary accent color
+  - Type is SF-Pro-like, generously tracked, never bold-italic
+inspiration:
+  - visionos
+  - apple-keynote
+  - spatial-ui
+paletteHint: Deep midnight navy base with frosted glacier-white card surfaces and a single electric cyan accent.

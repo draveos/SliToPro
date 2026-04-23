@@ -1,11 +1,10 @@
 {
   "id": "brutalist-education-01",
-  "title": "One Term, No Mercy — Brutalist Lecture Card",
   "slug": "brutalist-education-01",
-  "style": "brutalist",
-  "useCase": "education",
-  "previewImage": "/previews/brutalist-education-01.svg",
+  "title": "One Term, No Mercy — Brutalist Lecture Card",
+  "category": "brutalist",
   "description": "A lecture slide stripped to its structural skeleton — one concept word towers at display scale behind a raw industrial yellow band, then a hard rule drops you into a tight monospace definition block. Built for professors who need a term to hit like a fist, not drift past like a bullet point.",
+  "philosophy": "Design a slide with raw industrial brutalism as its structural spine — a single concept word towers at display scale inside an edge-to-edge accent band, then a hard horizontal rule bisects the composition and drops into a tight terminal-style definition block below. Layout is flush-left and skeleton-exposed: every element is load-bearing or absent. Mood is a fist, not a bullet point — maximum typographic weight dominates the upper field, fixed-pitch body type signals austerity, and no decorative softness, gradients, or imagery is permitted anywhere.",
   "tags": [
     "brutalist",
     "concept-first",
@@ -14,17 +13,21 @@
     "lecture",
     "education"
   ],
-  "colorPalette": {
-    "primary": "#f2ede0",
-    "secondary": "#0d0d0d",
-    "accent": "#f5c400"
-  },
-  "typography": {
-    "heading": "ultra-condensed grotesque, maximum weight (black or ultra-black), near-full slide width, tight negative tracking",
-    "body": "fixed-pitch monospace, regular weight, small optical size, mimicking terminal or teletype output"
-  },
-  "layoutNotes": "Single-column full-bleed layout with flush-left alignment and wide outer margins of approximately 8–10% on each side. The concept term occupies 40–50% of vertical slide height at maximum display scale, sitting inside an edge-to-edge industrial yellow highlight band. A 1–2px solid black horizontal rule bisects the slide, hard-separating the term hero zone from the monospace definition block below. The definition block is left-aligned, constrained to ~78% slide width, and a second structural rule at the foot of the slide pins a course code or slide index in small monospace caps.",
-  "promptCore": "Design a slide with raw industrial brutalism as its structural spine — a single concept word towers at display scale inside an edge-to-edge accent band, then a hard horizontal rule bisects the composition and drops into a tight terminal-style definition block below. Layout is flush-left and skeleton-exposed: every element is load-bearing or absent. Mood is a fist, not a bullet point — maximum typographic weight dominates the upper field, fixed-pitch body type signals austerity, and no decorative softness, gradients, or imagery is permitted anywhere.",
+  "examples": [
+    {
+      "kind": "title",
+      "promptCore": "Design a slide with raw industrial brutalism as its structural spine — a single concept word towers at display scale inside an edge-to-edge accent band, then a hard horizontal rule bisects the composition and drops into a tight terminal-style definition block below. Layout is flush-left and skeleton-exposed: every element is load-bearing or absent. Mood is a fist, not a bullet point — maximum typographic weight dominates the upper field, fixed-pitch body type signals austerity, and no decorative softness, gradients, or imagery is permitted anywhere.",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1920 1080\" preserveAspectRatio=\"xMidYMid meet\">\n  <rect width=\"1920\" height=\"1080\" fill=\"#f7f0e0\"/>\n  <rect x=\"160\" y=\"160\" width=\"200\" height=\"6\" fill=\"#e8a02a\"/>\n  <text x=\"160\" y=\"320\" font-family=\"Georgia, ui-serif, serif\" font-size=\"120\" font-weight=\"700\" fill=\"#2a1f10\">One Term, No Mercy</text>\n  <text x=\"160\" y=\"420\" font-family=\"Georgia, ui-serif, serif\" font-size=\"64\" font-weight=\"400\" fill=\"#9a8a6a\" font-style=\"italic\">Brutalist Lecture Card</text>\n  <rect x=\"160\" y=\"900\" width=\"120\" height=\"2\" fill=\"#e8a02a\"/>\n  <text x=\"160\" y=\"950\" font-family=\"ui-monospace, monospace\" font-size=\"22\" letter-spacing=\"3\" fill=\"#e8a02a\">EDUCATION</text>\n  <text x=\"1760\" y=\"990\" text-anchor=\"end\" font-family=\"ui-monospace, monospace\" font-size=\"20\" fill=\"#9a8a6a\">01 / 02</text>\n</svg>",
+      "layoutNotes": "Single-column full-bleed layout with flush-left alignment and wide outer margins of approximately 8–10% on each side. The concept term occupies 40–50% of vertical slide height at maximum display scale, sitting inside an edge-to-edge industrial yellow highlight band. A 1–2px solid black horizontal rule bisects the slide, hard-separating the term hero zone from the monospace definition block below. The definition block is left-aligned, constrained to ~78% slide width, and a second structural rule at the foot of the slide pins a course code or slide index in small monospace caps."
+    },
+    {
+      "kind": "content",
+      "promptCore": "Design a slide with raw industrial brutalism as its structural spine — a single concept word towers at display scale inside an edge-to-edge accent band, then a hard horizontal rule bisects the composition and drops into a tight terminal-style definition block below. Layout is flush-left and skeleton-exposed: every element is load-bearing or absent. Mood is a fist, not a bullet point — maximum typographic weight dominates the upper field, fixed-pitch body type signals austerity, and no decorative softness, gradients, or imagery is permitted anywhere.",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1920 1080\" preserveAspectRatio=\"xMidYMid meet\">\n  <rect width=\"1920\" height=\"1080\" fill=\"#f7f0e0\"/>\n  <rect x=\"160\" y=\"160\" width=\"80\" height=\"6\" fill=\"#e8a02a\"/>\n  <text x=\"160\" y=\"280\" font-family=\"Georgia, ui-serif, serif\" font-size=\"80\" font-weight=\"700\" fill=\"#2a1f10\">One Term, No Mercy</text>\n  <text x=\"160\" y=\"360\" font-family=\"ui-sans-serif, system-ui, sans-serif\" font-size=\"32\" fill=\"#9a8a6a\">A lecture slide stripped to its structural skeleton — one concept word towers…</text>\n  <text x=\"200\" y=\"480\" font-family=\"ui-sans-serif, system-ui, sans-serif\" font-size=\"40\" fill=\"#2a1f10\">— Single-term vocabulary or concept introductions in lectures</text>\n  <text x=\"200\" y=\"580\" font-family=\"ui-sans-serif, system-ui, sans-serif\" font-size=\"40\" fill=\"#2a1f10\">— Keynote moments where one technical idea must land viscer…</text>\n  <text x=\"200\" y=\"680\" font-family=\"ui-sans-serif, system-ui, sans-serif\" font-size=\"40\" fill=\"#2a1f10\">— Course sections requiring an unmissable typographic ancho…</text>\n  <rect x=\"160\" y=\"900\" width=\"120\" height=\"2\" fill=\"#e8a02a\"/>\n  <text x=\"160\" y=\"950\" font-family=\"ui-monospace, monospace\" font-size=\"22\" letter-spacing=\"3\" fill=\"#e8a02a\">EDUCATION</text>\n  <text x=\"1760\" y=\"990\" text-anchor=\"end\" font-family=\"ui-monospace, monospace\" font-size=\"20\" fill=\"#9a8a6a\">02 / 02</text>\n</svg>",
+      "layoutNotes": "Single-column full-bleed layout with flush-left alignment and wide outer margins of approximately 8–10% on each side. The concept term occupies 40–50% of vertical slide height at maximum display scale, sitting inside an edge-to-edge industrial yellow highlight band. A 1–2px solid black horizontal rule bisects the slide, hard-separating the term hero zone from the monospace definition block below. The definition block is left-aligned, constrained to ~78% slide width, and a second structural rule at the foot of the slide pins a course code or slide index in small monospace caps."
+    }
+  ],
+  "defaultPaletteId": "saffron-linen",
   "goodFor": [
     "Single-term vocabulary or concept introductions in lectures",
     "Keynote moments where one technical idea must land viscerally",
@@ -38,5 +41,5 @@
     "Slides where more than one concept must share screen space"
   ],
   "createdAt": "2026-04-23",
-  "author": "harness"
+  "author": "harness-migrated"
 }

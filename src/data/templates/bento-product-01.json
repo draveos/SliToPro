@@ -1,11 +1,10 @@
 {
   "id": "bento-product-01",
-  "title": "Solar Bento — Pastel Product Feature Showcase",
   "slug": "bento-product-01",
-  "style": "bento",
-  "useCase": "product",
-  "previewImage": "/previews/bento-product-01.svg",
+  "title": "Solar Bento — Pastel Product Feature Showcase",
+  "category": "bento-grid",
   "description": "A sun-warmed bento board that anchors your product hero in a commanding 50% tile, then fans three or four pastel-tinted satellite tiles around it — each pairing a crisp line icon with a punchy benefit headline. Feels like an Apple product page compressed into a single, irresistible frame.",
+  "philosophy": "Design a slide with the warm confidence of an Apple product page compressed into a single bento frame — one commanding hero tile anchors the product at visual center while pastel-tinted satellite tiles fan outward in a modular wrap, each pairing a crisp line icon with a punchy benefit headline. Composition feels effortless and sun-warmed, with soft alternating tile tints building rhythm without visual noise. No body copy blocks, no decorative borders — just icon-plus-headline economy, generous tile breathing room, and surfaces that let the product do the talking.",
   "tags": [
     "bento",
     "product",
@@ -14,17 +13,21 @@
     "light-mode",
     "apple-inspired"
   ],
-  "colorPalette": {
-    "primary": "#1a2440",
-    "secondary": "#c4f0e2",
-    "accent": "#ffd4b3"
-  },
-  "typography": {
-    "heading": "geometric humanist sans-serif, semibold weight, tight letter-spacing suited to punchy 4-7 word labels",
-    "body": "clean geometric sans-serif, regular weight, optimized for ultra-short benefit lines and icon captions"
-  },
-  "layoutNotes": "Canvas sits on a warm cloud-white base (#faf9f7) governed by a 12-column grid with 5% horizontal margins and 40px fixed gutters between every tile. The hero product tile spans 6-7 columns at full canvas height, occupying roughly 50% of total area and anchored left or center; three to four satellite feature tiles fill the remaining space in a 2×2 or L-shaped wrap. All tiles use 24px border radii, with surfaces alternating a soft mint tint and a peach tint over off-white, never stacking two identical tints adjacent. Inside each satellite tile the line icon is pinned top-left at 32px, followed immediately by the benefit headline in large semibold type — no body copy block is permitted.",
-  "promptCore": "Design a slide with the warm confidence of an Apple product page compressed into a single bento frame — one commanding hero tile anchors the product at visual center while pastel-tinted satellite tiles fan outward in a modular wrap, each pairing a crisp line icon with a punchy benefit headline. Composition feels effortless and sun-warmed, with soft alternating tile tints building rhythm without visual noise. No body copy blocks, no decorative borders — just icon-plus-headline economy, generous tile breathing room, and surfaces that let the product do the talking.",
+  "examples": [
+    {
+      "kind": "title",
+      "promptCore": "Design a slide with the warm confidence of an Apple product page compressed into a single bento frame — one commanding hero tile anchors the product at visual center while pastel-tinted satellite tiles fan outward in a modular wrap, each pairing a crisp line icon with a punchy benefit headline. Composition feels effortless and sun-warmed, with soft alternating tile tints building rhythm without visual noise. No body copy blocks, no decorative borders — just icon-plus-headline economy, generous tile breathing room, and surfaces that let the product do the talking.",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1920 1080\" preserveAspectRatio=\"xMidYMid meet\">\n  <rect width=\"1920\" height=\"1080\" fill=\"#1f1810\"/>\n  <rect x=\"160\" y=\"160\" width=\"200\" height=\"6\" fill=\"#c9a55a\"/>\n  <text x=\"160\" y=\"320\" font-family=\"Georgia, ui-serif, serif\" font-size=\"120\" font-weight=\"700\" fill=\"#f4ead2\">Solar Bento</text>\n  <text x=\"160\" y=\"420\" font-family=\"Georgia, ui-serif, serif\" font-size=\"64\" font-weight=\"400\" fill=\"#7a6a52\" font-style=\"italic\">Pastel Product Feature Showcase</text>\n  <rect x=\"160\" y=\"900\" width=\"120\" height=\"2\" fill=\"#c9a55a\"/>\n  <text x=\"160\" y=\"950\" font-family=\"ui-monospace, monospace\" font-size=\"22\" letter-spacing=\"3\" fill=\"#c9a55a\">PRODUCT</text>\n  <text x=\"1760\" y=\"990\" text-anchor=\"end\" font-family=\"ui-monospace, monospace\" font-size=\"20\" fill=\"#7a6a52\">01 / 02</text>\n</svg>",
+      "layoutNotes": "Canvas sits on a warm cloud-white base (#faf9f7) governed by a 12-column grid with 5% horizontal margins and 40px fixed gutters between every tile. The hero product tile spans 6-7 columns at full canvas height, occupying roughly 50% of total area and anchored left or center; three to four satellite feature tiles fill the remaining space in a 2×2 or L-shaped wrap. All tiles use 24px border radii, with surfaces alternating a soft mint tint and a peach tint over off-white, never stacking two identical tints adjacent. Inside each satellite tile the line icon is pinned top-left at 32px, followed immediately by the benefit headline in large semibold type — no body copy block is permitted."
+    },
+    {
+      "kind": "content",
+      "promptCore": "Design a slide with the warm confidence of an Apple product page compressed into a single bento frame — one commanding hero tile anchors the product at visual center while pastel-tinted satellite tiles fan outward in a modular wrap, each pairing a crisp line icon with a punchy benefit headline. Composition feels effortless and sun-warmed, with soft alternating tile tints building rhythm without visual noise. No body copy blocks, no decorative borders — just icon-plus-headline economy, generous tile breathing room, and surfaces that let the product do the talking.",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1920 1080\" preserveAspectRatio=\"xMidYMid meet\">\n  <rect width=\"1920\" height=\"1080\" fill=\"#1f1810\"/>\n  <rect x=\"160\" y=\"160\" width=\"80\" height=\"6\" fill=\"#c9a55a\"/>\n  <text x=\"160\" y=\"280\" font-family=\"Georgia, ui-serif, serif\" font-size=\"80\" font-weight=\"700\" fill=\"#f4ead2\">Solar Bento</text>\n  <text x=\"160\" y=\"360\" font-family=\"ui-sans-serif, system-ui, sans-serif\" font-size=\"32\" fill=\"#7a6a52\">A sun-warmed bento board that anchors your product hero in a commanding 50% t…</text>\n  <text x=\"200\" y=\"480\" font-family=\"ui-sans-serif, system-ui, sans-serif\" font-size=\"40\" fill=\"#f4ead2\">— SaaS or consumer-app feature announcements in a pitch deck</text>\n  <text x=\"200\" y=\"580\" font-family=\"ui-sans-serif, system-ui, sans-serif\" font-size=\"40\" fill=\"#f4ead2\">— Single-slide 'why choose us' product marketing overviews</text>\n  <text x=\"200\" y=\"680\" font-family=\"ui-sans-serif, system-ui, sans-serif\" font-size=\"40\" fill=\"#f4ead2\">— App onboarding decks showcasing 3-4 core capabilities</text>\n  <rect x=\"160\" y=\"900\" width=\"120\" height=\"2\" fill=\"#c9a55a\"/>\n  <text x=\"160\" y=\"950\" font-family=\"ui-monospace, monospace\" font-size=\"22\" letter-spacing=\"3\" fill=\"#c9a55a\">PRODUCT</text>\n  <text x=\"1760\" y=\"990\" text-anchor=\"end\" font-family=\"ui-monospace, monospace\" font-size=\"20\" fill=\"#7a6a52\">02 / 02</text>\n</svg>",
+      "layoutNotes": "Canvas sits on a warm cloud-white base (#faf9f7) governed by a 12-column grid with 5% horizontal margins and 40px fixed gutters between every tile. The hero product tile spans 6-7 columns at full canvas height, occupying roughly 50% of total area and anchored left or center; three to four satellite feature tiles fill the remaining space in a 2×2 or L-shaped wrap. All tiles use 24px border radii, with surfaces alternating a soft mint tint and a peach tint over off-white, never stacking two identical tints adjacent. Inside each satellite tile the line icon is pinned top-left at 32px, followed immediately by the benefit headline in large semibold type — no body copy block is permitted."
+    }
+  ],
+  "defaultPaletteId": "champagne-gold",
   "goodFor": [
     "SaaS or consumer-app feature announcements in a pitch deck",
     "Single-slide 'why choose us' product marketing overviews",
@@ -38,5 +41,5 @@
     "Slides with more than four distinct feature callouts"
   ],
   "createdAt": "2026-04-23",
-  "author": "harness"
+  "author": "harness-migrated"
 }

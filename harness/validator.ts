@@ -6,51 +6,65 @@ const HEX = /^#[0-9a-fA-F]{6}$/;
 const SLUG = /^[a-z0-9-]+$/;
 const ISO_DATE = /^\d{4}-\d{2}-\d{2}$/;
 
-export const STYLES = [
-  'editorial',
+export const CATEGORIES = [
+  'minimalist',
+  'aqua-glass',
+  'promo-bold',
+  'ad-banner',
+  'editorial-mag',
   'brutalist',
-  'bento',
-  'minimal-corporate',
-  'maximalist',
+  'bento-grid',
+  'corporate-pro',
+  'maximalist-collage',
+  'y2k-retro',
+  'sketchy-hand',
+  'luxe-dark-gold',
+  'pastel-soft',
+  'data-dashboard',
+  'pitch-hero',
+  'academic-paper',
+  'cyberpunk-neon',
+  'earth-tone',
+  'newsletter-info',
+  'korean-modern',
 ] as const;
 
-export const USE_CASES = [
-  'pitch',
-  'business',
-  'academic',
-  'education',
-  'portfolio',
-  'data',
-  'product',
-] as const;
+export const EXAMPLE_KINDS = ['title', 'content'] as const;
+
+const ExampleSchema = z.object({
+  kind: z.enum(EXAMPLE_KINDS),
+  promptCore: z.string().min(80),
+  svg: z.string().min(40).regex(/^<svg[\s\S]+<\/svg>\s*$/, 'svg must be a valid <svg>...</svg> string'),
+  layoutNotes: z.string().min(20).optional(),
+});
 
 export const TemplateSchema = z.object({
   id: z.string().min(1),
-  title: z.string().min(1),
   slug: z.string().regex(SLUG),
-  style: z.enum(STYLES),
-  useCase: z.enum(USE_CASES),
-  previewImage: z.string().startsWith('/previews/'),
+  title: z.string().min(1),
+  category: z.enum(CATEGORIES),
   description: z.string().min(20).max(300),
+  philosophy: z.string().min(40),
   tags: z.array(z.string().min(1)).min(3).max(8),
-  colorPalette: z.object({
-    primary: z.string().regex(HEX),
-    secondary: z.string().regex(HEX),
-    accent: z.string().regex(HEX),
-  }),
-  typography: z.object({
-    heading: z.string().min(1),
-    body: z.string().min(1),
-  }),
-  layoutNotes: z.string().min(20),
-  promptCore: z.string().min(120),
+  examples: z.array(ExampleSchema).length(2),
+  defaultPaletteId: z.string().regex(SLUG),
   goodFor: z.array(z.string().min(1)).min(2).max(5),
   avoidFor: z.array(z.string().min(1)).min(2).max(5),
   createdAt: z.string().regex(ISO_DATE),
   author: z.string().min(1),
 });
 
+export const PaletteSchema = z.object({
+  id: z.string().regex(SLUG),
+  name: z.string().min(1),
+  primary: z.string().regex(HEX),
+  secondary: z.string().regex(HEX),
+  accent: z.string().regex(HEX),
+  neutral: z.string().regex(HEX),
+});
+
 export type ValidatedTemplate = z.infer<typeof TemplateSchema>;
+export type ValidatedPalette = z.infer<typeof PaletteSchema>;
 
 export interface ValidationIssue {
   file: string;
@@ -60,9 +74,15 @@ export interface ValidationIssue {
 
 const REPO_ROOT = path.resolve(import.meta.dirname, '..');
 const TEMPLATES_DIR = path.join(REPO_ROOT, 'src/data/templates');
-const PREVIEWS_DIR = path.join(REPO_ROOT, 'public/previews');
+const PALETTES_PATH = path.join(REPO_ROOT, 'src/data/palettes.json');
 
-export function validateFile(filePath: string): ValidationIssue[] {
+function loadPaletteIds(): Set<string> {
+  if (!fs.existsSync(PALETTES_PATH)) return new Set();
+  const raw = JSON.parse(fs.readFileSync(PALETTES_PATH, 'utf-8'));
+  return new Set(raw.map((p: { id: string }) => p.id));
+}
+
+export function validateFile(filePath: string, paletteIds?: Set<string>): ValidationIssue[] {
   const issues: ValidationIssue[] = [];
   const raw = fs.readFileSync(filePath, 'utf-8');
 
@@ -92,50 +112,61 @@ export function validateFile(filePath: string): ValidationIssue[] {
     issues.push({ file: filePath, level: 'error', message: `id (${data.id}) must equal slug (${data.slug})` });
   }
 
-  const expectedFilename = `${data.slug}.json`;
-  if (path.basename(filePath) !== expectedFilename) {
-    issues.push({
-      file: filePath,
-      level: 'error',
-      message: `filename must be ${expectedFilename}`,
-    });
+  if (path.basename(filePath) !== `${data.slug}.json`) {
+    issues.push({ file: filePath, level: 'error', message: `filename must be ${data.slug}.json` });
   }
 
-  const previewName = data.previewImage.replace('/previews/', '');
-  const previewPath = path.join(PREVIEWS_DIR, previewName);
-  if (!fs.existsSync(previewPath)) {
-    issues.push({
-      file: filePath,
-      level: 'warning',
-      message: `previewImage not found at ${previewPath} (placeholder OK during v1)`,
-    });
+  const kinds = data.examples.map((e) => e.kind);
+  if (!kinds.includes('title') || !kinds.includes('content')) {
+    issues.push({ file: filePath, level: 'error', message: `examples must include both 'title' and 'content' kinds` });
   }
 
-  if (data.promptCore.length < 200) {
-    issues.push({
-      file: filePath,
-      level: 'warning',
-      message: `promptCore is short (${data.promptCore.length} chars). Consider regenerating.`,
-    });
+  const ids = paletteIds ?? loadPaletteIds();
+  if (ids.size > 0 && !ids.has(data.defaultPaletteId)) {
+    issues.push({ file: filePath, level: 'error', message: `defaultPaletteId "${data.defaultPaletteId}" not in palettes.json` });
   }
 
   return issues;
 }
 
-export function validateAll(): { ok: boolean; issues: ValidationIssue[] } {
-  if (!fs.existsSync(TEMPLATES_DIR)) {
-    return { ok: true, issues: [] };
+export function validatePalettes(): ValidationIssue[] {
+  if (!fs.existsSync(PALETTES_PATH)) return [];
+  const raw = JSON.parse(fs.readFileSync(PALETTES_PATH, 'utf-8'));
+  const result = z.array(PaletteSchema).safeParse(raw);
+  const issues: ValidationIssue[] = [];
+  if (!result.success) {
+    for (const issue of result.error.issues) {
+      issues.push({ file: PALETTES_PATH, level: 'error', message: `${issue.path.join('.')}: ${issue.message}` });
+    }
+    return issues;
   }
+  const seen = new Set<string>();
+  for (const p of result.data) {
+    if (seen.has(p.id)) issues.push({ file: PALETTES_PATH, level: 'error', message: `duplicate palette id "${p.id}"` });
+    seen.add(p.id);
+  }
+  return issues;
+}
+
+export function validateAll(): { ok: boolean; issues: ValidationIssue[] } {
+  const allIssues: ValidationIssue[] = [];
+
+  const paletteIssues = validatePalettes();
+  allIssues.push(...paletteIssues);
+
+  if (!fs.existsSync(TEMPLATES_DIR)) {
+    return { ok: !allIssues.some((i) => i.level === 'error'), issues: allIssues };
+  }
+
+  const paletteIds = loadPaletteIds();
   const files = fs
     .readdirSync(TEMPLATES_DIR)
     .filter((f) => f.endsWith('.json'))
     .map((f) => path.join(TEMPLATES_DIR, f));
 
-  const allIssues: ValidationIssue[] = [];
   const seenIds = new Map<string, string>();
-
   for (const file of files) {
-    const issues = validateFile(file);
+    const issues = validateFile(file, paletteIds);
     allIssues.push(...issues);
 
     if (!issues.some((i) => i.level === 'error')) {
