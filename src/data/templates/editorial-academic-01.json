@@ -1,0 +1,42 @@
+{
+  "id": "editorial-academic-01",
+  "title": "Quiet Authority — Scholarly Serif Editorial",
+  "slug": "editorial-academic-01",
+  "style": "editorial",
+  "useCase": "academic",
+  "previewImage": "/previews/editorial-academic-01.svg",
+  "description": "A restrained, serif-led template modeled on literary reviews and Tufte handouts — built for ML paper seminars where equations, block quotes, and footnoted citations share the page in quiet authority.",
+  "tags": [
+    "academic",
+    "editorial",
+    "serif",
+    "ml-research",
+    "single-column",
+    "typographic"
+  ],
+  "colorPalette": {
+    "primary": "#f5f0e8",
+    "secondary": "#1c1a18",
+    "accent": "#7a2828"
+  },
+  "typography": {
+    "heading": "high-contrast transitional serif, regular weight, generous letter-spacing",
+    "body": "classical oldstyle serif, book weight, optimized for sustained reading at text sizes"
+  },
+  "layoutNotes": "Single-column body occupies a centered 58% content zone, flanked by a wide outer margin (~24% of slide width) reserved for marginalia, figure callouts, and equation labels. A hairline rule in the oxblood accent color separates the slide header from the body column; no other decorative elements appear. Typographic hierarchy is established through size scale and weight alone — no fills, shadows, or gradients. A fine-ruled footer zone at 8% slide height carries the superscript citation reference list at reduced size.",
+  "promptCore": "Design a slide that carries the quiet authority of a Tufte handout or literary review — a single centered prose column flanked by wide margins held in reserve for marginalia, equation labels, and figure callouts. Hierarchy emerges from scale alone; no fills, shadows, or gradients disturb the scholarly calm. A single hairline rule in the accent tone divides the header from the body — beyond that, restraint is the only ornament. This is a seminar handout, not a deck.",
+  "goodFor": [
+    "ML paper seminars with inline KaTeX equations",
+    "3-plus line block quotes with source attribution",
+    "Dense prose slides with superscript citations and footer reference lists",
+    "Marginalia annotations alongside narrow figure callouts"
+  ],
+  "avoidFor": [
+    "High-energy sales or marketing pitches",
+    "Icon-grid or full-bleed image layouts",
+    "Bullet-point-only slide decks",
+    "Presentations requiring vibrant multi-color data dashboards"
+  ],
+  "createdAt": "2026-04-23",
+  "author": "harness"
+}

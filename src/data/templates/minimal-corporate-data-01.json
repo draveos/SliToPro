@@ -1,0 +1,42 @@
+{
+  "id": "minimal-corporate-data-01",
+  "title": "Signal Over Noise — Chart-First Data Canvas",
+  "slug": "minimal-corporate-data-01",
+  "style": "minimal-corporate",
+  "useCase": "data",
+  "previewImage": "/previews/minimal-corporate-data-01.svg",
+  "description": "A Tufte-influenced, chart-dominant layout built for analysts who let a single well-drawn line carry the argument. One chart commands the canvas, a conclusion-first headline sets the frame, and whisper-quiet annotations guide the eye without competing with the data.",
+  "tags": [
+    "data-forward",
+    "chart-centric",
+    "minimal",
+    "corporate",
+    "analytical",
+    "single-metric"
+  ],
+  "colorPalette": {
+    "primary": "#1c1c1c",
+    "secondary": "#ffffff",
+    "accent": "#e0735a"
+  },
+  "typography": {
+    "heading": "high-contrast transitional serif, semibold weight — conveys editorial authority for the conclusion headline",
+    "body": "compact humanist sans-serif, regular to light weight — used for axis labels, annotations, source lines, and supporting context"
+  },
+  "layoutNotes": "Pure white full-bleed canvas with a 12-column grid; the chart occupies columns 1–8 (roughly 65% of canvas width) and is vertically centered between a top margin of 14% and a bottom margin of 10%. The conclusion headline sits flush left above the chart in a single wide text column, limited to two lines maximum, with 6% left and right outer gutters. A source citation and date stamp are anchored in 10pt grey to the bottom-right corner outside the chart boundary, keeping data-ink separation clean.",
+  "promptCore": "Design a slide that treats the chart as the argument — one dominant visualization commands the canvas, a conclusion-first headline sets the frame flush left above it, and whisper-quiet annotations guide the eye without competing with the data. Tufte-influenced data-ink discipline governs every decision: clean negative space lets the signal breathe, with no decorative fills, borders, or visual scaffolding tolerated. The mood is analyst brief meets editorial authority — stripped-back, evidence-first, every element earning its presence.",
+  "goodFor": [
+    "Single time-series or bar charts narrating one clear business trend",
+    "Quarterly and annual business review decks",
+    "Executive one-pagers where the chart must speak first",
+    "Analyst briefings featuring a headline KPI with supporting annotation callouts"
+  ],
+  "avoidFor": [
+    "Slides requiring two or more co-equal charts",
+    "Heavy brand expression or decorative illustration needs",
+    "Multi-bullet narrative slides with little or no chart content",
+    "Comparative tables spanning more than five variables"
+  ],
+  "createdAt": "2026-04-23",
+  "author": "harness"
+}

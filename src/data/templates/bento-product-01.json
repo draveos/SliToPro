@@ -1,0 +1,42 @@
+{
+  "id": "bento-product-01",
+  "title": "Solar Bento — Pastel Product Feature Showcase",
+  "slug": "bento-product-01",
+  "style": "bento",
+  "useCase": "product",
+  "previewImage": "/previews/bento-product-01.svg",
+  "description": "A sun-warmed bento board that anchors your product hero in a commanding 50% tile, then fans three or four pastel-tinted satellite tiles around it — each pairing a crisp line icon with a punchy benefit headline. Feels like an Apple product page compressed into a single, irresistible frame.",
+  "tags": [
+    "bento",
+    "product",
+    "feature-tour",
+    "pastel",
+    "light-mode",
+    "apple-inspired"
+  ],
+  "colorPalette": {
+    "primary": "#1a2440",
+    "secondary": "#c4f0e2",
+    "accent": "#ffd4b3"
+  },
+  "typography": {
+    "heading": "geometric humanist sans-serif, semibold weight, tight letter-spacing suited to punchy 4-7 word labels",
+    "body": "clean geometric sans-serif, regular weight, optimized for ultra-short benefit lines and icon captions"
+  },
+  "layoutNotes": "Canvas sits on a warm cloud-white base (#faf9f7) governed by a 12-column grid with 5% horizontal margins and 40px fixed gutters between every tile. The hero product tile spans 6-7 columns at full canvas height, occupying roughly 50% of total area and anchored left or center; three to four satellite feature tiles fill the remaining space in a 2×2 or L-shaped wrap. All tiles use 24px border radii, with surfaces alternating a soft mint tint and a peach tint over off-white, never stacking two identical tints adjacent. Inside each satellite tile the line icon is pinned top-left at 32px, followed immediately by the benefit headline in large semibold type — no body copy block is permitted.",
+  "promptCore": "Design a slide with the warm confidence of an Apple product page compressed into a single bento frame — one commanding hero tile anchors the product at visual center while pastel-tinted satellite tiles fan outward in a modular wrap, each pairing a crisp line icon with a punchy benefit headline. Composition feels effortless and sun-warmed, with soft alternating tile tints building rhythm without visual noise. No body copy blocks, no decorative borders — just icon-plus-headline economy, generous tile breathing room, and surfaces that let the product do the talking.",
+  "goodFor": [
+    "SaaS or consumer-app feature announcements in a pitch deck",
+    "Single-slide 'why choose us' product marketing overviews",
+    "App onboarding decks showcasing 3-4 core capabilities",
+    "Feature callouts where each benefit needs equal visual weight"
+  ],
+  "avoidFor": [
+    "Multi-paragraph feature descriptions requiring body copy",
+    "Data-heavy slides with embedded charts or comparison tables",
+    "Sequential step-by-step process or timeline flows",
+    "Slides with more than four distinct feature callouts"
+  ],
+  "createdAt": "2026-04-23",
+  "author": "harness"
+}

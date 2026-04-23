@@ -1,0 +1,42 @@
+{
+  "id": "maximalist-education-01",
+  "title": "Riso Riot — Zine-Layered Classroom",
+  "slug": "maximalist-education-01",
+  "style": "maximalist",
+  "useCase": "education",
+  "previewImage": "/previews/maximalist-education-01.svg",
+  "description": "A Risograph zine dragged into the classroom at 2am — cream paper stacked under bleeding pink, yellow, and green ink layers, hand-scrawled arrows circling the one idea students absolutely must remember. Built for educators who know that felt-alive beats tidy every time.",
+  "tags": [
+    "risograph",
+    "zine",
+    "hand-annotated",
+    "art-school",
+    "maximalist",
+    "education"
+  ],
+  "colorPalette": {
+    "primary": "#f2ecd8",
+    "secondary": "#1b4a35",
+    "accent": "#f04e6e"
+  },
+  "typography": {
+    "heading": "bold ultra-condensed display face with dramatic weight contrast, intentionally collided at scale with a classical high-contrast serif — size differential of at least 3× enforces hierarchy",
+    "body": "compact transitional serif for typeset body copy; a loose, pressure-varied handwritten face reserved exclusively for annotation marks, labels, and circled emphasis overlaid above all other layers"
+  },
+  "layoutNotes": "Asymmetric two-column grid split roughly 58/42, with both columns allowed to bleed into ~9% side margins and ~7% top and bottom margins where texture and color overprint layers overflow intentionally. The dominant concept anchors top-left in oversized display type at no less than 18% of slide height; secondary callouts cluster mid-to-lower-right at 55–65% of that scale. Hand-annotation marks (arrows, underlines, rough circles) occupy a dedicated top z-layer above all typeset content and color blocks, applied with a 2–4 px simulated misregistration offset on the riso-pink and fluorescent-yellow elements. Despite layering density, the single largest typographic element must remain instantly legible on its own within a five-second scan.",
+  "promptCore": "Design a slide that feels like a risograph zine torn from an art-school print run at 2am — layered ink bleeds, misregistered color overprints, and hand-scrawled arrows circling the single idea that absolutely must land. Composition is asymmetric and intentionally colliding: one oversized display concept dominates the upper-left while secondary callouts retreat mid-to-lower-right, with hand-annotation marks — rough circles, underlines, emphatic arrows — living above all typeset layers in their own chaotic stratum. Felt-alive and tactile always wins over tidy; no clean grids, no corporate breathing room, no decorative borders that whisper \"template.",
+  "goodFor": [
+    "single-concept explainer slides anchored by one dominant idea",
+    "student warm-up or attention-hook moments at the start of a lesson",
+    "3–6 word callouts amplified by hand-drawn annotation circles or arrows",
+    "emotion-first content where memorability and energy outweigh formality"
+  ],
+  "avoidFor": [
+    "dense data tables or multi-column statistical breakdowns",
+    "formal board, accreditation, or parent-governance presentations",
+    "slides carrying more than four distinct text blocks",
+    "content requiring strict ADA contrast ratios without additional modification"
+  ],
+  "createdAt": "2026-04-23",
+  "author": "harness"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "minimal-corporate-business-01",
+  "title": "Boardroom Restraint — Left-Aligned Executive Sans",
+  "slug": "minimal-corporate-business-01",
+  "style": "minimal-corporate",
+  "useCase": "business",
+  "previewImage": "/previews/minimal-corporate-business-01.svg",
+  "description": "A boardroom-grade slide built for consulting decks, board updates, and investor letters where credibility speaks louder than decoration. Restrained geometric sans-serif, disciplined whitespace, and a single navy accent underline project quiet authority without a word of visual noise.",
+  "tags": [
+    "boardroom",
+    "executive",
+    "consulting",
+    "whitespace-first",
+    "left-aligned",
+    "minimal-corporate"
+  ],
+  "colorPalette": {
+    "primary": "#1f2126",
+    "secondary": "#ffffff",
+    "accent": "#1a3d6e"
+  },
+  "typography": {
+    "heading": "geometric sans-serif, medium weight, tight letter-spacing, high x-height — conveys precision without coldness",
+    "body": "humanist sans-serif, regular weight, generous line-height (1.6–1.8×), moderate tracking — optimised for single-paragraph legibility at distance"
+  },
+  "layoutNotes": "Canvas is built on a 12-column grid with a hard minimum 10% margin on all four sides, keeping the live area deliberately compressed. The primary text block is strictly left-aligned and caps at 55% of canvas width; the right 45% remains empty or holds at most one supporting element (logo lockup, single metric, or minimal line chart). The H1 sits at the upper visual-third of the live area and receives a 2 px navy accent underline spanning its exact text width — no wider. The supporting paragraph drops below with a spacing gap of at least 1.5× the headline's cap-height, reinforcing the hierarchy through space rather than weight contrast.",
+  "promptCore": "Design a slide that channels boardroom authority through deliberate restraint — left-anchored hierarchy, expansive negative space on the right, and a single sharp accent underline beneath the headline that does the work of ten decorative choices. Mood is a McKinsey cover page or Goldman investor letter: credibility communicated through what is absent, not what is added. Text mass is compressed to the left half of the canvas, letting silence carry the right. No gradients, no icon clusters, no visual noise of any kind.",
+  "goodFor": [
+    "Consulting firm deliverables and board-level status updates",
+    "Investor relations decks and annual-letter title or chapter slides",
+    "Single KPI or key-metric announcement slides",
+    "Executive briefings where sparse credibility is the entire message"
+  ],
+  "avoidFor": [
+    "Product feature showcases requiring multiple screenshot callouts",
+    "Data-heavy comparison tables or multi-panel dashboard layouts",
+    "Team introduction slides with profile photos and bios",
+    "High-energy consumer pitch decks that depend on visual excitement"
+  ],
+  "createdAt": "2026-04-23",
+  "author": "harness"
+}

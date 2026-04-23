@@ -1,0 +1,42 @@
+{
+  "id": "maximalist-portfolio-01",
+  "title": "Big Cartel Fever Dream — Y2K Collage Portfolio",
+  "slug": "maximalist-portfolio-01",
+  "style": "maximalist",
+  "useCase": "portfolio",
+  "previewImage": "/previews/maximalist-portfolio-01.svg",
+  "description": "Built for creatives whose brand IS the chaos — layered thumbnails at clashing scales, retro web textures, sticker badges, and a chrome-highlighted wordmark collide in pure Y2K energy. Think Big Cartel meets David Carson: everything overlaps, nothing apologizes.",
+  "tags": [
+    "y2k",
+    "maximalist",
+    "collage",
+    "retro-web",
+    "streetwear",
+    "portfolio"
+  ],
+  "colorPalette": {
+    "primary": "#ff0099",
+    "secondary": "#6600ff",
+    "accent": "#beff00"
+  },
+  "typography": {
+    "heading": "ultra-compressed black display slab with exaggerated counters and tight tracking, evoking Y2K wordmark culture and early-2000s streetwear logotypes; chrome-gradient and dropshadow treatments expected",
+    "body": "compact neo-grotesque at medium weight with tight letter-spacing, chosen for legibility at small sizes amid heavy visual noise"
+  },
+  "layoutNotes": "No clean grid — a freeform collision zone where at least five visual layers (photographic thumbnails, vector shapes, typographic elements, texture overlays, and a sticker or ribbon badge) overlap with individual rotations ranging from −12° to +12°. The artist name is anchored in a dominant zone (upper-left or center-stage) at ≥14% of slide width, always sitting on a dropshadowed or chrome-slab treatment so it reads instantly through the chaos. One contact detail lives inside a high-contrast ribbon or stamp element that deliberately breaks the slide boundary at the bottom or right edge. Tangerine and lime accent shapes serve as compositional glue, directing the eye from the name to the contact point despite apparent disorder.",
+  "promptCore": "Design a slide that weaponizes chaos — Big Cartel meets David Carson, where photographic thumbnails, vector shapes, texture overlays, and sticker badges collide in a freeform zone with no grid and zero apologies. The artist name commands the composition through chrome-slab and dropshadow treatment, vivid accent shapes acting as glue that routes the eye toward a contact stamp deliberately bleeding off the slide boundary. Treat Y2K maximalism as living brand identity: retro-web grit, streetwear bravado, every layer rotated and overlapping — nothing centered, nothing calm, nothing minimized.",
+  "goodFor": [
+    "Graphic designers and illustrators with dense, visually rich bodies of work",
+    "Hero or opener slides in a chaotic creative portfolio deck",
+    "Brands with an established Y2K, underground-web, or streetwear identity",
+    "Showcasing five or more mixed-media thumbnails simultaneously without a grid"
+  ],
+  "avoidFor": [
+    "Corporate, legal, or financial presentations requiring perceived authority",
+    "Accessibility-first contexts where contrast ratios and visual calm are mandatory",
+    "Single-subject slides that need sustained reading focus for more than 90 seconds",
+    "Minimalist or Swiss-grid brands that rely on negative space as a core identity signal"
+  ],
+  "createdAt": "2026-04-23",
+  "author": "harness"
+}

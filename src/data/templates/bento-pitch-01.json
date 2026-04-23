@@ -1,0 +1,42 @@
+{
+  "id": "bento-pitch-01",
+  "title": "Bento Momentum — Asymmetric Pitch Grid",
+  "slug": "bento-pitch-01",
+  "style": "bento",
+  "useCase": "pitch",
+  "previewImage": "/previews/bento-pitch-01.svg",
+  "description": "Asymmetric bento tiles — hero, metric, logo wall, and quote — sit on a near-black canvas with glassy surfaces and electric-blue accents. Designed for Series A founders who want a pitch deck that reads in five seconds and signals a polished, shipping product.",
+  "tags": [
+    "bento-grid",
+    "pitch-deck",
+    "dark-mode",
+    "series-a",
+    "modular",
+    "product-led"
+  ],
+  "colorPalette": {
+    "primary": "#0e0e12",
+    "secondary": "#1c1c24",
+    "accent": "#4d9fff"
+  },
+  "typography": {
+    "heading": "geometric sans-serif, semibold to bold weight, tight letter-spacing, optically balanced at large display sizes",
+    "body": "humanist sans-serif, regular weight, generous line-height suited to short single-line claims"
+  },
+  "layoutNotes": "Six-column grid with 32px gutters and 48px outer margins; tiles span 1–3 columns and 1–2 rows, creating deliberate size contrast. One hero tile anchors the top-left quadrant and occupies at least twice the area of the smallest tile. All tiles share 32px inner padding, 18px rounded corners, a 1px semi-transparent border, and a subtle inner shadow for a glassy feel. Visual hierarchy flows left-to-right and large-to-small, guiding the eye from the hero claim to supporting proof points.",
+  "promptCore": "Design a slide built on an asymmetric bento grid — modular tiles of deliberate size contrast on a near-black canvas with glassy surfaces and electric-accent highlights. A dominant hero tile anchors the top-left, commanding attention before the eye travels through progressively smaller proof-point tiles. The mood is a funded startup's product page, not a consulting deck: five-second readability, dark-mode confidence, every tile earning its place with one claim, one metric, or a logo wall.",
+  "goodFor": [
+    "Single-stat milestone tiles displaying one large metric in 64–80px type",
+    "Logo walls of 6–12 customer or investor logos at uniform height",
+    "One-line pull quotes with an attributed speaker name beneath",
+    "Product screenshots cropped tightly to reveal a single UI moment"
+  ],
+  "avoidFor": [
+    "Slides with two or more paragraphs of explanatory body text",
+    "Multi-row financial tables or detailed data grids",
+    "Sequential step-by-step process flows requiring numbered order",
+    "Agenda or section-divider slides with no visual proof points"
+  ],
+  "createdAt": "2026-04-23",
+  "author": "harness"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "brutalist-education-01",
+  "title": "One Term, No Mercy — Brutalist Lecture Card",
+  "slug": "brutalist-education-01",
+  "style": "brutalist",
+  "useCase": "education",
+  "previewImage": "/previews/brutalist-education-01.svg",
+  "description": "A lecture slide stripped to its structural skeleton — one concept word towers at display scale behind a raw industrial yellow band, then a hard rule drops you into a tight monospace definition block. Built for professors who need a term to hit like a fist, not drift past like a bullet point.",
+  "tags": [
+    "brutalist",
+    "concept-first",
+    "monospace",
+    "typography-driven",
+    "lecture",
+    "education"
+  ],
+  "colorPalette": {
+    "primary": "#f2ede0",
+    "secondary": "#0d0d0d",
+    "accent": "#f5c400"
+  },
+  "typography": {
+    "heading": "ultra-condensed grotesque, maximum weight (black or ultra-black), near-full slide width, tight negative tracking",
+    "body": "fixed-pitch monospace, regular weight, small optical size, mimicking terminal or teletype output"
+  },
+  "layoutNotes": "Single-column full-bleed layout with flush-left alignment and wide outer margins of approximately 8–10% on each side. The concept term occupies 40–50% of vertical slide height at maximum display scale, sitting inside an edge-to-edge industrial yellow highlight band. A 1–2px solid black horizontal rule bisects the slide, hard-separating the term hero zone from the monospace definition block below. The definition block is left-aligned, constrained to ~78% slide width, and a second structural rule at the foot of the slide pins a course code or slide index in small monospace caps.",
+  "promptCore": "Design a slide with raw industrial brutalism as its structural spine — a single concept word towers at display scale inside an edge-to-edge accent band, then a hard horizontal rule bisects the composition and drops into a tight terminal-style definition block below. Layout is flush-left and skeleton-exposed: every element is load-bearing or absent. Mood is a fist, not a bullet point — maximum typographic weight dominates the upper field, fixed-pitch body type signals austerity, and no decorative softness, gradients, or imagery is permitted anywhere.",
+  "goodFor": [
+    "Single-term vocabulary or concept introductions in lectures",
+    "Keynote moments where one technical idea must land viscerally",
+    "Course sections requiring an unmissable typographic anchor word",
+    "Short sub-60-word glossary or taxonomy definitions"
+  ],
+  "avoidFor": [
+    "Multi-point comparison or step-by-step process slides",
+    "Content requiring charts, diagrams, or any imagery",
+    "Warm, approachable, or child-facing educational contexts",
+    "Slides where more than one concept must share screen space"
+  ],
+  "createdAt": "2026-04-23",
+  "author": "harness"
+}

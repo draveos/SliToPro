@@ -1,0 +1,42 @@
+{
+  "id": "brutalist-portfolio-01",
+  "title": "Wheat-Paste Grotesk — Unfiltered Portfolio",
+  "slug": "brutalist-portfolio-01",
+  "style": "brutalist",
+  "useCase": "portfolio",
+  "previewImage": "/previews/brutalist-portfolio-01.svg",
+  "description": "A confrontational, full-bleed portfolio template for creatives who refuse to be polite — oversized compressed grotesque headlines bleed past the viewport edge while a single violent neon accent detonates against raw concrete grey. Zero apologies, zero rounded corners, maximum intent.",
+  "tags": [
+    "brutalist",
+    "portfolio",
+    "oversized-type",
+    "neon-accent",
+    "editorial",
+    "grotesk"
+  ],
+  "colorPalette": {
+    "primary": "#000000",
+    "secondary": "#e8e3db",
+    "accent": "#aaff00"
+  },
+  "typography": {
+    "heading": "compressed grotesque, ultra-black weight, extremely high x-height, negative tracking, optically aggressive stroke contrast",
+    "body": "fixed-pitch monospace, regular weight, wide letter-spacing, used exclusively for metadata and captions"
+  },
+  "layoutNotes": "Hard-left flush layout with zero left margin — the headline block originates at the raw canvas edge and is permitted to clip the right boundary at 200px+ scale. A loose 4-column grid governs secondary content, but one metadata element (project year, medium, or role) is deliberately dropped 10–15% below its natural baseline, breaking the grid as a structural statement. All containers and image frames use strict 90-degree corners with 1px hairline borders in either pure black or the neon accent; no shadows, no radius. The neon accent is applied aggressively to no more than one element per slide — a rule, a label, or a crop border — never decoratively.",
+  "promptCore": "Design a slide with confrontational brutalist character — raw, full-bleed, and unapologetic, where an oversized compressed headline tears across the canvas edge rather than sitting politely within it. One violent neon accent detonates against concrete grey on a single structural element only, never used decoratively. All geometry is hard right-angles and hairline borders; no shadows, no softness, no rounding. Grid discipline exists to be broken — one metadata element drops deliberately out of alignment as a structural statement, not an accident.",
+  "goodFor": [
+    "oversized single-image hero showcases",
+    "creative director or art director title cards",
+    "3-line project credits rendered in monospace",
+    "motion reel intro and chapter-break slides"
+  ],
+  "avoidFor": [
+    "data-heavy investor or financial decks",
+    "multi-column body copy or long-form text",
+    "warm, approachable, or friendly brand identities",
+    "academic research or conference presentations"
+  ],
+  "createdAt": "2026-04-23",
+  "author": "harness"
+}
