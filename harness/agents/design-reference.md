@@ -283,6 +283,75 @@ and geometric in the same image zone.
 
 ---
 
+## 6 · UI/UX portfolio variants (5 sub-grammars)
+
+Five distinct grammars derived from real Korean UI/UX presentation
+references. All target designer/agency portfolios but commit to very
+different visual systems. Mix-and-match elements within these grammars
+when generating portfolio-leaning slides.
+
+### V1 — Tech-spec mono (light gray, iPhone-outline motif)
+- Background: very light warm-gray (~#ebebeb).
+- Type: very heavy black sans Korean headlines (Pretendard-style), Latin
+  ALL-CAPS subtitle in mid-gray.
+- Recurring motif: iPhone outline (line-art rounded rectangle ~280×580px
+  proportion) — used as both content frame AND chapter-divider container.
+- Chrome: hamburger icon top-left, chevron-right top-right, monogram logo
+  bottom-right, fine body text bottom-left.
+- Mood: planning-doc, design-system, "internal spec sheet" energy.
+
+### V2 — Bold portfolio dark (black + 4 vibrant shapes)
+- Background: pure black, full bleed.
+- Type: huge white display sans (Helvetica-bold-equiv) for the headline,
+  often prefixed with `#` (hashtag = identity).
+- Signature: 4-cell grid of vibrant geometric icons (single-color saturated
+  blocks: purple square, pink asterisk-flower, orange staircase, green
+  arches) — each in its own black-bordered cell.
+- Footer band: solid orange (~#FF5A1F) running edge-to-edge with
+  centered URL in white sans.
+- Hashtag-style metadata in top-right + above footer.
+- Mood: contemporary tech portfolio, contrast-driven, Canva
+  "REALLYGREATSITE" template heritage.
+
+### V3 — Journey badge portfolio (winding road metaphor)
+- Background: very light gray.
+- Type: heavy black "Creative" + soft purple "Portfolio" stacked (color
+  contrast on second word). Small kicker with em-dash above.
+- Signature: a winding ROAD illustration (dark gray with dashed white
+  centerline) snaking diagonally with hexagonal badge ICONS at each bend
+  (purple/blue/teal hexagons containing simple line-art icons + service
+  label below each).
+- Contact card stack at bottom-left: solid black bar with name, plus
+  purple bars with URL and phone (offset slightly).
+- Mood: friendly creative portfolio, journey metaphor, soft-modern.
+
+### V4 — Editorial agency (serif + organic blobs + UI mockup)
+- Background: white with subtle gray accent panels.
+- Type: classic high-contrast serif (Didone-influenced) for the giant
+  display word ("UI/UX"), light sans tracking for KICKER ABOVE and
+  DESIGNER BELOW. Wide letter-spacing.
+- Signature: 1-2 organic BLOB shapes (orange + soft gray + occasional
+  black) bleeding off corners as ornament.
+- Right side: framed UI/website mockup zone (in SVG: an abstract dashboard
+  composition with header bar + sidebar + grid of cards).
+- Footer: black solid CTA pill ("Start Slide ▸") bottom-left.
+- Top nav strip with brand wordmark + 3 menu items.
+- Mood: agency portfolio, editorial-lifestyle, professional-warm.
+
+### V5 — Big-type minimalist Korean (silhouette ornaments)
+- Background: very light warm-gray, edge-to-edge.
+- Type: ENORMOUS thin/regular weight Korean sans (Noto Sans KR Light/
+  Regular) at 200–300px — the headline is the entire slide.
+- Signature: faint silhouette icons (chat bubbles, message icons) in
+  light gray (~#dadada) sitting BEHIND the headline as quiet ornaments.
+- Footer: 3-column metadata strip (name + phone | role + email | URL)
+  separated by generous whitespace.
+- Brand monogram top-left, chip-style label top-right.
+- Mood: confident silence, "the type IS the design", premium minimal
+  Korean.
+
+---
+
 ## How to use this reference
 
 1. **Pick the slide kind** (title or content) and use its zone pattern as scaffold.
