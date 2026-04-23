@@ -218,6 +218,71 @@ When rendering for these, aim for this level of considered craft.
 
 ---
 
+---
+
+## 5 · Image-led layout patterns
+
+The slide-renderer cannot embed external photos, but the **compositional
+grammar** of photo-led decks is reusable: substitute photos with abstract
+image zones (gradient panels, textured rectangles, soft radial glows,
+geometric shape compositions). The layout itself is the value.
+
+### Pattern A — Asymmetric photo-left split  (lifestyle / editorial premium)
+- 50/50 horizontal split, with a hard or soft vertical seam at the midline.
+- LEFT half: image zone — full-height, edge-to-edge. In SVG: a gradient
+  block, a soft radial glow, or a clipped abstract shape composition.
+  Treat it as the "stillness" of the slide.
+- RIGHT half: vertical text stack with generous padding —
+  - small kicker (year, issue, date) at the top in italic serif
+  - very large serif headline (one or two words, mixed roman + italic)
+  - subtle subtitle in lighter serif or sans
+  - one paragraph of body, narrow measure (~30 chars/line)
+- Page number bottom-right with thin vertical rule above it.
+- Mood: editorial premium, breathing, slow. Best for: editorial-mag,
+  minimalist, luxe-dark-gold, pastel-soft.
+
+### Pattern B — Organic blob + ornament  (friendly / educational warm)
+- One large rounded "blob" (organic curve, oval, or pill) on the right,
+  framing the visual zone (gradient, soft texture).
+- One large background ornament on the left (soft gray semicircle, big
+  pill, or curved arc) BLEEDING off the slide edge.
+- Headline OVERLAPS the boundary between blob and background — the type
+  is the bridge.
+- Optional small "Next →" pill button bottom-center for pace.
+- Logo placeholder top-left in light gray.
+- Color: muted neutrals + one warm accent. NEVER high contrast.
+- Mood: warm, approachable, classroom or community. Best for:
+  newsletter-info, pastel-soft, sketchy-hand, earth-tone.
+
+### Pattern C — Full-bleed + translucent shape overlay  (corporate classic)
+- Full-bleed background takes the entire slide. In SVG: a layered radial
+  + linear gradient that suggests skyline, depth, or atmosphere; or an
+  abstract textured composition.
+- One large translucent geometric SHAPE (circle, rectangle, hexagon)
+  overlaid on the right or center — opacity 0.35–0.6, accent palette color.
+- Headline (often in serif) sits INSIDE the translucent shape.
+- Subtle subtitle below the headline.
+- Logo / wordmark in the translucent shape's bottom area.
+- Mood: corporate classic, stock-photo heritage, real-estate / consulting
+  / finance feel. Best for: corporate-pro, ad-banner, promo-bold,
+  pitch-hero.
+
+### Substitution discipline (when no real photo)
+
+Since SVG can't carry a photo, the "image zone" is a deliberate abstract.
+Two reliable recipes:
+1. **Atmospheric gradient** — 2–3 stacked radial gradients with the palette
+   colors at low opacity over a base color, suggesting depth and lighting
+   without being literal.
+2. **Geometric composition** — overlapping circles, arcs, or angled rects
+   in the palette colors at varying opacity (0.15–0.85) — feels designed
+   rather than placeholder.
+
+Whichever you choose, commit to ONE recipe per slide. Don't mix gradient
+and geometric in the same image zone.
+
+---
+
 ## How to use this reference
 
 1. **Pick the slide kind** (title or content) and use its zone pattern as scaffold.
