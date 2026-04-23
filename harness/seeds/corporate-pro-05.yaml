@@ -1,0 +1,18 @@
+id: corporate-pro-05
+category: corporate-pro
+brief: |
+  A Bloomberg-terminal-styled internal trading-floor briefing slide.
+  Dense monospaced data table down the left, a small commentary panel
+  on the right, header bar with timestamp and ticker scrolling, and a
+  status footer with system info. Function-first, ornament-zero.
+constraints:
+  - Monospace typeface used throughout
+  - Left two-thirds is a tabular data block
+  - Right third is a fixed-width commentary panel
+  - Header bar with live timestamp and ticker style strip
+inspiration:
+  - bloomberg-terminal
+  - trading-floor
+  - financial-data-ui
+  - terminal-ui
+paletteHint: deep black ground with amber and green monospace type and a single Bloomberg-orange status accent

@@ -1,0 +1,18 @@
+id: luxe-dark-gold-03
+category: luxe-dark-gold
+brief: |
+  A couture-runway show title slide. Stark black backdrop, the
+  designer name set tiny in tracked all caps centered top, the
+  collection number set huge in a high-fashion sans, and the season
+  noted at the bottom edge. Restraint as luxury, very Maison Margiela.
+constraints:
+  - Designer name in 9pt tracked all caps at top center
+  - Collection number set massive, occupying canvas vertical center
+  - Season set in tiny italic at bottom center
+  - No ornament, no rule, no image — black void around type
+inspiration:
+  - maison-margiela
+  - couture-show
+  - high-fashion-runway
+  - paris-fashion-week
+paletteHint: pure void black with cool bone-white type and a single muted tarnished-gold collection number

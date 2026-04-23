@@ -1,0 +1,18 @@
+id: pitch-hero-04
+category: pitch-hero
+brief: |
+  A climate-tech startup pitch-hero slide. Bold problem statement
+  about emissions, an earth-toned background photograph (forest, ice,
+  or grassland), the company wordmark in a recycled-feel monospace,
+  and a footer with funding stage and impact tag.
+constraints:
+  - Earth-tone background photograph filling the canvas
+  - Problem statement in display sans, ranged left
+  - Company wordmark in monospace at the top-right
+  - Footer with stage and impact-metric chip
+inspiration:
+  - climate-tech-pitch
+  - lowercarbon-deck
+  - breakthrough-energy
+  - mission-driven-startup
+paletteHint: muted forest-green ground photograph with bone type and a single sun-yellow impact-chip accent

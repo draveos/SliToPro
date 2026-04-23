@@ -1,0 +1,18 @@
+id: newsletter-info-04
+category: newsletter-info
+brief: |
+  A friendly-explainer newsletter slide breaking down a complex
+  policy topic. Big "ELI5" header, a simple illustrated character
+  asking the question, three numbered explanation cards in
+  conversational sans, and a "Want more?" CTA at the bottom.
+constraints:
+  - ELI5-style question header at the top
+  - Illustrated character asking the question on the left
+  - Three numbered explanation cards stacked on the right
+  - CTA pill at the bottom center
+inspiration:
+  - vox-explainer
+  - axios-smart-brevity
+  - eli5
+  - friendly-policy-newsletter
+paletteHint: warm peach ground with deep navy type, soft cream cards, and a single bright tangerine CTA pill

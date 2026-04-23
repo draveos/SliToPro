@@ -1,0 +1,18 @@
+id: corporate-pro-02
+category: corporate-pro
+brief: |
+  A McKinsey-report executive-summary slide. Action-title at the top
+  spelling out the conclusion, three-column body of evidence with
+  numbered headings, and a source line in 8pt at the bottom. The
+  vintage McKinsey "horizontal logic" page exactly.
+constraints:
+  - Action title is a full sentence, not a label, at the very top
+  - Three numbered columns of supporting evidence below
+  - Source line in 8pt italic at the bottom-left
+  - Black hairline rule directly under the action title
+inspiration:
+  - mckinsey-deck
+  - bcg-report
+  - consulting-template
+  - horizontal-logic
+paletteHint: pure white with navy type, a single brand-blue underline, and gray supporting body text

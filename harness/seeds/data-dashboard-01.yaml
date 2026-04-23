@@ -1,0 +1,18 @@
+id: data-dashboard-01
+category: data-dashboard
+brief: |
+  A Financial-Times-style chart-first slide. A single tall column
+  chart dominates, FT-pink ground at the bottom card area, a strict
+  typographic header with category, deck headline as a sentence, and
+  a source line in 8pt with date and methodology.
+constraints:
+  - One main chart occupies at least 60% of the canvas
+  - Headline written as full sentence claim, not label
+  - Category tag in 9pt small caps above headline
+  - Source line at very bottom in 8pt italic
+inspiration:
+  - financial-times-chart
+  - alan-smith-data-viz
+  - ft-style
+  - economist-chart
+paletteHint: warm FT pink card background with deep ink type and a single muted teal chart accent

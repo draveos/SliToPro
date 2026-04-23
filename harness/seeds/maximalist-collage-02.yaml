@@ -1,0 +1,18 @@
+id: maximalist-collage-02
+category: maximalist-collage
+brief: |
+  A David-Carson-Ray-Gun spread. Type intentionally fractured and
+  overlapped, a photograph turned upside down, body copy running into
+  the gutter, and intuitive grid violations everywhere. The 1990s
+  deconstruction aesthetic in full force.
+constraints:
+  - At least one body block bleeds off the canvas edge
+  - One photograph rotated 90 to 180 degrees
+  - Letterforms broken or layered on top of each other
+  - No respect for traditional baseline alignment
+inspiration:
+  - david-carson
+  - ray-gun-magazine
+  - 90s-grunge-design
+  - deconstructed-typography
+paletteHint: smoke gray ground with high-contrast ink black type and a single bruised purple accent

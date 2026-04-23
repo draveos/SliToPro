@@ -1,0 +1,18 @@
+id: bento-grid-01
+category: bento-grid
+brief: |
+  An Apple-product-page bento section showcasing a new MacBook's
+  features. Five rounded-corner tiles of varying size — one large hero
+  tile dominates, smaller tiles for camera, battery, chip, ports —
+  each with a single icon and short benefit phrase. Glassy, modern.
+constraints:
+  - Five tiles total: one 2x2 hero plus four 1x1 tiles
+  - All tiles share corner radius and consistent inner padding
+  - Each tile contains exactly one icon and a short benefit phrase
+  - Soft inner highlight gradient on each tile
+inspiration:
+  - apple-marketing-bento
+  - macbook-feature-grid
+  - apple-keynote-bento
+  - product-feature-grid
+paletteHint: cool off-white outer ground with pale silver tiles and graphite type plus a single Apple-blue accent icon

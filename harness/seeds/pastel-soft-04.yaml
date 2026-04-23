@@ -1,0 +1,18 @@
+id: pastel-soft-04
+category: pastel-soft
+brief: |
+  A spa-resort wellness-package slide. Sand-toned background, a soft-
+  focus photo of pebbles or a candle at the corner, the package name
+  in a calm italic serif, and a list of inclusions in a thin elegant
+  sans. Tone modeled on Aman or Six Senses brochures.
+constraints:
+  - Sand-tone background with very subtle paper grain
+  - Soft-focus zen object photograph in one corner
+  - Package name in italic serif at modest size
+  - Inclusions list in thin sans with small bullet glyphs
+inspiration:
+  - aman-resort
+  - six-senses
+  - wellness-spa
+  - zen-brochure
+paletteHint: warm sand beige with cream pebble accents, soft taupe italic, and a faint sage green inclusion bullet

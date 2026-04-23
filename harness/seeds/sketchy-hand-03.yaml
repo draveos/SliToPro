@@ -1,0 +1,18 @@
+id: sketchy-hand-03
+category: sketchy-hand
+brief: |
+  A chalkboard classroom slide for an elementary-school math lesson.
+  Dark slate background, chalky numerals and arithmetic written by
+  hand, a drawn frame at the top with the day's date, and an apple
+  doodle in the corner.
+constraints:
+  - Slate-green chalkboard ground with subtle dust texture
+  - All type rendered as chalk strokes with rough edges
+  - Hand-drawn box around the date at top
+  - One small object doodle (apple, leaf, or star) in a corner
+inspiration:
+  - elementary-classroom
+  - chalkboard
+  - schoolhouse-slate
+  - vintage-classroom
+paletteHint: deep slate green ground with soft chalk white, a yellow chalk accent, and a faded red apple

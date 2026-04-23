@@ -1,0 +1,18 @@
+id: y2k-retro-03
+category: y2k-retro
+brief: |
+  A late-90s chrome Y2K cover slide for a fictional electronica album.
+  Reflective chrome bubble logotype, a star burst behind it, a black
+  vinyl backdrop with subtle radial scratches, and a "2000" date
+  glyph rendered like a video-game splash screen.
+constraints:
+  - Logotype rendered in chrome with metallic reflection gradient
+  - Star or burst graphic radiating from behind the type
+  - Black vinyl-record texture as background
+  - Date glyph styled like a startup splash screen
+inspiration:
+  - chrome-y2k
+  - electronica-cd-cover
+  - 2000-vibe
+  - daft-punk-era
+paletteHint: pure black ground with chrome silver gradient, hot magenta starburst, and pixelated pure-white date glyph

@@ -1,0 +1,18 @@
+id: earth-tone-04
+category: earth-tone
+brief: |
+  A coffee-roastery single-origin slide. Burlap sack texture
+  background, an illustrated coffee-cherry motif at one corner, the
+  origin name set in a confident slab serif, and a tasting-notes
+  list in body sans across the bottom third.
+constraints:
+  - Burlap or hessian texture as background
+  - Illustrated coffee-cherry motif in single tone, one corner
+  - Origin name set in slab serif at large scale
+  - Tasting notes as a horizontal list with bullet glyphs
+inspiration:
+  - blue-bottle-coffee
+  - intelligentsia
+  - small-batch-roastery
+  - single-origin-bag
+paletteHint: warm burlap brown ground with deep espresso slab type and a single roasted-cherry red accent

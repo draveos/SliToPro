@@ -1,0 +1,18 @@
+id: editorial-mag-02
+category: editorial-mag
+brief: |
+  A Wired-magazine feature opener for a tech-culture story. Geometric
+  display sans headline overlapping a duotone hero image, a subhead in
+  italic body serif, and a tagged section label up top. The deliberately
+  loud, opinionated grid that Wired ran under Scott Dadich.
+constraints:
+  - Headline overlaps the photographic edge by at least 10%
+  - Duotone hero image, no full-color photography
+  - Section tag set in a colored chip at the top-left
+  - Italic serif subhead provides the soft counterweight
+inspiration:
+  - wired-magazine
+  - scott-dadich
+  - tech-feature
+  - duotone-photography
+paletteHint: electric cyan-and-magenta duotone image with bone white headline and a black-chip section tag

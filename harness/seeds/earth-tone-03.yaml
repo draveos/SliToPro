@@ -1,0 +1,18 @@
+id: earth-tone-03
+category: earth-tone
+brief: |
+  A hiking-brand product slide for a wool-blend layering piece.
+  Photograph of a folded garment on a stone slab, a one-line product
+  benefit headline in a rugged mid-weight sans, and a small detail
+  callout (fabric, weight, origin) tucked at the bottom corner.
+constraints:
+  - Folded garment photograph on a textured stone surface
+  - Product benefit headline ranged left at modest size
+  - Detail callout block at bottom-left with three short specs
+  - Brand mark in upper-right corner at small scale
+inspiration:
+  - patagonia-product
+  - arcteryx-marketing
+  - filson-catalog
+  - outdoor-gear-brand
+paletteHint: stone gray and oat fabric ground with deep evergreen type and a single warm rust accent

@@ -1,0 +1,18 @@
+id: pastel-soft-02
+category: pastel-soft
+brief: |
+  A skincare-brand product slide for a gentle morning serum. Pale
+  blush ground, a single soft-shadowed product bottle on a tiny
+  pedestal, ingredient list set in clean lowercase sans, and a soft
+  oval brand wordmark at the top.
+constraints:
+  - Single product bottle centered on a pedestal disc
+  - Soft directional shadow under the bottle, no hard edge
+  - Ingredient list in lowercase sans set as a vertical column
+  - Oval brand wordmark at top, contained in a thin outline
+inspiration:
+  - glossier
+  - tatcha
+  - dtc-skincare
+  - clean-beauty-branding
+paletteHint: pale petal pink ground with cream bottle, soft taupe ingredient text, and one muted moss accent

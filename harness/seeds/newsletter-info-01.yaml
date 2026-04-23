@@ -1,0 +1,18 @@
+id: newsletter-info-01
+category: newsletter-info
+brief: |
+  A Morning-Brew newsletter top-of-issue slide. Bright royal-blue
+  banner across the top with their wordmark, a snappy daily-briefing
+  headline beneath, three bullet teaser lines for the day's stories,
+  and a small "Read time: 5 min" chip. Coffee-and-commute energy.
+constraints:
+  - Royal-blue banner across the top with white wordmark
+  - Daily-briefing headline in bold sans below banner
+  - Three bullet teaser lines with sparkle-emoji glyphs
+  - Read-time chip in pill shape at bottom-right
+inspiration:
+  - morning-brew
+  - daily-newsletter
+  - business-briefing
+  - email-newsletter
+paletteHint: bright royal-blue banner with white type, deep ink body type, and a sun-yellow chip accent

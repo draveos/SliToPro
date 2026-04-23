@@ -1,0 +1,18 @@
+id: newsletter-info-02
+category: newsletter-info
+brief: |
+  A The-Hustle-style snarky tech-newsletter slide. A bold pun
+  headline at the top, an illustrated meme-y figure on the right,
+  three short story summaries on the left in conversational body
+  copy, and a sponsor strip at the bottom in a contrasting color.
+constraints:
+  - Pun headline at the top in display sans
+  - Illustrated meme figure on the right side
+  - Three numbered story summaries on the left in sans body
+  - Sponsor strip at the bottom in contrasting color block
+inspiration:
+  - the-hustle
+  - milk-road
+  - snarky-newsletter
+  - hubspot-media
+paletteHint: warm cream ground with hot tomato-red headline, charcoal body, and a single mustard sponsor strip

@@ -1,0 +1,18 @@
+id: korean-modern-02
+category: korean-modern
+brief: |
+  사극(Sageuk) 모던 — 조선 왕조 사극 드라마의 오프닝 타이틀 카드를
+  현대적으로 재해석한 슬라이드. 짙은 묵빛 배경에 단청(dancheong) 색
+  띠가 한 줄 가로지르고, 제목은 굵은 명조체로 세로쓰기, 회차 표기는
+  한자로 작게.
+constraints:
+  - Single horizontal dancheong-colored band across the canvas
+  - Title set vertically in heavy Myeongjo serif
+  - Episode number in 한자 (Hanja) at small scale
+  - Deep ink ground with subtle painted brushstroke texture
+inspiration:
+  - sageuk-drama-opening
+  - dancheong-color
+  - joseon-dynasty-aesthetic
+  - korean-period-drama
+paletteHint: deep sumi-ink ground with single dancheong band of vermillion, jade green, and azurite blue

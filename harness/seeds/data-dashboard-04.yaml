@@ -1,0 +1,18 @@
+id: data-dashboard-04
+category: data-dashboard
+brief: |
+  A Stripe-metrics dashboard slide for a payments review. Soft white
+  background, a hero chart of MRR over time on the left, a stack of
+  three smaller stat cards on the right (churn, ARPU, gross volume),
+  and a thin status footer. Inter typeface throughout.
+constraints:
+  - Two-column composition, hero chart left, stat cards right
+  - Inter typeface used throughout, three weights
+  - Each stat card shows value, delta, and a tiny sparkline
+  - Status footer with timestamp and currency selector
+inspiration:
+  - stripe-dashboard
+  - stripe-metrics
+  - inter-typeface
+  - payments-saas
+paletteHint: pure white ground with deep indigo type, soft lavender chart fill, and green and rose delta indicators

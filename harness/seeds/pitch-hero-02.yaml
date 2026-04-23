@@ -1,0 +1,18 @@
+id: pitch-hero-02
+category: pitch-hero
+brief: |
+  A Series-A founder-pitch hero slide. Bold one-sentence positioning
+  statement filling the upper third, a hero product mockup beneath,
+  the company logo lockup, and a tiny "raising $X — $Y led by $Z"
+  metadata line at the bottom corner.
+constraints:
+  - Positioning sentence set in display sans at large scale
+  - Product mockup centered beneath
+  - Logo lockup at top-left, modest scale
+  - Raise metadata in 10pt at bottom-right corner
+inspiration:
+  - series-a-pitch
+  - sequoia-deck
+  - greylock-pitch
+  - founder-deck
+paletteHint: clean off-white with deep navy type, a single brand-coral logo accent, and graphite metadata

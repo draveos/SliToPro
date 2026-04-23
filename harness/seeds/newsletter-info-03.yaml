@@ -1,0 +1,18 @@
+id: newsletter-info-03
+category: newsletter-info
+brief: |
+  A Substack creator's personal-essay header slide. A small headshot
+  circle at the top, the writer's name in italic serif, the essay
+  title in elegant editorial serif, and a date and reading-time line
+  beneath. Quiet, intimate, modeled on Anne Helen Petersen.
+constraints:
+  - Circular headshot at top center, small scale
+  - Writer name in italic serif beneath the headshot
+  - Essay title in elegant editorial serif at large scale
+  - Date and reading-time on a single line beneath the title
+inspiration:
+  - substack-essay
+  - anne-helen-petersen
+  - personal-essay
+  - independent-publishing
+paletteHint: warm bone paper with deep walnut serif type and a single muted clay date accent

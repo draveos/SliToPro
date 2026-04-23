@@ -1,0 +1,17 @@
+id: korean-modern-05
+category: korean-modern
+brief: |
+  웹툰 메타-스타일 슬라이드 — 네이버웹툰이나 카카오웹툰의 회차 도입
+  컷처럼 디자인된 페이지. 세로 스크롤 비율을 의식한 세로 긴 컷, 캐릭터
+  실루엣, 과장된 효과음 한글, 그리고 회차 제목이 손글씨로 적힌 컷.
+constraints:
+  - Vertical scroll-aware framing (tall aspect)
+  - Character silhouette as the focal element
+  - Exaggerated Hangul sound-effect type ("쾅", "두근") in display
+  - Episode title in handwritten brush lettering
+inspiration:
+  - naver-webtoon
+  - kakao-webtoon
+  - korean-webtoon-panel
+  - manhwa-effect-typography
+paletteHint: bright cream ground with deep ink character silhouette, hot magenta sound effect, and pastel mint title

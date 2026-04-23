@@ -1,0 +1,18 @@
+id: promo-bold-04
+category: promo-bold
+brief: |
+  A summer-blockbuster movie title slide. Towering serif logotype, a
+  short tagline of dread or wonder beneath, a release-date strip, and
+  an atmospheric backdrop reminiscent of an IMAX one-sheet. Inspired
+  by Christopher Nolan and Denis Villeneuve campaign keys.
+constraints:
+  - Title logotype centered, set in modified high-contrast serif
+  - Tagline in tracked-out small caps directly under the title
+  - Atmospheric image grade — desaturated with one warm highlight
+  - Credit block in tiny condensed sans across the bottom edge
+inspiration:
+  - imax-one-sheet
+  - dune-key-art
+  - oppenheimer-poster
+  - blockbuster-campaign
+paletteHint: deep charcoal atmospheric ground with bone-white title and a single ember-orange highlight

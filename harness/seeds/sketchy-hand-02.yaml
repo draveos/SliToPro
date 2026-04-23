@@ -1,0 +1,18 @@
+id: sketchy-hand-02
+category: sketchy-hand
+brief: |
+  A whiteboard explainer slide for a startup brainstorm — black dry-
+  erase ink on a clean whiteboard, a quickly-sketched architecture
+  diagram with boxes and arrows, a marker-stained eraser smudge in
+  the corner, and one red callout circle.
+constraints:
+  - White board ground with very subtle smudges
+  - Black dry-erase strokes for diagram boxes and arrows
+  - One red marker circle around a key node
+  - Slight handwriting waver in all labels
+inspiration:
+  - whiteboard-explainer
+  - startup-brainstorm
+  - dry-erase
+  - architecture-diagram
+paletteHint: clean whiteboard white with black dry-erase ink, one red callout, and a faint blue marker ghost

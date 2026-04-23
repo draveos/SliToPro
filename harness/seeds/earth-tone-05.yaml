@@ -1,0 +1,18 @@
+id: earth-tone-05
+category: earth-tone
+brief: |
+  A botanical-journal field-note slide. Cream paper background, a
+  detailed botanical illustration of a single specimen on the right,
+  Latin and common species names in italic serif, and field
+  observations handwritten in copperplate down the left margin.
+constraints:
+  - Single botanical specimen illustration on the right half
+  - Latin name in italic serif beneath, common name underneath
+  - Handwritten field observations in copperplate on left margin
+  - Hairline frame around the entire composition
+inspiration:
+  - botanical-journal
+  - linnean-society
+  - field-naturalist
+  - victorian-botany
+paletteHint: warm cream paper with deep ink illustration, walnut italic type, and soft sepia handwritten notes

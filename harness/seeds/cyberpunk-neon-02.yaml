@@ -1,0 +1,18 @@
+id: cyberpunk-neon-02
+category: cyberpunk-neon
+brief: |
+  A vaporwave title slide for a synthwave music release. A pixelated
+  Roman bust at center, scanline overlay across the canvas, palm-tree
+  silhouettes at the bottom horizon, and a Japanese title set in
+  large halftone characters above the bust.
+constraints:
+  - Pixelated bust or statue centered as focal element
+  - Horizontal scanline overlay across the entire canvas
+  - Palm-tree silhouettes along the lower horizon
+  - Japanese characters as large display type above the bust
+inspiration:
+  - vaporwave
+  - synthwave-cover
+  - macintosh-plus
+  - aesthetic-aesthetic
+paletteHint: hot magenta and cyan gradient sky with neon palm silhouettes and pixelated cream bust

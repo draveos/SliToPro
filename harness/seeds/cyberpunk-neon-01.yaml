@@ -1,0 +1,18 @@
+id: cyberpunk-neon-01
+category: cyberpunk-neon
+brief: |
+  A Blade-Runner-2049 atmospheric title slide. Towering monolithic
+  type set in a heavy serif, drowned in a smog-orange haze, a tiny
+  outlined CJK character glyph as a corner motif, and a single
+  blinking dot suggesting a system status. Cinematic, oppressive.
+constraints:
+  - Title type set in heavy display serif, monolithic scale
+  - Atmospheric haze gradient covering the entire ground
+  - One small CJK character outline as a corner motif
+  - Blinking-dot system glyph in a far corner
+inspiration:
+  - blade-runner-2049
+  - dystopian-futurism
+  - villeneuve-cinema
+  - 2049-key-art
+paletteHint: smog orange and amber haze with deep silhouette black and one cool teal status dot

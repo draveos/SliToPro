@@ -1,0 +1,18 @@
+id: sketchy-hand-01
+category: sketchy-hand
+brief: |
+  A college-notebook lecture page slide. Lined ruled paper, ink pen
+  notes in slightly-uneven handwriting, doodled arrows linking
+  concepts, and a margin highlight in yellow over a key term. Reads
+  like a real student note from a humanities seminar.
+constraints:
+  - Visible horizontal rule lines across the entire canvas
+  - Handwritten body in slightly varying baseline
+  - At least one doodled arrow connecting two concepts
+  - Yellow highlighter swatch over one phrase only
+inspiration:
+  - college-notebook
+  - handwritten-notes
+  - lecture-page
+  - student-margin-doodle
+paletteHint: cream lined paper with navy ballpoint ink and a single sun-yellow highlighter swatch

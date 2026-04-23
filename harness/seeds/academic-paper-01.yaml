@@ -1,0 +1,18 @@
+id: academic-paper-01
+category: academic-paper
+brief: |
+  A NeurIPS-style poster-prose slide for a machine-learning result. A
+  paper-style two-column layout, an abstract block at the top in body
+  serif, a small results figure inset, and an equation set in
+  proper math italic. Authors and affiliations in 9pt above title.
+constraints:
+  - Two-column body layout, justified text
+  - Equation centered with equation number in parentheses to the right
+  - One small results figure inset on the right column
+  - Author block in 9pt above the title with affiliation footnotes
+inspiration:
+  - neurips-poster
+  - icml-paper
+  - latex-article
+  - ml-paper-style
+paletteHint: paper white with deep ink-black serif type and a single muted academic-blue figure accent

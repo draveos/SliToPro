@@ -1,0 +1,17 @@
+id: y2k-retro-01
+category: y2k-retro
+brief: |
+  A 2014-Tumblr aesthetic slide — pastel grid background, a low-res
+  Greek bust JPEG, glittery sparkle overlays, and wavy script type
+  proclaiming a single dreamy phrase. Pure soft-grunge nostalgia.
+constraints:
+  - Pastel pixel-grid background tile
+  - Low-res statue or bust image as central anchor
+  - Sparkle overlay at multiple sizes scattered above type
+  - Script display type set on a wavy baseline
+inspiration:
+  - tumblr-2014
+  - vaporwave-statue
+  - soft-grunge
+  - aesthetic-edit
+paletteHint: soft cotton-candy pink and baby blue gradient with cream statue and glittery silver script

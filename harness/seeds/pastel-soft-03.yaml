@@ -1,0 +1,18 @@
+id: pastel-soft-03
+category: pastel-soft
+brief: |
+  A baby-shower invitation slide. Soft mint and butter-yellow stripes
+  as background, an illustrated rocking-horse motif at the corner,
+  the baby name (or "baby!") in a chunky rounded display sans, and
+  party details beneath in playful italic.
+constraints:
+  - Wide pastel stripes as background
+  - Illustrated nursery motif (rocking horse, balloon, cloud)
+  - Baby name in chunky rounded display sans
+  - Party details in italic body sans below the name
+inspiration:
+  - baby-shower-invitation
+  - nursery-illustration
+  - vintage-toy-motif
+  - pastel-party
+paletteHint: pale mint and butter yellow stripes with peach motif and warm slate type

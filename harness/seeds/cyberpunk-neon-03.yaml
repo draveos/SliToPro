@@ -1,0 +1,18 @@
+id: cyberpunk-neon-03
+category: cyberpunk-neon
+brief: |
+  A cyberdeck-terminal slide showing a fictional system boot sequence.
+  Pure black background with monospaced lime-green type spelling out
+  log lines, ASCII-art logo at the top, a cursor blink at the bottom
+  of the visible block, and a thin scanline overlay.
+constraints:
+  - Pure monospace typography throughout
+  - ASCII-art logo at the top
+  - Each log line prefixed with a bracketed timestamp
+  - Blinking cursor block at the end of the last line
+inspiration:
+  - cyberdeck-terminal
+  - hackers-1995
+  - mr-robot-ui
+  - ascii-art
+paletteHint: pure black ground with phosphor lime-green monospace type and one amber error-line accent

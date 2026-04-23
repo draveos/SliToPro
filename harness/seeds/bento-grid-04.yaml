@@ -1,0 +1,18 @@
+id: bento-grid-04
+category: bento-grid
+brief: |
+  A Vision-Pro-keynote bento showing immersive-app categories. Floating
+  rounded-rectangle cards with soft shadows and translucent fills,
+  each holding a 3D-rendered glyph and a category name. Background
+  hints at depth and atmosphere.
+constraints:
+  - Four to six tiles arranged on an implied curved plane
+  - Each tile semi-translucent with a soft drop shadow
+  - 3D glyphs centered in each tile
+  - Subtle ambient gradient backdrop suggesting depth
+inspiration:
+  - vision-pro-keynote
+  - apple-spatial
+  - visionos-ui
+  - immersive-bento
+paletteHint: deep slate atmospheric ground with frosted-glass tiles and soft warm-white type

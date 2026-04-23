@@ -1,0 +1,19 @@
+id: pitch-hero-05
+category: pitch-hero
+brief: |
+  A hardware-launch keynote hero slide. Centered hero render of the
+  device on a soft graphite gradient floor, a one-line product name
+  in mono sans, a tiny "Available [Date]" chip, and the brand
+  wordmark in the top-left corner. Reads like a Rivian or DJI
+  product page.
+constraints:
+  - Centered hero render with soft floor gradient
+  - Product name in mono sans, one line
+  - Available-date chip in pill shape beneath product name
+  - Brand wordmark anchored top-left at modest scale
+inspiration:
+  - rivian-launch
+  - dji-keynote
+  - hardware-product-page
+  - tesla-reveal
+paletteHint: deep slate gradient floor with cool silver hero render, bone-white type, and a single electric-cyan chip

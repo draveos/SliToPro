@@ -1,0 +1,17 @@
+id: ad-banner-03
+category: ad-banner
+brief: |
+  A 14:5 outdoor billboard slide for a regional airline. Wide aspect,
+  one strong horizon image, a punchy three-word headline ranged left,
+  and the airline logo locked far right. Designed to be read at 70 mph.
+constraints:
+  - Headline limited to three words at extreme display size
+  - Logo lockup confined to the right 20% of the canvas
+  - Image area may not contain text overlap
+  - High-contrast pairing of one image color and one type color only
+inspiration:
+  - outdoor-billboard
+  - jet-blue-ooh
+  - southwest-billboard
+  - highway-advertising
+paletteHint: deep cobalt sky photograph with bone-white headline and a coral logo lockup

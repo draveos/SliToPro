@@ -1,0 +1,18 @@
+id: luxe-dark-gold-01
+category: luxe-dark-gold
+brief: |
+  A black-tie gala invitation slide. Centered art-deco geometric
+  ornament, a high-contrast didone serif title, names of honoree and
+  date in tracked-out small caps, and a delicate gold-foil frame.
+  Reads like a Tiffany & Co. event invitation.
+constraints:
+  - Centered symmetric composition with strict vertical axis
+  - Didone serif title with extreme thick-thin contrast
+  - Art-deco ornament above and below the title
+  - Hairline gold frame around the entire content area
+inspiration:
+  - tiffany-invitation
+  - art-deco
+  - didone-serif
+  - black-tie-event
+paletteHint: deep ink black ground with warm 18-karat gold ornament and bone-ivory serif type

@@ -1,0 +1,18 @@
+id: editorial-mag-01
+category: editorial-mag
+brief: |
+  An NYT Magazine feature opener spread for a long-form essay on
+  artificial intelligence. A weighty Cheltenham-style serif headline
+  ranged left over a bleed photo, a kicker label in red small caps, a
+  byline strip, and the first two paragraphs in a narrow column.
+constraints:
+  - Headline set in a high-contrast editorial serif, two lines maximum
+  - Red small-caps kicker locked above headline
+  - Two-column body grid with a wide photo gutter on the right
+  - Drop cap on the first paragraph at four lines deep
+inspiration:
+  - nyt-magazine
+  - cheltenham
+  - long-form-feature
+  - editorial-serif
+paletteHint: warm newsprint cream with deep ink black body and a single Times red kicker

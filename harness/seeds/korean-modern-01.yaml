@@ -1,0 +1,18 @@
+id: korean-modern-01
+category: korean-modern
+brief: |
+  한지(Hanji) 모던 스타일의 전시 도입부 슬라이드. 거친 한지 질감 배경,
+  먹빛 한자/한글 제목, 좌하단의 작은 낙관(seal) 마크, 우상단의 전시
+  회차 표기. 국립현대미술관(MMCA)이나 리움의 절제된 도록 첫 페이지의
+  분위기.
+constraints:
+  - Hanji paper texture across the entire ground
+  - Title set in 명조(Myeongjo) serif at restrained scale
+  - Red ink seal mark in the lower-left corner
+  - Exhibition number set vertically in the upper-right
+inspiration:
+  - hanji-paper
+  - mmca-catalog
+  - leeum-museum
+  - korean-museum-print
+paletteHint: warm 닥종이 cream with sumi-ink black type and a single vermillion seal stamp

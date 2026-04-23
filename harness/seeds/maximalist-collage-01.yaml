@@ -1,0 +1,18 @@
+id: maximalist-collage-01
+category: maximalist-collage
+brief: |
+  A Cavalry-magazine-style maximalist editorial spread. Layered photo
+  fragments, oversized rotated typography, hand-drawn arrows
+  annotating images, and a pull quote ripped diagonally across the
+  composition. Wonderfully overwhelming, very London art-school.
+constraints:
+  - Minimum five overlapping image fragments at varied rotations
+  - At least two display type sizes intersecting
+  - One handwritten ink-arrow annotation
+  - Diagonal pull quote cutting across the optical center
+inspiration:
+  - cavalry-magazine
+  - art-school-zine
+  - london-graphic-design
+  - editorial-collage
+paletteHint: ivory paper ground with electric magenta, lemon yellow, ink black, and a single risograph teal

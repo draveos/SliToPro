@@ -1,0 +1,18 @@
+id: data-dashboard-03
+category: data-dashboard
+brief: |
+  A Notion-analytics dashboard slide showing workspace usage. Four
+  stat cards across the top with KPIs, a soft-edged area chart in
+  the middle, and a small filterable table at the bottom. Friendly,
+  human, very Notion.
+constraints:
+  - Four KPI cards in a row, equal width
+  - Area chart filling the central horizontal band
+  - Small filterable table at the bottom with three columns
+  - Soft rounded corners on every panel
+inspiration:
+  - notion-analytics
+  - retool-dashboard
+  - friendly-saas
+  - workspace-metrics
+paletteHint: warm off-white ground with cream cards, charcoal text, and a single soft-clay area-chart fill

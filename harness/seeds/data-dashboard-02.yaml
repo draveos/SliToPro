@@ -1,0 +1,18 @@
+id: data-dashboard-02
+category: data-dashboard
+brief: |
+  A Bloomberg-terminal-style multi-panel data slide. Dense black
+  background, monospaced ticker tables across the top, a sparkline
+  chart in the middle, and a colored ANSI-style status panel at the
+  bottom. Trader-screen energy.
+constraints:
+  - Three horizontal panels stacked top to bottom
+  - All numbers in monospaced typeface
+  - Sparkline chart spanning the full width of the middle panel
+  - Status indicators as colored single-character glyphs
+inspiration:
+  - bloomberg-terminal
+  - reuters-eikon
+  - trading-screen
+  - ansi-terminal-ui
+paletteHint: deep black ground with terminal amber, terminal green, and one Bloomberg-orange status accent

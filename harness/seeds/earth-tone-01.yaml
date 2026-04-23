@@ -1,0 +1,18 @@
+id: earth-tone-01
+category: earth-tone
+brief: |
+  A sustainability-NGO impact-report cover slide. Recycled-paper
+  texture background, a hand-drawn tree-canopy illustration at the
+  top edge, the report title in a friendly humanist sans, and a year
+  badge in a soft circular stamp. Patagonia-adjacent, sincere.
+constraints:
+  - Recycled paper texture across the entire ground
+  - Hand-drawn tree canopy at the top, single color
+  - Report title in humanist sans, ranged left
+  - Year badge as a circular stamp at top-right
+inspiration:
+  - patagonia-report
+  - sustainability-ngo
+  - kiss-the-ground
+  - earth-day-publication
+paletteHint: warm kraft paper with deep forest green illustration, charcoal type, and a single muted clay stamp

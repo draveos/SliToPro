@@ -1,0 +1,18 @@
+id: academic-paper-05
+category: academic-paper
+brief: |
+  A law-journal article slide presenting a case argument. Citation
+  string in Bluebook style at the top, the holding stated in bold
+  serif, supporting reasoning in numbered paragraphs with footnote
+  superscripts, and a footnote rule at the bottom with two notes.
+constraints:
+  - Bluebook-style citation in 10pt at the top
+  - Holding statement in bold body serif beneath
+  - Numbered argument paragraphs with footnote markers
+  - Hairline footnote separator with two footnotes at the bottom
+inspiration:
+  - harvard-law-review
+  - bluebook-citation
+  - law-journal
+  - legal-brief
+paletteHint: warm bone paper with deep ink serif body, fine hairline rules, and one oxblood holding-statement accent

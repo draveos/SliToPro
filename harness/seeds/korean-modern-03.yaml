@@ -1,0 +1,17 @@
+id: korean-modern-03
+category: korean-modern
+brief: |
+  한글 타이포그래피 포스터 슬라이드 — 안상수체 또는 산돌고딕 같은
+  현대 한글 서체로 한 단어를 거대하게 배치, 자모 구조의 기하학을
+  드러내는 디자인. 안그라픽스나 워크룸 프레스의 출판 포스터 느낌.
+constraints:
+  - One Hangul word fills 60% of the canvas height
+  - Modern geometric Hangul typeface (Sandoll, Ahn Sang-soo)
+  - Visible jamo grid or construction-line treatment
+  - Tiny metadata block in the bottom-left corner
+inspiration:
+  - ahn-sang-soo
+  - sandoll-typography
+  - workroom-press
+  - ag-typography
+paletteHint: pure white ground with bold black Hangul and a single saturated cobalt construction-line accent

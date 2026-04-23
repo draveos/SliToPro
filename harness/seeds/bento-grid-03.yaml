@@ -1,0 +1,18 @@
+id: bento-grid-03
+category: bento-grid
+brief: |
+  An iOS-Settings-style bento screen mocked into a slide. Stacked
+  rounded grouped-list cells, each with an SF Symbol on the left, a
+  label, and a chevron on the right. A status bar across the top, a
+  large bold settings title above the first group.
+constraints:
+  - Mobile portrait aspect inside a soft device frame
+  - Two grouped-list sections with three cells each
+  - SF Symbol-style monoline icons inside colored squircles
+  - Status bar at top with time, signal, battery glyphs
+inspiration:
+  - ios-settings
+  - sf-symbols
+  - apple-hig
+  - mobile-grouped-list
+paletteHint: pale system-gray background with white cells, charcoal labels, and squircle icons in primary system colors

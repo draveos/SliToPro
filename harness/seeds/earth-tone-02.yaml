@@ -1,0 +1,18 @@
+id: earth-tone-02
+category: earth-tone
+brief: |
+  A permaculture-course module slide. Soft pressed-leaf illustration
+  in the top corner, lesson title in calm humanist serif, three
+  numbered learning objectives in body sans, and a small "Module 03"
+  marker tag. Calm, instructional, very Schumacher College.
+constraints:
+  - Pressed-leaf illustration in one corner, single tone
+  - Title in humanist serif at modest size
+  - Three numbered objectives with hairline rule between
+  - Module marker as a small square tag at top corner
+inspiration:
+  - permaculture-course
+  - schumacher-college
+  - regenerative-design
+  - botanical-textbook
+paletteHint: warm sand background with deep moss-green illustration, walnut serif type, and one mustard module tag

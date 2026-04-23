@@ -1,0 +1,18 @@
+id: pastel-soft-05
+category: pastel-soft
+brief: |
+  A mochi-cafe menu slide for a Japanese-Korean dessert shop. Cream
+  ground, illustrated mochi orbs lined up like specimen drawings,
+  each labeled with flavor in playful rounded sans, and the cafe
+  wordmark in a soft brushy serif at the top.
+constraints:
+  - Row of illustrated mochi orbs across the lower half
+  - Each mochi has a small flavor label beneath
+  - Cafe wordmark in brush-serif at top center
+  - No photography, all illustration
+inspiration:
+  - mochi-cafe-menu
+  - japanese-dessert-shop
+  - illustrated-menu
+  - cute-asian-cafe
+paletteHint: warm cream ground with mochi orbs in matcha green, strawberry pink, taro purple, and toasted-cream

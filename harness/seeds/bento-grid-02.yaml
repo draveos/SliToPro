@@ -1,0 +1,18 @@
+id: bento-grid-02
+category: bento-grid
+brief: |
+  A Notion-docs landing-page bento that introduces a documentation
+  workspace. Tiles include a database table preview, a kanban board, a
+  meeting-notes mockup, and a tasks checklist. UI fragments rendered
+  inside soft cards with thin borders.
+constraints:
+  - Four tiles in an asymmetric 2-up over 2-up grid
+  - Each tile contains a UI fragment, not just an icon
+  - Hairline 1px borders on tiles, no shadows
+  - Tile labels at the top-left corner of each tile
+inspiration:
+  - notion-product-page
+  - documentation-workspace
+  - productivity-saas
+  - notion-marketing
+paletteHint: warm white ground with cream-colored tiles, soft gray borders, and a muted clay accent for icons

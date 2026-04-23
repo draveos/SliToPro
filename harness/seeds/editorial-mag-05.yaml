@@ -1,0 +1,18 @@
+id: editorial-mag-05
+category: editorial-mag
+brief: |
+  An Apartamento-magazine home-tour opener. A candid interior photograph
+  taking the full bleed, a small italic caption tucked at the lower
+  edge, an issue and city tag in tiny caps, and the homeowner's name as
+  a quiet typographic inset. Warm, lived-in, unstaged.
+constraints:
+  - Full-bleed candid interior image, no styled studio shot
+  - All type clusters at the bottom 25% of the canvas
+  - Italic body serif for the caption
+  - Issue and city tag set in 9pt small caps with bullet separator
+inspiration:
+  - apartamento-magazine
+  - home-tour
+  - candid-interior
+  - kinfolk-adjacent
+paletteHint: warm interior photograph with mustard couch, soft cream caption box, and oak-brown italic type

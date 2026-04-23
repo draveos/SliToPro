@@ -1,0 +1,18 @@
+id: ad-banner-05
+category: ad-banner
+brief: |
+  A newsletter hero banner slide announcing this week's edition. A wide
+  rectangular masthead, a one-line topic teaser, an issue number badge,
+  and a small read-time chip. Looks like the lead image inside a Stripe
+  Press or Every newsletter email.
+constraints:
+  - Wide letterbox banner with masthead at top-left, badge at top-right
+  - One bold teaser sentence centered vertically
+  - Read-time chip with monospaced minutes inside a rounded pill
+  - Subtle paper-texture or noise overlay across the whole banner
+inspiration:
+  - every-newsletter
+  - stripe-press
+  - substack-hero
+  - email-banner
+paletteHint: cream paper background with deep aubergine type and a soft mustard issue badge

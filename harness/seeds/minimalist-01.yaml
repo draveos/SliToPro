@@ -1,0 +1,18 @@
+id: minimalist-01
+category: minimalist
+brief: |
+  A Dieter-Rams-influenced product introduction slide for a small consumer
+  electronics device. Reads like a page from the Braun catalog circa 1972:
+  one calm photograph of the product, a short product name, and a single
+  short sentence of function. Quiet, honest, useful.
+constraints:
+  - Single product silhouette dominates the right two-thirds of the slide
+  - One typeface only, set at three sizes (title, label, caption)
+  - No decorative shapes or gradients; only ruling lines if needed
+  - Generous negative space — at least 40% of canvas empty
+inspiration:
+  - dieter-rams
+  - braun-catalog
+  - vitsoe-606
+  - akzidenz-grotesk
+paletteHint: warm off-white background with near-black text and a single muted graphite accent line

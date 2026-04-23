@@ -1,0 +1,18 @@
+id: academic-paper-04
+category: academic-paper
+brief: |
+  A medical case-study slide for a grand-rounds presentation. Patient-
+  history block on the left, an imaging panel (X-ray or CT) on the
+  right, a list of differentials beneath, and a journal-style header
+  with case ID, date, and presenting physician.
+constraints:
+  - Two-pane composition: history left, imaging right
+  - Differential diagnosis list in numbered body serif
+  - Header bar with case ID, date, presenter
+  - Imaging panel with thin clinical frame and image label
+inspiration:
+  - grand-rounds
+  - medical-case-presentation
+  - radiology-slide
+  - jama-paper
+paletteHint: clinical white ground with deep navy serif type, grayscale imaging panel, and a single muted clinical-teal accent

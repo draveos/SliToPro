@@ -1,0 +1,18 @@
+id: academic-paper-02
+category: academic-paper
+brief: |
+  A humanities-seminar slide for a graduate-level lecture on critical
+  theory. A long quoted passage centered as a block, attribution
+  beneath in italic with em-dash, a tiny header with course code and
+  week number. Modeled on a Princeton or Yale seminar handout.
+constraints:
+  - Centered block-quoted passage in body serif
+  - Em-dash attribution in italic directly beneath the quote
+  - Course code and week number in 10pt small caps at top
+  - Wide top and bottom margins, narrow side margins
+inspiration:
+  - humanities-seminar
+  - critical-theory
+  - princeton-handout
+  - yale-lecture
+paletteHint: warm cream paper with deep ink serif body and a single oxblood course-code accent

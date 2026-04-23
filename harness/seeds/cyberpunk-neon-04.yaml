@@ -1,0 +1,18 @@
+id: cyberpunk-neon-04
+category: cyberpunk-neon
+brief: |
+  An anime-mecha title-card slide. A diagonal split background, a
+  silhouetted mecha pilot at one half, an episode title in giant
+  brushy katakana on the other, and a thin episode-number tag at the
+  corner. Energy of an Evangelion or Gundam OP card.
+constraints:
+  - Diagonal split background with two flat color fields
+  - Silhouetted mecha figure on one side of the split
+  - Title in large katakana brush type filling the other side
+  - Episode-number tag in monospace at one corner
+inspiration:
+  - evangelion
+  - mobile-suit-gundam
+  - anime-title-card
+  - mecha-opening
+paletteHint: deep cobalt and crimson diagonal split with bone katakana and a single fluorescent yellow tag

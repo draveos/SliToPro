@@ -1,0 +1,18 @@
+id: korean-modern-04
+category: korean-modern
+brief: |
+  K-pop 앨범 커버 스타일의 슬라이드 — 그룹명을 한글과 영문으로 동시
+  표기, 멤버 컨셉 사진을 그리드로 배열, 앨범 타이틀은 큰 산세리프로
+  중앙 배치, 작은 트랙리스트가 하단에 놓임. 뉴진스나 르세라핌의 미니
+  앨범 부클릿 느낌.
+constraints:
+  - Group name set in Hangul above and English below at equal weight
+  - Member concept-photo grid (3-4 thumbnails)
+  - Album title in oversized sans, centered
+  - Tracklist at the bottom in tracked monospace
+inspiration:
+  - newjeans-album
+  - le-sserafim-photobook
+  - kpop-album-design
+  - hybe-art-direction
+paletteHint: cool baby-blue ground with cream concept-photo tones, deep navy type, and a soft holographic-pearl accent

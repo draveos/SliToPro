@@ -1,0 +1,18 @@
+id: corporate-pro-01
+category: corporate-pro
+brief: |
+  A Stripe-style quarterly business-update slide. A clean white deck
+  page with a left-aligned section title in their humanist sans, a
+  short subhead, a big highlighted KPI, and a soft footer with page
+  number and confidentiality tag. Calm, confident, founder-approved.
+constraints:
+  - Title locked to top-left grid origin, never centered
+  - One large KPI displayed in a soft tinted card
+  - Footer with company mark, page number, and confidentiality label
+  - Generous left margin equal to one column width
+inspiration:
+  - stripe-press
+  - stripe-keynote
+  - quarterly-update
+  - inter-typeface
+paletteHint: pure white ground with deep indigo type and a soft lavender KPI card

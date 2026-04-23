@@ -1,0 +1,18 @@
+id: pitch-hero-03
+category: pitch-hero
+brief: |
+  A vision-statement keynote slide for a company all-hands. A single
+  aspirational phrase set huge across the canvas, the company mark
+  small at the corner, and a date with location stamp beneath. Reads
+  like a Tim Cook stage opener.
+constraints:
+  - Single aspirational phrase, max 8 words, set very large
+  - Company mark small at top-left corner
+  - Date and location stamp in tracked small caps at bottom
+  - No other elements — silence around the message
+inspiration:
+  - apple-keynote-vision
+  - all-hands-meeting
+  - tim-cook-stage
+  - jobs-stanford-speech
+paletteHint: deep ink black ground with bone-white aspirational type and a single muted gold company mark

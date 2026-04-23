@@ -1,0 +1,18 @@
+id: bento-grid-05
+category: bento-grid
+brief: |
+  A Linear-changelog bento summarizing a release. Tiles labeled "New",
+  "Improved", "Fixed", "API" — each a tight card with a one-line
+  change description and a tiny commit-style monospace tag. Crisp,
+  developer-aesthetic, very Vercel-adjacent.
+constraints:
+  - Exactly four tiles arranged 2x2, equal size
+  - Each tile has a status label badge in the top-left
+  - Body copy in neutral sans, tags in monospace
+  - Tile background slightly lighter than the page ground
+inspiration:
+  - linear-changelog
+  - vercel-dashboard
+  - dev-changelog
+  - product-release-notes
+paletteHint: near-black canvas with charcoal tiles, off-white text, and accent badges in violet, green, amber, and blue

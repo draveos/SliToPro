@@ -1,0 +1,19 @@
+id: newsletter-info-05
+category: newsletter-info
+brief: |
+  A family-update newsletter slide for grandparents — sent quarterly
+  with photos of the kids. Photo strip across the top with three
+  candid family snapshots, a warm greeting headline, a short
+  paragraph of news in body serif, and a hand-signed-off "Love, the
+  Kim family" at the bottom.
+constraints:
+  - Three-photo strip across the top in equal squares
+  - Greeting headline in friendly script
+  - Short paragraph of news in warm body serif
+  - Handwritten-style sign-off at the bottom right
+inspiration:
+  - family-newsletter
+  - holiday-update
+  - personal-bulletin
+  - kinfolk-family
+paletteHint: warm ivory paper with sepia-toned photos, soft brown body serif, and a single dusty-rose script greeting

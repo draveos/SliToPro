@@ -1,0 +1,18 @@
+id: minimalist-05
+category: minimalist
+brief: |
+  A Helvetica-only typography poster slide announcing a single concept
+  word. The whole canvas is the word — set huge, tightly tracked, ranged
+  left, with a tiny date and venue at the bottom corner. The discipline
+  of Massimo Vignelli or Unimark.
+constraints:
+  - One enormous word fills 70% of canvas height
+  - Helvetica or Neue Haas Grotesk only, one weight throughout
+  - All metadata clusters in the bottom-left in 10pt
+  - No graphics, no images, no color blocks
+inspiration:
+  - massimo-vignelli
+  - unimark
+  - helvetica-poster
+  - american-modernism
+paletteHint: ivory background with a single saturated cobalt word and black metadata

@@ -1,0 +1,18 @@
+id: y2k-retro-05
+category: y2k-retro
+brief: |
+  A MySpace-profile-page slide circa 2006. Black background with a
+  glittery cursor trail effect, a profile-photo box with custom
+  border, scrolling friend list snippet, and a "Top 8" friends grid.
+  Emo-leaning, scene-kid coded.
+constraints:
+  - Black background with subtle starfield pattern
+  - Profile photo box with thick patterned border
+  - Scrolling text strip element across the middle
+  - Top 8 grid of square portraits at the bottom
+inspiration:
+  - myspace-profile
+  - scene-kid-2006
+  - emo-aesthetic
+  - early-social-media
+paletteHint: jet black ground with hot pink and acid green type, glittery silver borders, and grayscale photo grid

@@ -1,0 +1,18 @@
+id: corporate-pro-03
+category: corporate-pro
+brief: |
+  A Linear-roadmap slide for an internal product review. A horizontal
+  swimlane chart showing quarters across the top, three workstream
+  rows, and pill-shaped milestones with small status dots. Confident,
+  geometric, restrained.
+constraints:
+  - Horizontal timeline divided into four quarter columns
+  - Three workstream rows of equal height, labeled at left
+  - Milestones rendered as rounded pills with status dots
+  - Today line as a vertical dashed rule
+inspiration:
+  - linear-roadmap
+  - product-roadmap
+  - dev-planning
+  - swimlane-chart
+paletteHint: deep midnight ground with soft purple swimlanes, white type, and status dots in green, amber, and rose

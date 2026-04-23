@@ -1,0 +1,19 @@
+id: data-dashboard-05
+category: data-dashboard
+brief: |
+  A government-open-data portal landing slide showing public
+  statistics. A choropleth map taking the left half, a clean ranked
+  bar chart on the right, ministry seal in the upper-left, and an
+  open-data CC license stamp at the bottom. The voice of GOV.UK or
+  data.gov.kr.
+constraints:
+  - Choropleth map left, ranked bars right, equal weight
+  - Ministry seal locked top-left at modest size
+  - CC license stamp at bottom-right in 9pt
+  - Single typeface (e.g., Public Sans) throughout, two weights
+inspiration:
+  - gov-uk
+  - data-gov-kr
+  - public-sector-data
+  - civic-design
+paletteHint: pure white ground with civic navy type, GOV-green map fill ramp, and a single muted brick bar accent

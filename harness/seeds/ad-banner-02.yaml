@@ -1,0 +1,18 @@
+id: ad-banner-02
+category: ad-banner
+brief: |
+  A magazine-spread print ad slide for a luxury watch — full-bleed
+  image, a wristshot or detail shot of the movement, brand wordmark in
+  the lower right, a single line of body copy in italics across the
+  bottom gutter. The rhythm of a Vogue back-page Patek ad.
+constraints:
+  - Full-bleed photograph with no border
+  - Brand wordmark anchored bottom-right at modest scale
+  - One italic line of copy, no more than 12 words
+  - Optical center of subject sits on the upper-third line
+inspiration:
+  - vogue-print-ad
+  - patek-philippe
+  - rolex-magazine
+  - luxury-print
+paletteHint: rich olive-green photographic ground with warm gold wordmark and ivory italic copy

@@ -1,0 +1,18 @@
+id: corporate-pro-04
+category: corporate-pro
+brief: |
+  A Goldman-Sachs-style client-deck cover. Conservative serif title
+  centered on a dark ground, a subtitle in tracked small caps, the
+  client name in a tasteful chip beneath, and the bank's wordmark in
+  a fine outlined frame at the bottom. Restrained financial gravitas.
+constraints:
+  - Centered composition with strong vertical symmetry
+  - Title in classic transitional serif, never sans
+  - Tracked small-caps subtitle directly under the title
+  - Hairline outlined frame around the bottom wordmark
+inspiration:
+  - goldman-sachs-deck
+  - investment-banking-cover
+  - financial-services-deck
+  - private-wealth
+paletteHint: deep navy field with bone white serif title and a thin warm gold framing rule

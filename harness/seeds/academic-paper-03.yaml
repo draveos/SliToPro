@@ -1,0 +1,18 @@
+id: academic-paper-03
+category: academic-paper
+brief: |
+  A math-heavy lecture slide on linear algebra. Definition box at the
+  top, a theorem statement set in italic body serif, and a proof
+  sketch with numbered steps using LaTeX-style math. Computer Modern
+  typeface throughout.
+constraints:
+  - Computer Modern or Latin Modern typeface throughout
+  - Definition box with thin rule frame at top
+  - Theorem statement in italic body
+  - Proof steps numbered with parenthesized integers
+inspiration:
+  - latex-beamer
+  - computer-modern
+  - math-lecture
+  - mit-ocw-slide
+paletteHint: pure white with deep black Computer Modern type and one muted royal-blue definition-box rule

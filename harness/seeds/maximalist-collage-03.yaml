@@ -1,0 +1,18 @@
+id: maximalist-collage-03
+category: maximalist-collage
+brief: |
+  A graduating design-school portfolio cover slide. A confident,
+  exuberant mix: name set huge in a custom display face, a self-
+  portrait collaged from cut paper, multiple discipline tags scattered
+  as stickers, and a contact line tucked into the bottom edge.
+constraints:
+  - Name occupies at least 35% of canvas height
+  - Cut-paper or collage texture on at least one element
+  - Discipline tags arranged as pseudo-stickers at random rotations
+  - Contact info ranged left along the bottom margin
+inspiration:
+  - design-school-portfolio
+  - graduate-show
+  - cut-paper-collage
+  - art-direction-portfolio
+paletteHint: vibrant marigold ground with cobalt, hot pink, paper white, and ink black type

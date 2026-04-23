@@ -1,0 +1,18 @@
+id: cyberpunk-neon-05
+category: cyberpunk-neon
+brief: |
+  A cybersecurity briefing slide for an internal red-team report.
+  Dark interface ground, a vertical sidebar of monospace status
+  glyphs, a central panel with a glowing neon threat-level chip, and
+  a tabular target list with IP addresses and risk scores.
+constraints:
+  - Dark interface background with subtle grid pattern
+  - Vertical sidebar of monospace status glyphs at left
+  - Threat-level chip with glowing neon outline at top center
+  - Target list table with IPs in monospace and risk scores
+inspiration:
+  - cybersec-briefing
+  - palantir-ui
+  - red-team-report
+  - dark-interface
+paletteHint: deep midnight ground with neon cyan grid, hot magenta threat chip, and bone monospace type

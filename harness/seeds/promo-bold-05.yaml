@@ -1,0 +1,18 @@
+id: promo-bold-05
+category: promo-bold
+brief: |
+  A championship-game sports event slide for a basketball matchup.
+  Two team names slammed together with a giant "VS" between, jersey
+  numbers floating as background ornament, time and arena info in a
+  scoreboard-style strip. Energy of an ESPN broadcast graphics package.
+constraints:
+  - Two team marks at equal weight separated by an oversized VS
+  - Jersey-number outlines used as background watermark at low opacity
+  - Scoreboard strip across the bottom with monospaced time
+  - Diagonal split background, one color per team
+inspiration:
+  - espn-graphics
+  - nba-broadcast
+  - sports-key-art
+  - super-bowl-promo
+paletteHint: split court-side red and royal blue with chrome-white type and a thin gold dividing line

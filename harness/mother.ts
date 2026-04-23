@@ -37,6 +37,11 @@ const PALETTES_PATH = path.join(REPO_ROOT, 'src/data/palettes.json');
 const TEXT_MODEL = process.env.HARNESS_TEXT_MODEL ?? 'sonnet';
 const RENDER_MODEL = process.env.HARNESS_RENDER_MODEL ?? 'opus';
 const MAX_RETRIES = 2;
+const CONCURRENCY = parseInt(process.env.HARNESS_CONCURRENCY ?? '10', 10);
+
+function logLine(slug: string, msg: string): void {
+  console.log(`[${slug}] ${msg}`);
+}
 
 interface Seed {
   id: string;
@@ -280,16 +285,17 @@ interface RunResult {
 async function processOne(seedPath: string): Promise<RunResult> {
   const seed = loadSeed(seedPath);
   const slug = seed.id;
-  console.log(`\n→ ${slug} (${seed.category})`);
+  logLine(slug, `start (${seed.category})`);
 
   fs.mkdirSync(DRAFTS_DIR, { recursive: true });
   fs.mkdirSync(TEMPLATES_DIR, { recursive: true });
 
   let metadata: GeneratedMetadata;
   try {
-    console.log(`  [generator]`);
+    logLine(slug, 'generator');
     metadata = await runGenerator(seed);
   } catch (e) {
+    logLine(slug, `FAIL generator: ${(e as Error).message}`);
     return { ok: false, errors: [(e as Error).message] };
   }
 
@@ -298,12 +304,13 @@ async function processOne(seedPath: string): Promise<RunResult> {
   const examples: { kind: string; promptCore: string; svg: string; layoutNotes: string }[] = [];
   for (const kind of EXAMPLE_KINDS) {
     try {
-      console.log(`  [planner:${kind}]`);
+      logLine(slug, `planner:${kind}`);
       const plan = await runPlanner(metadata, kind);
-      console.log(`  [renderer:${kind}]`);
+      logLine(slug, `renderer:${kind}`);
       const svg = await runRenderer(metadata, kind, plan, palette);
       examples.push({ kind, promptCore: plan.promptCore, svg, layoutNotes: plan.layoutNotes });
     } catch (e) {
+      logLine(slug, `FAIL ${kind}: ${(e as Error).message}`);
       return { ok: false, errors: [`example ${kind} failed: ${(e as Error).message}`] };
     }
   }
@@ -321,22 +328,44 @@ async function processOne(seedPath: string): Promise<RunResult> {
   // Validate via Zod
   const result = TemplateSchema.safeParse(JSON.parse(fs.readFileSync(finalPath, 'utf-8')));
   if (!result.success) {
-    return {
-      ok: false,
-      outputPath: finalPath,
-      errors: result.error.issues.map((i) => `${i.path.join('.')}: ${i.message}`),
-    };
+    const errs = result.error.issues.map((i) => `${i.path.join('.')}: ${i.message}`);
+    logLine(slug, `FAIL validation: ${errs.join('; ')}`);
+    return { ok: false, outputPath: finalPath, errors: errs };
   }
 
   // Run file-level validator (id/slug/filename/palette existence)
   const fileIssues = validateFile(finalPath);
   const errors = fileIssues.filter((i) => i.level === 'error');
   if (errors.length > 0) {
+    logLine(slug, `FAIL file-validation: ${errors.map((e) => e.message).join('; ')}`);
     return { ok: false, outputPath: finalPath, errors: errors.map((e) => e.message) };
   }
 
-  console.log(`  ✓ ${path.relative(REPO_ROOT, finalPath)}`);
+  logLine(slug, 'OK');
   return { ok: true, outputPath: finalPath };
+}
+
+async function runWithConcurrency<T>(
+  items: T[],
+  limit: number,
+  fn: (item: T) => Promise<RunResult>,
+): Promise<{ item: T; result: RunResult }[]> {
+  const out: { item: T; result: RunResult }[] = new Array(items.length);
+  let next = 0;
+  async function worker() {
+    while (true) {
+      const i = next++;
+      if (i >= items.length) return;
+      try {
+        const result = await fn(items[i]);
+        out[i] = { item: items[i], result };
+      } catch (e) {
+        out[i] = { item: items[i], result: { ok: false, errors: [(e as Error).message] } };
+      }
+    }
+  }
+  await Promise.all(Array.from({ length: Math.max(1, limit) }, () => worker()));
+  return out;
 }
 
 async function main() {
@@ -361,19 +390,15 @@ async function main() {
     process.exit(1);
   }
 
-  const results: { seed: string; result: RunResult }[] = [];
-  for (const seedPath of seedPaths) {
-    try {
-      const result = await processOne(seedPath);
-      results.push({ seed: seedPath, result });
-    } catch (e) {
-      results.push({ seed: seedPath, result: { ok: false, errors: [(e as Error).message] } });
-    }
-  }
+  console.log(`\n=== Running ${seedPaths.length} seeds, concurrency=${CONCURRENCY} ===\n`);
+  const startedAt = Date.now();
 
-  console.log('\n=== Summary ===');
+  const results = await runWithConcurrency(seedPaths, CONCURRENCY, processOne);
+
+  const durationMin = ((Date.now() - startedAt) / 60000).toFixed(1);
+  console.log(`\n=== Summary (${durationMin} min) ===`);
   let failures = 0;
-  for (const { seed, result } of results) {
+  for (const { item: seed, result } of results) {
     const name = path.basename(seed);
     if (result.ok) {
       console.log(`✓ ${name}`);

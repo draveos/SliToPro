@@ -1,0 +1,18 @@
+id: promo-bold-02
+category: promo-bold
+brief: |
+  A Nike-style sneaker drop announcement slide. Full-bleed product shot
+  at a 30-degree dynamic angle, oversized model name slammed across the
+  shoe in italic display type, a small drop date countdown chip in the
+  corner. Reads like SNKRS app hero art.
+constraints:
+  - Sneaker rendered at large scale, partially clipped by the canvas edge
+  - Italic compressed display type overlapping the product
+  - One color block diagonal stripe behind the shoe
+  - Drop date in a pill chip with monospaced numerals
+inspiration:
+  - nike-snkrs
+  - off-white
+  - sneaker-drop
+  - sportswear-graphic
+paletteHint: athletic white with a single hot orange diagonal block and jet black type

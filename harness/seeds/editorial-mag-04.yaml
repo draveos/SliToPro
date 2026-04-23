@@ -1,0 +1,18 @@
+id: editorial-mag-04
+category: editorial-mag
+brief: |
+  An IDEO-journal-style design-research feature spread. A scientific
+  sans headline, a system diagram on the left page (here, the left
+  half), a process-pull-quote on the right, and a footer crediting
+  the contributing researchers. Reads like a thoughtful internal essay.
+constraints:
+  - Two-pane composition, diagram left, prose right
+  - Pull quote set in italic at 24pt with em-dash attribution beneath
+  - Sans-serif throughout, one family at three weights
+  - Hairline frame around the diagram, no fill
+inspiration:
+  - ideo-journal
+  - design-research
+  - systems-thinking
+  - process-essay
+paletteHint: pale paper background with charcoal body type and a single tomato-red diagram accent

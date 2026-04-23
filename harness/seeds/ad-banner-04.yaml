@@ -1,0 +1,18 @@
+id: ad-banner-04
+category: ad-banner
+brief: |
+  A subway-car OOH transit poster slide for a mental-health nonprofit.
+  Vertical aspect, a calm illustrated figure, a sentence-long supportive
+  message, a hotline number, and the org wordmark. Tone modeled on the
+  TfL or NYC MTA public-service campaigns.
+constraints:
+  - Vertical 2:3 framing assumed
+  - Single illustrated figure occupies the upper half
+  - One sentence in friendly humanist sans, ranged left below figure
+  - Hotline number set large and accessible at the very bottom
+inspiration:
+  - tfl-ooh
+  - nyc-mta-psa
+  - public-service-campaign
+  - mental-health-poster
+paletteHint: muted sage green with warm cream type and a single saturated marigold for the hotline

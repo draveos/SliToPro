@@ -1,0 +1,18 @@
+id: maximalist-collage-04
+category: maximalist-collage
+brief: |
+  A risograph-printed zine page introducing a poetry chapbook. Two-
+  color riso registration intentionally off, halftone textures at
+  large dot size, hand-set typography that looks photocopied, and a
+  staple icon at the corner suggesting binding.
+constraints:
+  - Two-color riso aesthetic with deliberate misregistration offset
+  - Visible large-dot halftone texture on at least one shape
+  - All type set as if photocopied — slight blur and contrast loss
+  - Staple or binding mark in one corner
+inspiration:
+  - riso-zine
+  - chapbook
+  - photocopy-aesthetic
+  - small-press-poetry
+paletteHint: warm cream paper with riso fluorescent pink and federal blue, slightly out of registration

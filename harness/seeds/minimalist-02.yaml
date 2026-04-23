@@ -1,0 +1,18 @@
+id: minimalist-02
+category: minimalist
+brief: |
+  A Muji-catalog-style lifestyle slide introducing a household goods line.
+  Soft natural light, beige paper background, one small object photographed
+  flatly, Japanese-pragmatic captioning underneath. Speaks of utility and
+  restraint, not luxury.
+constraints:
+  - Object centered with deep top and bottom margins
+  - Caption set in two languages stacked, the second smaller
+  - No bold weights; rely on size and spacing for hierarchy
+  - Hairline divider rule under the caption block
+inspiration:
+  - muji-catalog
+  - kenya-hara
+  - ryohin-keikaku
+  - japanese-stationery
+paletteHint: unbleached paper beige with warm gray text and the natural color of the photographed object as the only chroma

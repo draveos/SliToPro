@@ -1,0 +1,18 @@
+id: luxe-dark-gold-04
+category: luxe-dark-gold
+brief: |
+  A Rolex-style heritage product slide. A deep dark backdrop with
+  spotlight gradient, a single watch dial photographed dead-center,
+  the model name in their classic serif underneath, and a tiny
+  reference number. The unfussy gravity of a Rolex catalog page.
+constraints:
+  - Single watch dial photographed centered
+  - Soft radial spotlight gradient behind the watch
+  - Model name in elegant serif directly under the watch
+  - Reference number in 8pt monospace at the very bottom
+inspiration:
+  - rolex-catalog
+  - patek-philippe-heritage
+  - swiss-watchmaking
+  - haute-horlogerie
+paletteHint: deep midnight black with cool spotlight gray, warm champagne-gold dial, and bone-ivory type

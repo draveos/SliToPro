@@ -1,0 +1,18 @@
+id: y2k-retro-04
+category: y2k-retro
+brief: |
+  A Web-1.0 GeoCities-style slide. Tiled pixel background, a marquee
+  banner at the top with rainbow gradient text, an animated-GIF
+  placeholder mailbox, "under construction" cone, hit counter
+  rectangle, and Comic Sans body copy.
+constraints:
+  - Tiled patterned background visible across entire canvas
+  - Rainbow gradient marquee bar at top
+  - At least two retro web clipart elements
+  - Comic Sans or Times New Roman body copy
+inspiration:
+  - geocities
+  - web-1-0
+  - 1998-homepage
+  - early-internet
+paletteHint: tiled lime green background with rainbow gradient text, hot red Comic Sans body, and clip-art accent colors

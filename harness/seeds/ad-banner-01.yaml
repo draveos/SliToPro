@@ -1,0 +1,18 @@
+id: ad-banner-01
+category: ad-banner
+brief: |
+  An Instagram-square sponsored ad slide for a DTC skincare brand. Soft
+  product still-life on a blush backdrop, a one-line benefit headline,
+  a small swipe-up arrow, and the brand wordmark tucked low. Reads like
+  a Glossier or Topicals carousel post.
+constraints:
+  - Strict square 1:1 framing assumed; key content within safe area
+  - Product photographed in natural directional light
+  - Headline maximum 6 words, set in soft humanist sans
+  - Brand wordmark and CTA below the product, never above
+inspiration:
+  - glossier-instagram
+  - topicals-carousel
+  - dtc-skincare
+  - igtv-ad
+paletteHint: warm blush pink ground with cream highlights and soft terracotta type

@@ -1,0 +1,18 @@
+id: promo-bold-01
+category: promo-bold
+brief: |
+  A late-night concert poster slide for an indie rock festival. Stacked
+  display type squeezed to the edges, an artist headline on top, support
+  acts beneath, and a screen-printed grit overlay. Channels Hatch Show
+  Print mixed with modern Pitchfork-festival lineup graphics.
+constraints:
+  - Stacked all-caps display type filling 85% of the canvas
+  - Two contrasting display faces — one slab, one condensed sans
+  - Halftone or ink-bleed texture overlay across the type
+  - Date and venue in a tight ticker strip at the bottom edge
+inspiration:
+  - hatch-show-print
+  - pitchfork-festival
+  - third-man-records
+  - gig-poster
+paletteHint: bone white background with risograph red and deep ink-black, no third color

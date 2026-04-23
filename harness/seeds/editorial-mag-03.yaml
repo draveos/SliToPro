@@ -1,0 +1,18 @@
+id: editorial-mag-03
+category: editorial-mag
+brief: |
+  A literary-journal opener slide in the spirit of The Drift or n+1. A
+  quiet, asymmetric typographic composition: a long titular phrase in
+  a transitional serif, an author name beneath, and a tiny essay-number
+  glyph in the corner. No images. The page is the design.
+constraints:
+  - Type-only composition, no photography or illustration
+  - Title set in transitional serif at modest display size
+  - Asymmetric placement — title sits in upper-left third
+  - Essay number set as Roman numerals, hairline weight, top-right
+inspiration:
+  - the-drift-magazine
+  - n-plus-one
+  - paris-review
+  - literary-journal
+paletteHint: warm bone paper with espresso-brown body type and a deep oxblood numeral

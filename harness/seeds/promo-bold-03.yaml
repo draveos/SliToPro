@@ -1,0 +1,18 @@
+id: promo-bold-03
+category: promo-bold
+brief: |
+  A retail sale headline slide — the kind seen in fast-fashion email
+  hero banners. One enormous percentage number occupies the entire left
+  half, a short imperative phrase on the right, and a tight price-tag
+  rectangle as a visual anchor. Loud, urgent, unsubtle.
+constraints:
+  - Percentage number set at 400pt+ in compressed black display
+  - Imperative call-to-action no longer than four words
+  - Hard rectangular color block as background, no gradients
+  - Tiny disclaimer fine print along the bottom edge
+inspiration:
+  - h-and-m-sale
+  - zara-promo
+  - black-friday
+  - fast-fashion-email
+paletteHint: aggressive primary red background with bone white type and a single black price tag

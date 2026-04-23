@@ -1,0 +1,18 @@
+id: minimalist-03
+category: minimalist
+brief: |
+  A Swiss-grid academic conference slide for a theoretical computer
+  science talk. Eight-column grid visible only through alignment,
+  Akzidenz or Helvetica, a flush-left title, and a body block sitting
+  exactly three baselines below it. Reads like a Müller-Brockmann poster.
+constraints:
+  - Strict 8-column grid, gutters equal to baseline
+  - Flush-left ragged-right text only
+  - Title at 48pt, body at 16pt, caption at 11pt — no other sizes
+  - One thin black horizontal rule at the optical center of the page
+inspiration:
+  - josef-muller-brockmann
+  - swiss-typography
+  - neue-haas-grotesk
+  - international-typographic-style
+paletteHint: pure white with black text and one red rule at 100% saturation

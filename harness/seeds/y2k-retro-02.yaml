@@ -1,0 +1,18 @@
+id: y2k-retro-02
+category: y2k-retro
+brief: |
+  A Frutiger-Aero desktop wallpaper-style slide — glossy translucent
+  bubbles floating against a hyper-saturated nature photograph, soft
+  Microsoft-Vista-era widget frames, and a gently shimmering glass
+  text panel with a one-line wellness phrase.
+constraints:
+  - Hyper-saturated nature photo as the base
+  - Glossy 3D bubbles or droplets floating in foreground
+  - One translucent rounded glass panel for the headline
+  - Soft inner light highlights on every glassy element
+inspiration:
+  - frutiger-aero
+  - windows-vista
+  - 2007-stock-photography
+  - corporate-bubbles
+paletteHint: tropical aqua water and saturated leaf-green with glossy white bubbles and soft sky-blue type
