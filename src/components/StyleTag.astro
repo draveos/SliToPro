@@ -1,0 +1,13 @@
+---
+interface Props {
+  label: string;
+  variant?: 'style' | 'use';
+}
+const { label, variant = 'style' } = Astro.props;
+const classes = variant === 'style'
+  ? 'border-[var(--color-border)] text-[var(--color-fg)]'
+  : 'border-[var(--color-accent)]/40 text-[var(--color-accent)]';
+---
+<span class:list={['inline-flex items-center px-2 py-0.5 text-xs uppercase tracking-wider border rounded-sm', classes]}>
+  {label}
+</span>

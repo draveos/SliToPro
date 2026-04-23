@@ -1,0 +1,45 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { title = 'SliToPro', description = 'Slide design templates, paired with prompts you can paste into any LLM.' } = Astro.props;
+const titleFull = title === 'SliToPro' ? 'SliToPro — Slide to Prompt' : `${title} · SliToPro`;
+const baseUrl = import.meta.env.BASE_URL;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href={`${baseUrl}favicon.svg`} />
+    <title>{titleFull}</title>
+  </head>
+  <body class="min-h-screen flex flex-col">
+    <header class="border-b border-[var(--color-border)]">
+      <div class="max-w-6xl mx-auto px-6 py-5 flex items-center justify-between">
+        <a href={baseUrl} class="font-serif text-xl tracking-tight text-[var(--color-fg)] hover:text-[var(--color-accent)] transition-colors">
+          SliToPro<span class="text-[var(--color-accent)]">.</span>
+        </a>
+        <nav class="flex gap-6 text-sm text-[var(--color-muted)]">
+          <a href={baseUrl} class="hover:text-[var(--color-fg)] transition-colors">Gallery</a>
+          <a href={`${baseUrl}about/`} class="hover:text-[var(--color-fg)] transition-colors">About</a>
+          <a href="https://github.com/draveos/SliToPro" target="_blank" rel="noopener" class="hover:text-[var(--color-fg)] transition-colors">GitHub</a>
+        </nav>
+      </div>
+    </header>
+    <main class="flex-1">
+      <slot />
+    </main>
+    <footer class="border-t border-[var(--color-border)] mt-24">
+      <div class="max-w-6xl mx-auto px-6 py-8 text-sm text-[var(--color-muted)] flex flex-col sm:flex-row justify-between gap-2">
+        <span>Slide to Prompt — copy a style, paste into any LLM.</span>
+        <span>Built by <a href="https://github.com/draveos" class="hover:text-[var(--color-fg)] transition-colors">draveos</a></span>
+      </div>
+    </footer>
+  </body>
+</html>

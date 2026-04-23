@@ -1,0 +1,41 @@
+---
+import Base from '../layouts/Base.astro';
+import TemplateCard from '../components/TemplateCard.astro';
+import FilterBar from '../components/FilterBar.tsx';
+import { templates } from '../lib/loadTemplates';
+---
+<Base>
+  <section class="max-w-6xl mx-auto px-6 pt-16 pb-10">
+    <h1 class="font-serif text-5xl sm:text-6xl tracking-tight leading-[1.05] max-w-3xl">
+      Slide design templates,<br />
+      <span class="text-[var(--color-accent)]">paired with prompts</span> you can paste anywhere.
+    </h1>
+    <p class="mt-6 text-lg text-[var(--color-muted)] max-w-2xl leading-relaxed">
+      Browse the gallery. Click a template. Copy its prompt. Paste into Claude, ChatGPT, or Gemini to generate a slide in that exact style. No accounts. No API.
+    </p>
+  </section>
+
+  <section class="max-w-6xl mx-auto px-6 pb-24">
+    {templates.length === 0 ? (
+      <div class="border border-dashed border-[var(--color-border)] rounded-lg p-12 text-center text-[var(--color-muted)]">
+        <p class="font-serif text-2xl text-[var(--color-fg)] mb-2">No templates yet.</p>
+        <p>Run <code class="font-mono text-sm text-[var(--color-accent)]">pnpm harness:all</code> to generate the seed batch.</p>
+      </div>
+    ) : (
+      <>
+        <FilterBar templates={templates} client:load />
+        <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {templates.map((t) => (
+            <div data-slug={t.slug}>
+              <TemplateCard template={t} />
+            </div>
+          ))}
+        </div>
+        <div id="empty-state" style="display: none" class="text-center text-[var(--color-muted)] mt-16">
+          <p class="font-serif text-xl mb-1">No templates match.</p>
+          <p class="text-sm">Try a different style or clear the search.</p>
+        </div>
+      </>
+    )}
+  </section>
+</Base>

@@ -1,0 +1,38 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="About">
+  <section class="max-w-2xl mx-auto px-6 py-20 prose-invert">
+    <h1 class="font-serif text-4xl tracking-tight mb-8">About SliToPro</h1>
+
+    <div class="space-y-5 text-[var(--color-fg)]/90 leading-relaxed">
+      <p>
+        SliToPro is a curated catalog of slide design templates. Each template comes with a prompt — a dense, LLM-ready style description — that you can copy and paste into Claude, ChatGPT, Gemini, or any other model to generate a slide in that exact aesthetic.
+      </p>
+      <p>
+        No accounts. No API. No subscription. The site is fully static, hosted on GitHub Pages.
+      </p>
+
+      <h2 class="font-serif text-2xl mt-10 mb-3">How it works</h2>
+      <ol class="space-y-2 list-decimal pl-5">
+        <li>Browse the gallery. Filter by style (editorial, brutalist, bento, etc.) or use case.</li>
+        <li>Click a template. Read the description, palette, layout notes.</li>
+        <li>Edit the prompt's <code class="font-mono text-sm text-[var(--color-accent)]">CONTENT TO PLACE</code> section with your own slide content.</li>
+        <li>Copy. Paste into your LLM of choice. Get a slide.</li>
+      </ol>
+
+      <h2 class="font-serif text-2xl mt-10 mb-3">How templates are made</h2>
+      <p>
+        Templates are not hand-authored. A local pipeline (the "harness") takes a short YAML seed and runs it through two Claude agents — a generator and a translator — to produce the structured JSON template. The validator gates everything before it lands in the site.
+      </p>
+      <p>
+        See <a href="https://github.com/draveos/SliToPro" class="text-[var(--color-accent)] hover:underline">the repo</a> for the harness code and to contribute new seeds.
+      </p>
+
+      <h2 class="font-serif text-2xl mt-10 mb-3">Contributing</h2>
+      <p>
+        Open a PR adding a new <code class="font-mono text-sm text-[var(--color-accent)]">harness/seeds/{'{slug}'}.yaml</code>. Run the harness locally to generate the JSON. Commit both. The site picks it up automatically on the next build.
+      </p>
+    </div>
+  </section>
+</Base>
