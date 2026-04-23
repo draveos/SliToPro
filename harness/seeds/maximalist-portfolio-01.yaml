@@ -1,0 +1,19 @@
+id: maximalist-portfolio-01
+style: maximalist
+useCase: portfolio
+brief: |
+  A maximalist portfolio slide that reads like the index page of a Big Cartel store run by a
+  Y2K-obsessed designer — collaged thumbnails at varied scales and rotations, a chunky display
+  wordmark, sticker-like badges and ribbons, retro web textures. For a creative whose brand
+  IS the visual cacophony — the more, the more them.
+constraints:
+  - Minimum 5 visual elements layered with overlap and slight rotation (not a clean grid)
+  - At least one "sticker" element (badge, ribbon, or stamp) breaking the layout
+  - Mix of photographic, vector, and typographic content in the same composition
+  - Despite the chaos, name and one contact detail must be findable in under 3 seconds
+inspiration:
+  - big-cartel-stores
+  - y2k-web-aesthetic
+  - tumblr-2014
+  - david-carson-spreads
+colorHint: hot pink and electric purple gradient base, lime and tangerine accents, dropshadowed white type with chrome-gradient highlights

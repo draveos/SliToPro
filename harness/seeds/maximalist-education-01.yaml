@@ -1,0 +1,19 @@
+id: maximalist-education-01
+style: maximalist
+useCase: education
+brief: |
+  A noisy, joyful classroom slide that looks like a Risograph zine printed in an art-school
+  studio at 2am — layered colors slightly misregistered, hand-drawn arrows annotating concepts,
+  collaged textures, mixed display and serif type. Designed for educators who believe memory
+  follows emotion: students remember the slide because it felt alive, not because it was tidy.
+constraints:
+  - At least three distinct typefaces mixed intentionally (display, serif, handwritten)
+  - Visible riso-grain or paper texture across the background; slight color misregistration on key elements
+  - Hand-annotation marks (circles, arrows, underlines) layered over typeset content
+  - Concept hierarchy still readable in 5 seconds despite the visual density
+inspiration:
+  - cavalry-magazine
+  - risograph-zines
+  - it-s-nice-that-classroom
+  - 90s-mtv-graphics
+colorHint: cream paper base with overprinted riso pink, fluorescent yellow, and bottle-green layers that bleed and overlap

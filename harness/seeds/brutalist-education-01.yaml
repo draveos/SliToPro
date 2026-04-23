@@ -1,0 +1,19 @@
+id: brutalist-education-01
+style: brutalist
+useCase: education
+brief: |
+  A brutalist lecture slide that teaches like a punk show — oversized concept word as the entire
+  hero, definition slammed underneath in a small monospace block. Memorable because it refuses
+  to be quiet. For the professor who wants students to remember one term forever, not skim
+  twelve bullets they'll forget by lunch.
+constraints:
+  - One concept per slide — single oversized term is the centerpiece, no exceptions
+  - Definition body capped at 60 words, set in monospace for that "terminal output" feel
+  - Hard ruled lines (1-2px solid) used as structural dividers, never decorative
+  - No icons, no illustrations — type and rules only
+inspiration:
+  - wim-crouwel-posters
+  - early-emigre-magazine
+  - terminal-readouts
+  - punk-flyers
+colorHint: bone-white background, jet-black ink, one industrial yellow highlight band behind the key term

@@ -1,0 +1,19 @@
+id: editorial-portfolio-01
+style: editorial
+useCase: portfolio
+brief: |
+  An editorial portfolio slide that feels like the opening spread of Eye Magazine or a Wallpaper*
+  feature — confident asymmetry, an oversized display serif crashing against tiny captions, and
+  one hero image given room to breathe. For a designer or photographer who wants the page itself
+  to say "I have taste" before the work even loads.
+constraints:
+  - One dominant image (full-bleed or 60%+ width), never a grid of equal thumbnails
+  - Display serif headline allowed to overlap or kiss the image edge
+  - Caption metadata in small caps, set in a monospace or grotesk for contrast
+  - Generous outer margins; do not fill corner-to-corner
+inspiration:
+  - eye-magazine
+  - wallpaper-magazine
+  - it-s-nice-that
+  - apartamento
+colorHint: cool off-white paper, deep ink-black type, one saturated editorial accent (think magazine cover red or cobalt) used once
