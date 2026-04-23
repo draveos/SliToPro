@@ -43,7 +43,7 @@ export const TemplateSchema = z.object({
   slug: z.string().regex(SLUG),
   title: z.string().min(1),
   category: z.enum(CATEGORIES),
-  description: z.string().min(20).max(300),
+  description: z.string().min(20).max(400),
   philosophy: z.string().min(40),
   tags: z.array(z.string().min(1)).min(3).max(8),
   examples: z.array(ExampleSchema).length(2),
