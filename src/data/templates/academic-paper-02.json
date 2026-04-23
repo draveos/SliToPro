@@ -1,0 +1,45 @@
+{
+  "id": "academic-paper-02",
+  "slug": "academic-paper-02",
+  "title": "Seminar Folio — Humanities Block-Quote Lectern",
+  "category": "academic-paper",
+  "description": "A graduate seminar slide organized entirely around a centered block quotation in warm cream, with small-caps course code and a single oxblood accent — modeled on the spare typographic authority of an Ivy-league seminar handout rather than a projected deck.",
+  "philosophy": "This design takes its cue from the printed seminar packet: the text is the event, and the slide exists only to frame it. It refuses color variety, imagery, and any compositional device that would compete with close reading of a quoted passage. Wide vertical margins enforce a meditative pause; the oxblood accent appears exactly once, on the course code, signaling institutional gravity without ornamentation. It is made for seminar rooms of fifteen people, not auditoriums of five hundred.",
+  "tags": [
+    "block-quote",
+    "small-caps",
+    "serif-body",
+    "seminar",
+    "humanities",
+    "cream-paper"
+  ],
+  "defaultPaletteId": "warm-document",
+  "goodFor": [
+    "4–8 line block quotations from primary critical-theory sources",
+    "Graduate seminars and lecture series projected at close range",
+    "Philosophy, literary criticism, and cultural-theory courses",
+    "Slides that mirror the look of a course reading packet or handout"
+  ],
+  "avoidFor": [
+    "Chart-heavy quantitative or empirical research presentations",
+    "Conference keynotes in large auditoriums requiring visual impact at distance",
+    "Slides juggling multiple data panels or comparative layouts",
+    "Promotional, pitch, or sales decks requiring brand energy"
+  ],
+  "createdAt": "2026-04-23",
+  "author": "harness",
+  "examples": [
+    {
+      "kind": "title",
+      "promptCore": "Evokes the cover leaf of a printed graduate seminar packet — austere, unhurried, and typographically certain. The mood is meditative institutional authority: a single oxblood accent on the course code carries all the gravitas, while the warm cream field breathes generously around a sparse centered text stack. Compositional rhythm is strictly vertical and bilateral-symmetric, resisting lateral tension or decorative gesture. Avoid imagery, gradients, decorative rules beyond the single separator, or any element that competes with the quiet weight of the title itself.",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1920 1080\" preserveAspectRatio=\"xMidYMid meet\">\n  <rect width=\"1920\" height=\"1080\" fill=\"#f5f0e6\"/>\n\n  <!-- Course code: small caps, oxblood, centered -->\n  <text x=\"960\" y=\"410\" text-anchor=\"middle\"\n        font-family=\"Georgia, ui-serif, serif\"\n        font-size=\"22\" letter-spacing=\"10\"\n        fill=\"#7d2a2a\" font-weight=\"400\">\n    COMP&#8201;LIT&#8202;&#183;&#8202;GR&#8201;8412&#8202;&#183;&#8202;SPRING&#8201;SEMINAR\n  </text>\n\n  <!-- Hairline rule, the single structural ornament -->\n  <line x1=\"820\" y1=\"462\" x2=\"1100\" y2=\"462\" stroke=\"#1e1c1a\" stroke-width=\"1\"/>\n\n  <!-- Title: centered, serif, typographically certain -->\n  <text x=\"960\" y=\"572\" text-anchor=\"middle\"\n        font-family=\"Georgia, ui-serif, serif\"\n        font-size=\"78\" fill=\"#1e1c1a\" font-style=\"italic\" font-weight=\"400\">\n    The Weight of the Quoted Passage\n  </text>\n\n  <!-- Secondary title line -->\n  <text x=\"960\" y=\"652\" text-anchor=\"middle\"\n        font-family=\"Georgia, ui-serif, serif\"\n        font-size=\"38\" fill=\"#1e1c1a\" font-weight=\"400\" letter-spacing=\"2\">\n    Close Reading, Citation, and the Ethics of Attention\n  </text>\n\n  <!-- Subtitle / term / date at reduced scale -->\n  <text x=\"960\" y=\"738\" text-anchor=\"middle\"\n        font-family=\"Georgia, ui-serif, serif\"\n        font-size=\"22\" fill=\"#7a7468\" font-style=\"italic\" font-weight=\"400\">\n    A Graduate Seminar in Literary Hermeneutics  &#183;  Thursdays, 2:00&#8211;4:30 PM\n  </text>\n\n  <text x=\"960\" y=\"776\" text-anchor=\"middle\"\n        font-family=\"Georgia, ui-serif, serif\"\n        font-size=\"20\" fill=\"#7a7468\" letter-spacing=\"6\">\n    SPRING TERM MMXXVI\n  </text>\n\n  <!-- Instructor line, same scale as term, kept modest -->\n  <text x=\"960\" y=\"842\" text-anchor=\"middle\"\n        font-family=\"Georgia, ui-serif, serif\"\n        font-size=\"18\" fill=\"#7a7468\" letter-spacing=\"3\">\n    Prof. H. Marchetti  &#183;  Seminar Room 214, Whitaker Hall\n  </text>\n</svg>",
+      "layoutNotes": "Single centered column with generous outer margins of roughly 15% on each side and deep vertical padding top and bottom, enforcing the seminar-packet cover-leaf feel. Course code in small-caps sits above a hairline rule, which in turn sits above the centered title — the rule is the only structural ornament. Subtitle or term/date rests below the title at a noticeably reduced scale, completing the vertical stack. No header band, no footer bar, no page number — the bottom margin is as silent as the top."
+    },
+    {
+      "kind": "content",
+      "promptCore": "The slide evokes a page lifted from a photocopied graduate seminar packet and projected quietly in a small room — hushed, institutional, and entirely text-driven. The block quotation occupies a centered vertical column surrounded by an expanse of warm cream, the composition meditative and portrait-like rather than scanning or horizontal. A single note of deep oxblood on the course code signals scholarly authority without any further ornamentation. Avoid imagery, decorative rules, multi-column splits, or any element that would compete with the slow, close reading of the quoted passage.",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1920 1080\" preserveAspectRatio=\"xMidYMid meet\">\n  <rect width=\"1920\" height=\"1080\" fill=\"#f5f0e6\"/>\n\n  <!-- Course code, oxblood, small-caps, flush-left to quote column -->\n  <text x=\"480\" y=\"232\" font-family=\"Georgia, ui-serif, serif\" font-size=\"18\" fill=\"#7d2a2a\" letter-spacing=\"6\" font-weight=\"600\">\n    LIT&#160;&#160;724&#160;&#160;·&#160;&#160;SEMINAR&#160;IX&#160;&#160;·&#160;&#160;THE&#160;ARCHIVE&#160;AND&#160;THE&#160;WITNESS\n  </text>\n\n  <!-- Opening quotation mark, quietly oversized -->\n  <text x=\"462\" y=\"360\" font-family=\"Georgia, ui-serif, serif\" font-size=\"150\" fill=\"#7a7468\" opacity=\"0.55\">“</text>\n\n  <!-- Block quotation, centered in cols 3–10 (x ≈ 480 to 1440) -->\n  <g font-family=\"Georgia, ui-serif, serif\" fill=\"#1e1c1a\">\n    <text x=\"480\" y=\"398\" font-size=\"38\" font-style=\"italic\" font-weight=\"400\">\n      <tspan x=\"480\" dy=\"0\">To write history, then, is not to recover the</tspan>\n      <tspan x=\"480\" dy=\"62\">past but to inherit its silences — to sit with</tspan>\n      <tspan x=\"480\" dy=\"62\">the document long enough that its omissions</tspan>\n      <tspan x=\"480\" dy=\"62\">begin to speak louder than its assertions. The</tspan>\n      <tspan x=\"480\" dy=\"62\">archive is not a vault of evidence but a</tspan>\n      <tspan x=\"480\" dy=\"62\">grammar of power, and the historian who forgets</tspan>\n      <tspan x=\"480\" dy=\"62\">this mistakes the catalog for the world.</tspan>\n    </text>\n  </g>\n\n  <!-- Attribution, right-aligned to quote column, reduced hierarchy -->\n  <text x=\"1440\" y=\"850\" text-anchor=\"end\" font-family=\"Georgia, ui-serif, serif\" font-size=\"20\" fill=\"#7a7468\" font-style=\"italic\">\n    — Saidiya Hartman, <tspan font-style=\"normal\">Venus in Two Acts</tspan>, 2008, p. 11\n  </text>\n\n  <!-- Slide number, bottom-right, minimal -->\n  <text x=\"1860\" y=\"1030\" text-anchor=\"end\" font-family=\"Georgia, ui-serif, serif\" font-size=\"13\" fill=\"#7a7468\" letter-spacing=\"2\">07 / 24</text>\n</svg>",
+      "layoutNotes": "12-column grid; the block quotation occupies cols 3–10, centered laterally with wide gutters left and right enforcing the printed-folio feel. Vertical margins are deep and approximately equal top and bottom, so the quoted passage floats in cream space rather than pressing any edge. Course code sits flush-left in small-caps above the quote's opening line, carrying the single oxblood accent; the attribution line sits directly beneath the quote's close, right-aligned to the quote column, reduced in hierarchy. Slide number anchors bottom-right at minimal scale; no header band, no rule lines, no decorative frame."
+    }
+  ]
+}

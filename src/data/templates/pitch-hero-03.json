@@ -1,0 +1,45 @@
+{
+  "id": "pitch-hero-03",
+  "slug": "pitch-hero-03",
+  "title": "Ink Stage — All-Hands Vision Manifesto",
+  "category": "pitch-hero",
+  "description": "A single aspirational phrase commands an ink-black canvas with bone-white type scaled to the edge of discomfort — nothing competes. Unlike hero slides that layer sub-headlines or brand imagery, this one enforces silence as a deliberate design principle.",
+  "philosophy": "This slide exists for the moment before strategy begins — when a leader stands in front of five hundred people and says the one thing the company believes. It refuses sub-headlines, supporting visuals, and decorative texture because each addition dilutes the gravitational pull of the words. The muted gold company mark is present but deferential; the message owns the room. It is built for speakers who trust silence and audiences who came to be moved, not informed.",
+  "tags": [
+    "single-phrase",
+    "stage-opener",
+    "aspirational-type",
+    "all-hands",
+    "keynote-black",
+    "typographic-silence"
+  ],
+  "defaultPaletteId": "onyx-mustard",
+  "goodFor": [
+    "Company all-hands opening slide before the CEO takes the stage",
+    "Brand manifesto or vision-statement reveals at annual kickoffs",
+    "Post-rebrand or post-pivot cultural reset moments",
+    "Conference keynote openers where a single idea anchors the talk"
+  ],
+  "avoidFor": [
+    "Chart-heavy quarterly business reviews requiring data context",
+    "Multi-point agenda or roadmap slides",
+    "Investor decks where financials and traction must share the frame",
+    "Training or instructional decks with step-by-step content"
+  ],
+  "createdAt": "2026-04-23",
+  "author": "harness",
+  "examples": [
+    {
+      "kind": "title",
+      "promptCore": "The slide feels like a stage plunged into darkness the instant before a spotlight finds a single speaker — anticipatory, pressurized, and still. One phrase owns the entire canvas with the scale of a monument inscription, sized past conventional comfort so the words themselves become a physical presence rather than information to be read. The muted gold company mark signs the lower corner like a painter's initials — present but subordinate, never competing. Avoid gradients, surface texture, decorative flourishes, and any secondary typographic layer; the gravitational pull lives entirely in the tension between the phrase and the void surrounding it.",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1920 1080\" preserveAspectRatio=\"xMidYMid meet\">\n  <rect width=\"1920\" height=\"1080\" fill=\"#0d0d0d\"/>\n  <g font-family=\"Georgia, ui-serif, serif\" fill=\"#f4ead8\" text-anchor=\"middle\">\n    <text x=\"960\" y=\"505\" font-size=\"214\" font-weight=\"400\" letter-spacing=\"-4\">Build what</text>\n    <text x=\"960\" y=\"715\" font-size=\"214\" font-style=\"italic\" font-weight=\"400\" letter-spacing=\"-4\">outlives us.</text>\n  </g>\n  <g transform=\"translate(72,992)\">\n    <circle cx=\"18\" cy=\"18\" r=\"17.5\" fill=\"none\" stroke=\"#d6a82f\" stroke-width=\"1.25\"/>\n    <path d=\"M9 18 L18 9 L27 18 L18 27 Z\" fill=\"none\" stroke=\"#d6a82f\" stroke-width=\"1.25\"/>\n    <text x=\"52\" y=\"24\" font-family=\"ui-sans-serif, system-ui, sans-serif\" font-size=\"15\" letter-spacing=\"6\" fill=\"#d6a82f\">INK STAGE</text>\n  </g>\n</svg>",
+      "layoutNotes": "Full-bleed ink canvas with no outer margin band — only a minimal edge clearance prevents the phrase from literal clipping. Single aspirational phrase spans a 12-column grid at full width with equal micro-gutters left and right; vertical placement sits at optical center, pulled fractionally above the mathematical midpoint so the words read as commanding rather than floating. Company mark pins bottom-left at a deferential scale with no accompanying rule, band, or secondary element. No header, no footer rule, no page number — structural silence is absolute."
+    },
+    {
+      "kind": "content",
+      "promptCore": "The slide carries the same cathedral stillness as the title card but admits one quiet counterpoint — a single attribution or grounding phrase beneath the commanding statement, like a signature on a manifesto. The mood is monumental and unhurried; the composition breathes as if the room has gone silent mid-sentence. Asymmetric vertical weighting pulls focus upward, leaving the lower canvas as deliberate, pressurized void. Avoid illustration, iconography, texture overlays, or any list structure — the authority of this slide lives entirely in what is withheld.",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1920 1080\" preserveAspectRatio=\"xMidYMid meet\">\n  <rect width=\"1920\" height=\"1080\" fill=\"#f4ead8\"/>\n\n  <!-- Brand mark, bottom-left, near-invisible weight -->\n  <g transform=\"translate(160, 1000)\" opacity=\"0.55\">\n    <circle cx=\"14\" cy=\"-6\" r=\"13\" fill=\"none\" stroke=\"#d6a82f\" stroke-width=\"1\"/>\n    <text x=\"38\" y=\"0\" font-family=\"ui-sans-serif, system-ui, sans-serif\" font-size=\"14\" letter-spacing=\"6\" fill=\"#5a4f3a\">INK STAGE  /  ALL-HANDS  /  CH. II</text>\n  </g>\n\n  <!-- Page number, bottom-right -->\n  <g transform=\"translate(1760, 1000)\" opacity=\"0.55\">\n    <text x=\"0\" y=\"0\" font-family=\"ui-sans-serif, system-ui, sans-serif\" font-size=\"14\" letter-spacing=\"4\" fill=\"#5a4f3a\">02 — 14</text>\n  </g>\n\n  <!-- Top-left section tag, near-invisible -->\n  <g transform=\"translate(160, 110)\" opacity=\"0.5\">\n    <text x=\"0\" y=\"0\" font-family=\"ui-sans-serif, system-ui, sans-serif\" font-size=\"13\" letter-spacing=\"8\" fill=\"#5a4f3a\">THE MANIFESTO</text>\n  </g>\n\n  <!-- Primary statement: cols 2–10, anchored ~40% from top -->\n  <g font-family=\"Georgia, ui-serif, serif\" fill=\"#0d0d0d\">\n    <text x=\"160\" y=\"430\" font-size=\"138\" font-weight=\"400\" letter-spacing=\"-4\">We don&#8217;t ship features.</text>\n    <text x=\"160\" y=\"568\" font-size=\"138\" font-weight=\"400\" letter-spacing=\"-4\">We ship the courage to</text>\n    <text x=\"160\" y=\"706\" font-size=\"138\" font-weight=\"400\" letter-spacing=\"-4\">begin again<tspan fill=\"#d6a82f\">.</tspan></text>\n  </g>\n\n  <!-- Subordinate grounding line, with intentional silence above it -->\n  <g transform=\"translate(160, 880)\">\n    <text x=\"0\" y=\"0\" font-family=\"Georgia, ui-serif, serif\" font-style=\"italic\" font-size=\"26\" fill=\"#5a4f3a\" letter-spacing=\"0.5\">— Founding charter, re-read every spring since 2014</text>\n  </g>\n</svg>",
+      "layoutNotes": "12-column grid; primary statement occupies cols 2–10, vertically anchored at roughly 40% from top so the lower canvas remains open void — hierarchy achieved through distance, not ornament. A single subordinate element (attribution, one-line kicker, or grounding phrase) sits below with a gap wide enough to read as intentional silence rather than spacing error. Scale contrast is the sole differentiator between the two text layers; no rule lines, icon clusters, or decorative bands are introduced. Muted brand mark or section tag anchors bottom-left at near-invisible weight; page number bottom-right — both recede completely from the primary statement."
+    }
+  ]
+}

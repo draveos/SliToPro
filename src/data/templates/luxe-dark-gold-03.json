@@ -1,0 +1,45 @@
+{
+  "id": "luxe-dark-gold-03",
+  "slug": "luxe-dark-gold-03",
+  "title": "Void Typographique — Couture Runway Number",
+  "category": "luxe-dark-gold",
+  "description": "A pitch-black title slide built on three typographic elements: a tracked 9pt designer name at crown, a massive collection number at vertical center, and an italic season at foot. Distinguished from other dark-luxury templates by absolute void — no rule, no ornament, no image whatsoever.",
+  "philosophy": "This template treats absence as the luxury good. It draws from the visual language of couture houses that signal authority through removal rather than decoration — the fewer the elements, the higher the perceived gravity. It refuses hairline rules, gradients, and imagery because those are tools of brands that haven't yet earned the silence. It exists for speakers who set a room's tone before uttering a word, and for audiences sophisticated enough to read negative space as intent.",
+  "tags": [
+    "typographic-void",
+    "all-caps",
+    "tracked-letterspace",
+    "tarnished-gold",
+    "runway-title",
+    "fashion-week"
+  ],
+  "defaultPaletteId": "onyx-mustard",
+  "goodFor": [
+    "Couture or luxury brand collection launch openers",
+    "Single-number or single-word hero title slides",
+    "Fashion industry keynote and runway show decks",
+    "Brand identity or rebrand reveal moments requiring maximum gravitas"
+  ],
+  "avoidFor": [
+    "Chart-heavy financial or data-driven slides",
+    "Multi-bullet or dense body-copy slides",
+    "Presentations requiring embedded photography or illustration",
+    "Informal internal standups or stakeholder check-ins"
+  ],
+  "createdAt": "2026-04-23",
+  "author": "harness",
+  "examples": [
+    {
+      "kind": "title",
+      "promptCore": "The slide inhabits the silence of an empty couture atelier — severe, self-possessed, unapologetic. The central numeral functions as a monolith: its sheer scale claims authority while the crown and foot type hover as near-inaudible whispers that frame rather than compete. Compositional rhythm is vertical and meditative, with vast negative space treated as the primary design element rather than leftover room. Resist any impulse toward softening — no texture, no gradient wash, no decorative accent; even a hairline rule would register as insecurity.",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1920 1080\" preserveAspectRatio=\"xMidYMid meet\">\n<rect width=\"1920\" height=\"1080\" fill=\"#0d0d0d\"/>\n<text x=\"960\" y=\"180\" text-anchor=\"middle\" font-family=\"Georgia, ui-serif, serif\" font-size=\"22\" fill=\"#f4ead8\" letter-spacing=\"32\" font-weight=\"400\">MAISON   ARDENT   VOSS</text>\n<text x=\"960\" y=\"640\" text-anchor=\"middle\" font-family=\"Georgia, ui-serif, serif\" font-size=\"720\" fill=\"#d6a82f\" font-weight=\"300\" letter-spacing=\"-20\">XIV</text>\n<text x=\"960\" y=\"900\" text-anchor=\"middle\" font-family=\"Georgia, ui-serif, serif\" font-style=\"italic\" font-size=\"36\" fill=\"#5a4f3a\" letter-spacing=\"6\">haute couture — printemps, vingt vingt-six</text>\n</svg>",
+      "layoutNotes": "Full-bleed canvas with no outer margin, containing frame, or structural grid columns activated — the entire field is treated as a single open void. Three typographic anchors are placed vertically: the designer name sits at the crown with extreme horizontal tracking flush to the optical center axis, a dominant collection numeral occupies the true vertical midpoint at maximum scale, and an italic season descriptor rests near the foot. Hierarchy is established purely through scale contrast — no rule lines, no dividers, no page numbers, and absolutely no ornamental marks break the field."
+    },
+    {
+      "kind": "content",
+      "promptCore": "The slide should feel like a deliberate editorial pause mid-runway — one authoritative statement suspended in darkness, the surrounding void amplifying rather than emptying it. Compositionally confrontational in its sparseness: a single massive typographic anchor floats above mid-field while a whisper-scale secondary line breathes far below, the two held in tension by sheer distance. Nothing decorative, no texture, no gradient, no visual motif should intrude; the negative space itself is the luxury signal. The mood is assured, glacially unhurried, and radiates the kind of authority that only comes from removal.",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1920 1080\" preserveAspectRatio=\"xMidYMid meet\">\n  <rect width=\"1920\" height=\"1080\" fill=\"#0d0d0d\"/>\n  <g font-family=\"Georgia, ui-serif, serif\" fill=\"#f4ead8\">\n    <text x=\"172\" y=\"500\" font-size=\"196\" letter-spacing=\"-6\" font-style=\"italic\">Restraint</text>\n    <text x=\"172\" y=\"660\" font-size=\"196\" letter-spacing=\"-6\">is the loudest</text>\n    <text x=\"172\" y=\"820\" font-size=\"196\" letter-spacing=\"-6\">gesture<tspan fill=\"#d6a82f\">.</tspan></text>\n  </g>\n  <g font-family=\"ui-sans-serif, system-ui, sans-serif\" fill=\"#5a4f3a\" font-size=\"15\" letter-spacing=\"8\">\n    <text x=\"172\" y=\"172\">CHAPTER</text>\n    <text x=\"1748\" y=\"172\" text-anchor=\"end\">FOLIO 04 / 12</text>\n  </g>\n  <g font-family=\"ui-sans-serif, system-ui, sans-serif\" fill=\"#f4ead8\" font-size=\"14\" letter-spacing=\"11\">\n    <text x=\"172\" y=\"980\">— MAISON DOCTRINE,  ATELIER NOTE  N°  IV</text>\n    <text x=\"1748\" y=\"980\" text-anchor=\"end\" fill=\"#d6a82f\">SS · MMXXVI</text>\n  </g>\n</svg>",
+      "layoutNotes": "12-column grid with a 9% outer margin on all sides; no header band, footer rule, or any ornamental element. A single dominant typographic element — a stripped declaration, editorial statement, or key phrase — occupies columns 2–11 and anchors at approximately 45% of the vertical field. A sparse secondary line (attribution, label, or counter-phrase) sits in wide-tracked caps near the lower edge, separated from the primary element by void alone, never by a rule or divider. Hierarchy is achieved exclusively through size contrast and letterspacing; no weight, color, or structural device may substitute."
+    }
+  ]
+}

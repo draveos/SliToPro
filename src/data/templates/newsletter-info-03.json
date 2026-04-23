@@ -1,0 +1,45 @@
+{
+  "id": "newsletter-info-03",
+  "slug": "newsletter-info-03",
+  "title": "Walnut Letter — Substack Essay Header",
+  "category": "newsletter-info",
+  "description": "An intimate, byline-forward header for personal-essay newsletters, pairing a small circular headshot with layered editorial serif typography — writer name, essay title, and dateline stacked in quiet, unhurried hierarchy.",
+  "philosophy": "This template exists for writers who believe the byline is the brand. It values literary typography and the single human voice over institutional hierarchy or decorative flourish, treating the essay title as the only graphic object that matters. It refuses color drama, pull-quote callouts, and anything that competes with the first sentence of the piece. The implied room is a reader's phone at 10 p.m., not a conference stage.",
+  "tags": [
+    "italic-serif",
+    "personal-essay",
+    "headshot",
+    "byline",
+    "editorial",
+    "substack"
+  ],
+  "defaultPaletteId": "oat-coffee",
+  "goodFor": [
+    "Substack personal-essay header slides with a single author byline",
+    "Literary or cultural commentary newsletter openers",
+    "Reading-time and dateline typographic layouts",
+    "Independent writer brand slides for press kits or link-in-bio pages"
+  ],
+  "avoidFor": [
+    "Multi-author team announcements or co-byline layouts",
+    "Chart-heavy quarterly business or data reviews",
+    "Product launch or promotional campaign slides",
+    "Brand decks requiring bold color contrast or icon-heavy grids"
+  ],
+  "createdAt": "2026-04-23",
+  "author": "harness",
+  "examples": [
+    {
+      "kind": "title",
+      "promptCore": "The slide should feel like the opening page of a literary personal essay — unhurried, warm, and intimate, evoking a reader settled in quietly at night rather than an audience being addressed from a stage. Compositional weight lives entirely in the essay title; the byline cluster above it carries the lightness of a caption beside a portrait photograph. Generous negative space is the primary design material, with all other elements receding into it. Avoid bold contrast, decorative flourish, or anything that competes with the title's singular typographic authority.",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1920 1080\" preserveAspectRatio=\"xMidYMid meet\">\n  <rect width=\"1920\" height=\"1080\" fill=\"#f3ead8\"/>\n\n  <!-- Central column guide: 384 to 1536 (60% of 1920) -->\n\n  <!-- Byline cluster -->\n  <g transform=\"translate(384, 300)\">\n    <!-- Circular headshot: abstract portrait silhouette -->\n    <defs>\n      <clipPath id=\"avatarClip\">\n        <circle cx=\"36\" cy=\"36\" r=\"36\"/>\n      </clipPath>\n    </defs>\n    <circle cx=\"36\" cy=\"36\" r=\"36\" fill=\"#8a7a5a\"/>\n    <g clip-path=\"url(#avatarClip)\">\n      <rect x=\"0\" y=\"0\" width=\"72\" height=\"72\" fill=\"#a06e3a\"/>\n      <circle cx=\"36\" cy=\"30\" r=\"14\" fill=\"#f3ead8\"/>\n      <ellipse cx=\"36\" cy=\"78\" rx=\"28\" ry=\"26\" fill=\"#f3ead8\"/>\n    </g>\n\n    <!-- Writer name + dateline -->\n    <text x=\"96\" y=\"32\" font-family=\"Georgia, ui-serif, serif\" font-size=\"22\" fill=\"#3d2818\" font-weight=\"400\">\n      Mira Halloran\n    </text>\n    <text x=\"96\" y=\"60\" font-family=\"Georgia, ui-serif, serif\" font-size=\"17\" fill=\"#8a7a5a\" font-style=\"italic\">\n      Walnut Letter  ·  April 23, 2026  ·  9 min read\n    </text>\n  </g>\n\n  <!-- Essay title — the only graphic object that matters -->\n  <g transform=\"translate(384, 500)\">\n    <text x=\"0\" y=\"0\" font-family=\"Georgia, ui-serif, serif\" font-size=\"108\" fill=\"#3d2818\" font-weight=\"400\" letter-spacing=\"-2\">\n      <tspan x=\"0\" dy=\"0\">The year I stopped</tspan>\n      <tspan x=\"0\" dy=\"128\">answering the phone</tspan>\n      <tspan x=\"0\" dy=\"128\">on Sunday nights</tspan>\n    </text>\n  </g>\n\n  <!-- A whisper of a subtitle/dek, kept almost silent -->\n  <text x=\"384\" y=\"930\" font-family=\"Georgia, ui-serif, serif\" font-size=\"24\" fill=\"#a06e3a\" font-style=\"italic\" font-weight=\"400\">\n    On quiet refusals, the weight of a ringing receiver, and what I found in the hour I kept for myself.\n  </text>\n</svg>",
+      "layoutNotes": "Narrow single-column layout anchored in the central 60% of the canvas width, with generous soft margins on all sides. A small circular headshot sits flush-left beside the writer name and dateline, forming a tight byline cluster positioned in the upper third of the slide. The essay title drops below that cluster as the sole dominant typographic object, stacked across two or three lines with open leading. No header band, no footer rule, no page-number element — the slide is edge-to-white with nothing framing it."
+    },
+    {
+      "kind": "content",
+      "promptCore": "The slide feels like a page lifted from a literary journal left open on a nightstand — still, intimate, and entirely in service of a few lines of prose. Compositional rhythm is airy and unhurried: one narrow reading column, soft margins, and a single thin rule doing all the structural work. The standfirst or excerpt is the sole graphic object that matters; the dateline and reading-time line beneath it whisper rather than announce. Avoid anything competitive — no decorative motifs, no tonal flourishes, no visual weight that could distract a reader already halfway into the first sentence.",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1920 1080\" preserveAspectRatio=\"xMidYMid meet\">\n  <rect width=\"1920\" height=\"1080\" fill=\"#f3ead8\"/>\n\n  <!-- Reading column: cols 2-10 of 12-col grid, ~10% outer margin -->\n  <!-- Column left edge ~192, right edge ~1600, width ~1408 -->\n\n  <!-- Small kicker / section label -->\n  <text x=\"192\" y=\"360\" font-family=\"ui-monospace, monospace\" font-size=\"18\" letter-spacing=\"6\" fill=\"#a06e3a\">\n    ESSAY  ·  NO. 47\n  </text>\n\n  <!-- Standfirst / excerpt — the single graphic object -->\n  <text x=\"192\" y=\"452\" font-family=\"Georgia, ui-serif, serif\" font-size=\"56\" font-style=\"italic\" fill=\"#3d2818\">\n    <tspan x=\"192\" dy=\"0\">There is a particular quiet that settles over a</tspan>\n    <tspan x=\"192\" dy=\"78\">small town in late October — not the silence of</tspan>\n    <tspan x=\"192\" dy=\"78\">absence, but the silence of things finally having</tspan>\n    <tspan x=\"192\" dy=\"78\">nothing left to prove. I have been thinking about</tspan>\n    <tspan x=\"192\" dy=\"78\">that kind of quiet, and what it asks of us.</tspan>\n  </text>\n\n  <!-- Hairline horizontal rule separating standfirst from metadata -->\n  <line x1=\"192\" y1=\"852\" x2=\"560\" y2=\"852\" stroke=\"#8a7a5a\" stroke-width=\"1\"/>\n\n  <!-- Metadata row: dateline, reading time -->\n  <text x=\"192\" y=\"892\" font-family=\"ui-sans-serif, system-ui, sans-serif\" font-size=\"18\" fill=\"#8a7a5a\" letter-spacing=\"1.5\">\n    Margaret Ashby  ·  Walnut, Iowa  ·  April 23, 2026  ·  9 min read\n  </text>\n\n  <!-- Bottom-right: hairline rule + page number -->\n  <line x1=\"1660\" y1=\"980\" x2=\"1760\" y2=\"980\" stroke=\"#8a7a5a\" stroke-width=\"1\"/>\n  <text x=\"1760\" y=\"1008\" font-family=\"Georgia, ui-serif, serif\" font-size=\"20\" fill=\"#3d2818\" text-anchor=\"end\">\n    iii\n  </text>\n  <text x=\"1760\" y=\"1008\" font-family=\"ui-monospace, monospace\" font-size=\"14\" fill=\"#a06e3a\" text-anchor=\"start\" dx=\"8\">\n    / 042\n  </text>\n</svg>",
+      "layoutNotes": "Single-column reading layout, text block occupying cols 2–10 of a 12-col grid with roughly 10% outer margin on each side. A hairline horizontal rule separates a short standfirst or essay excerpt from a compact metadata row (dateline, reading time) sitting below it. No header band; the prose block is vertically centered slightly above the midpoint, leaving generous crown whitespace that signals breath and patience. A lone page number anchors the bottom-right corner beneath a second hairline rule, the only other structural mark on the slide."
+    }
+  ]
+}
