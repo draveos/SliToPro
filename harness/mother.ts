@@ -65,7 +65,15 @@ const palettes: PaletteRecord[] = JSON.parse(fs.readFileSync(PALETTES_PATH, 'utf
 const paletteById = new Map(palettes.map((p) => [p.id, p]));
 
 function loadAgent(name: string): string {
-  return fs.readFileSync(path.join(AGENTS_DIR, `${name}.md`), 'utf-8');
+  const main = fs.readFileSync(path.join(AGENTS_DIR, `${name}.md`), 'utf-8');
+  // The slide-renderer gets a long-form design vocabulary appended.
+  if (name === 'slide-renderer') {
+    const refPath = path.join(AGENTS_DIR, 'design-reference.md');
+    if (fs.existsSync(refPath)) {
+      return `${main}\n\n---\n\n${fs.readFileSync(refPath, 'utf-8')}`;
+    }
+  }
+  return main;
 }
 
 function loadSeed(seedPath: string): Seed {

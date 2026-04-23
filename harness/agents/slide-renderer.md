@@ -43,3 +43,10 @@ visible at a glance.
 ## Output
 
 Just the SVG markup. Nothing else.
+
+---
+
+A **Design Reference** appendix follows. It catalogs layout zones,
+decoration vocabulary, typography personalities, and 5 genre exemplars
+that set the quality bar. Use it as a vocabulary — pick what fits the
+specific category and slide kind. Don't apply everything.
