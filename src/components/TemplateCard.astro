@@ -1,6 +1,7 @@
 ---
 import type { Template } from '../lib/types';
 import { CATEGORY_LABEL } from '../lib/types';
+import { palettes } from '../lib/loadTemplates';
 import { url } from '../lib/url';
 import StyleTag from './StyleTag.astro';
 
@@ -8,14 +9,23 @@ interface Props { template: Template }
 const { template } = Astro.props;
 const href = url(`template/${template.slug}/`);
 const titleSvg = template.examples.find((e) => e.kind === 'title')?.svg ?? template.examples[0].svg;
+const palette = palettes.find((p) => p.id === template.defaultPaletteId);
 ---
 <a href={href} class="group block border border-[var(--color-border)] rounded-lg overflow-hidden bg-[#0e0e0e] hover:border-[var(--color-accent)]/60 hover:-translate-y-0.5 transition-all duration-200">
   <div class="aspect-video overflow-hidden border-b border-[var(--color-border)]" set:html={titleSvg.replace('<svg ', '<svg class="block w-full h-auto" ')} />
   <div class="p-5 space-y-3">
     <h3 class="font-serif text-lg leading-tight text-[var(--color-fg)] group-hover:text-[var(--color-accent)] transition-colors">{template.title}</h3>
     <p class="text-sm text-[var(--color-muted)] line-clamp-2">{template.description}</p>
-    <div class="flex flex-wrap gap-1.5 pt-1">
+    <div class="flex items-center justify-between gap-3 pt-1">
       <StyleTag label={CATEGORY_LABEL[template.category]} variant="style" />
+      {palette && (
+        <div class="flex items-center gap-1" title={palette.name}>
+          <span class="w-2.5 h-2.5 rounded-full ring-1 ring-white/10" style={`background:${palette.primary}`} aria-hidden="true"></span>
+          <span class="w-2.5 h-2.5 rounded-full ring-1 ring-white/10" style={`background:${palette.secondary}`} aria-hidden="true"></span>
+          <span class="w-2.5 h-2.5 rounded-full ring-1 ring-white/10" style={`background:${palette.accent}`} aria-hidden="true"></span>
+          <span class="w-2.5 h-2.5 rounded-full ring-1 ring-white/10" style={`background:${palette.neutral}`} aria-hidden="true"></span>
+        </div>
+      )}
     </div>
   </div>
 </a>

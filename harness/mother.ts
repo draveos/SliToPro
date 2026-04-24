@@ -18,13 +18,21 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import yaml from 'js-yaml';
-import { query } from '@anthropic-ai/claude-agent-sdk';
+import { query, SYSTEM_PROMPT_DYNAMIC_BOUNDARY } from '@anthropic-ai/claude-agent-sdk';
 import {
   TemplateSchema,
   validateFile,
   CATEGORIES,
   EXAMPLE_KINDS,
 } from './validator.ts';
+
+const usageTotals = {
+  inputTokens: 0,
+  outputTokens: 0,
+  cacheReadInputTokens: 0,
+  cacheCreationInputTokens: 0,
+  costUSD: 0,
+};
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, '..');
@@ -92,11 +100,24 @@ async function runAgent(systemPrompt: string, userPrompt: string, model: string)
   const chunks: string[] = [];
   for await (const message of query({
     prompt: userPrompt,
-    options: { systemPrompt, model, tools: [], maxTurns: 1 },
+    options: {
+      systemPrompt: [systemPrompt, SYSTEM_PROMPT_DYNAMIC_BOUNDARY],
+      model,
+      tools: [],
+      maxTurns: 1,
+    },
   })) {
     if (message.type === 'assistant') {
       for (const block of message.message.content) {
         if (block.type === 'text') chunks.push(block.text);
+      }
+    } else if (message.type === 'result' && message.modelUsage) {
+      for (const u of Object.values(message.modelUsage)) {
+        usageTotals.inputTokens += u.inputTokens;
+        usageTotals.outputTokens += u.outputTokens;
+        usageTotals.cacheReadInputTokens += u.cacheReadInputTokens;
+        usageTotals.cacheCreationInputTokens += u.cacheCreationInputTokens;
+        usageTotals.costUSD += u.costUSD;
       }
     }
   }
@@ -417,6 +438,21 @@ async function main() {
     }
   }
   console.log(`\n${results.length - failures}/${results.length} succeeded`);
+
+  const cacheTotal = usageTotals.cacheReadInputTokens + usageTotals.cacheCreationInputTokens;
+  const hitRate = cacheTotal > 0
+    ? ((usageTotals.cacheReadInputTokens / cacheTotal) * 100).toFixed(1)
+    : '0.0';
+  console.log(
+    `\n=== Token usage ===\n` +
+      `  input        ${usageTotals.inputTokens.toLocaleString()}\n` +
+      `  output       ${usageTotals.outputTokens.toLocaleString()}\n` +
+      `  cache read   ${usageTotals.cacheReadInputTokens.toLocaleString()}\n` +
+      `  cache create ${usageTotals.cacheCreationInputTokens.toLocaleString()}\n` +
+      `  cache hit    ${hitRate}%\n` +
+      `  cost         $${usageTotals.costUSD.toFixed(4)}`,
+  );
+
   process.exit(failures === 0 ? 0 : 1);
 }
 
