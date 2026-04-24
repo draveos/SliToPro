@@ -1,45 +1,44 @@
 {
   "id": "minimalist-05",
   "slug": "minimalist-05",
-  "title": "Unimark Ivory — One-Word Typographic Monument",
+  "title": "Vignelli Announce — Helvetica Typographic Monument",
   "category": "minimalist",
-  "description": "A single concept word set at 70% canvas height in Helvetica dominates an ivory field — no decoration, no images, only cobalt type and black metadata clustered in the bottom-left corner. Vignelli's severity, undiluted.",
-  "philosophy": "This template exists because the word itself is the entire argument. It refuses color blocks, iconography, and multi-weight hierarchies — scale, tracking, and silence are the only variables permitted. It is built for speakers who trust a single noun to carry a room: a brand launch, a manifesto title, a conference theme declaration. Decoration here is not merely restrained; it is structurally impossible by design.",
+  "description": "A single concept word scaled to 70% of the canvas in Helvetica, tightly tracked and ranged left, with all session metadata compressed into a 10pt cluster at bottom-left. Silence is the layout — the word is the entire argument.",
+  "philosophy": "This template is an act of radical reduction inherited from Unimark and the Vignelli canon: one typeface, one weight, one word, and nothing else. It refuses illustration, color blocks, and decorative hierarchy on the grounds that they dilute the signal. The room it belongs to is a symposium opener, a gallery keynote, or a cultural institution — anywhere the speaker earns authority by saying one thing with absolute conviction. Anything added would be a confession of doubt.",
   "tags": [
     "helvetica-only",
-    "single-word",
+    "oversized-type",
     "swiss-modernism",
-    "typographic-poster",
-    "ranged-left",
-    "vignelli"
+    "word-poster",
+    "single-concept"
   ],
   "defaultPaletteId": "glacier-blue",
   "goodFor": [
-    "Conference keynote title slides built around one anchoring concept word",
-    "Brand launch reveals where the name itself is the entire message",
-    "Design, architecture, or typography industry presentations",
-    "Gallery opening or exhibition programme title slides"
+    "Conference title slides announcing a single theme word",
+    "Gallery or museum keynote openers",
+    "Brand launch moments where the name alone must carry the room",
+    "Full-bleed section dividers in long multi-chapter decks"
   ],
   "avoidFor": [
-    "Chart-heavy quarterly business reviews requiring data visualization",
-    "Multi-point agenda or bullet-list instructional slides",
-    "Pitch decks needing financial tables or comparative diagrams",
-    "Workshops with step-by-step procedural content across many slides"
+    "Chart-heavy quarterly business reviews",
+    "Multi-point agenda or listicle slides",
+    "Sales decks requiring logos, social proof, or testimonial blocks",
+    "Presentations where the speaker needs visible talking-point scaffolding on screen"
   ],
-  "createdAt": "2026-04-23",
+  "createdAt": "2026-04-24",
   "author": "harness",
   "examples": [
     {
       "kind": "title",
-      "promptCore": "The slide is a typographic monument: one word commands authority over an unbroken luminous field through scale alone — no imagery, geometry, or competing rhythm. Mood is Vignelli-severe Swiss rationalism, where silence and tracking carry all meaning. Compositional tension comes from the asymmetric relationship between the colossal word mass and the small metadata cluster anchored at lower left. Avoid softness, ornamentation, or layered hierarchy that dilutes the word's singular weight.",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1920 1080\" preserveAspectRatio=\"xMidYMid meet\">\n  <rect width=\"1920\" height=\"1080\" fill=\"#e8f0f7\"/>\n  <text x=\"110\" y=\"760\" font-family=\"ui-sans-serif, system-ui, sans-serif\" font-size=\"820\" font-weight=\"700\" letter-spacing=\"-40\" fill=\"#0d1f3a\">RESOLVE</text>\n  <g font-family=\"ui-sans-serif, system-ui, sans-serif\" fill=\"#0d1f3a\">\n    <text x=\"112\" y=\"948\" font-size=\"15\" letter-spacing=\"6\" font-weight=\"600\">UNIMARK ANNUAL — KEYNOTE 07</text>\n    <text x=\"112\" y=\"978\" font-size=\"15\" letter-spacing=\"6\" font-weight=\"400\" fill=\"#7a90a8\">A MANIFESTO ON DISCIPLINED DESIGN</text>\n    <line x1=\"112\" y1=\"998\" x2=\"300\" y2=\"998\" stroke=\"#3a7ac8\" stroke-width=\"1\"/>\n    <text x=\"112\" y=\"1024\" font-size=\"13\" letter-spacing=\"5\" fill=\"#7a90a8\">ZÜRICH · 23 APRIL 2026</text>\n    <text x=\"112\" y=\"1046\" font-size=\"13\" letter-spacing=\"5\" fill=\"#7a90a8\">VOL. XII / NO. 01</text>\n  </g>\n  <text x=\"1808\" y=\"1046\" font-family=\"ui-monospace, monospace\" font-size=\"13\" letter-spacing=\"3\" fill=\"#7a90a8\" text-anchor=\"end\">01</text>\n</svg>",
-      "layoutNotes": "Single dominant word occupies cols 1–11 of a 12-col grid, ranged left against a consistent left-edge margin, scaled to fill roughly 70% of canvas height. No header band, rule line, or decorative element interrupts the field above or to the right. Metadata block — deck context, event line, or date — clusters tightly in the bottom-left corner at a dramatically smaller scale, hugging the baseline grid. Right and top margins remain entirely silent; letter-spacing of the word is the sole spatial variable permitted."
+      "promptCore": "The slide is a typographic monument — one word at near-poster scale, carrying the full gravitational weight of the presentation's argument before a single spoken sentence arrives. Whitespace is not absence but pressure: the vast field surrounding the word functions as a held breath, amplifying rather than diluting its charge. The mood is severe, institutional, and quietly authoritative — referencing mid-century Swiss graphic systems where reduction is itself the rhetoric. Avoid any softening gesture: no gradients, no illustrative marks, no secondary visual layer that would confess uncertainty about the single statement on screen.",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1920 1080\" preserveAspectRatio=\"xMidYMid meet\">\n  <rect width=\"1920\" height=\"1080\" fill=\"#e8f0f7\"/>\n  <text x=\"153.6\" y=\"620\" font-family=\"ui-sans-serif, system-ui, sans-serif\" font-size=\"620\" font-weight=\"700\" fill=\"#0d1f3a\" letter-spacing=\"-30\" textLength=\"1344\" lengthAdjust=\"spacingAndGlyphs\">SIGNAL</text>\n  <text x=\"153.6\" y=\"1028\" font-family=\"ui-sans-serif, system-ui, sans-serif\" font-size=\"16\" font-weight=\"500\" fill=\"#7a90a8\" letter-spacing=\"2.4\">SYMPOSIUM ON REDUCTION  ·  [YOUR NAME], KEYNOTE  ·  24 APRIL 2026  ·  HALL A</text>\n</svg>",
+      "layoutNotes": "Full-bleed canvas with a single oversized word anchored ranged-left at an 8% left inset, scaled to occupy roughly 70% of total canvas width with tight tracking and no letter-spacing relief. The word's baseline rests at the optical center of the canvas — all space above and to the right is left entirely unbroken. A compressed metadata cluster (event name, presenter, date) lives flush-left in the lowest 6% of the canvas, set at minimum viable size. No rule lines, no header band, no page number, no decorative element of any kind."
     },
     {
       "kind": "content",
-      "promptCore": "The slide reads as a typographic broadsheet pinned to a gallery wall — one word commands the space while a whispered secondary line below it acts as a footnote, not a headline. The mood is glacial and declarative: Swiss modernist severity kept intact even as the slide carries actual content. Compositional rhythm is asymmetric-but-anchored, with the left margin rail acting as the single spine all elements hang from. Avoid any softening gestures — no rules, no tints, no iconography; tension lives entirely in the scale gap between the monument word and everything else.",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1920 1080\" preserveAspectRatio=\"xMidYMid meet\">\n  <rect width=\"1920\" height=\"1080\" fill=\"#e8f0f7\"/>\n\n  <!-- Top metadata rail -->\n  <g font-family=\"ui-sans-serif, system-ui, sans-serif\" fill=\"#7a90a8\">\n    <text x=\"140\" y=\"110\" font-size=\"16\" letter-spacing=\"6\">CHAPTER  ·  02</text>\n    <text x=\"1780\" y=\"110\" font-size=\"16\" letter-spacing=\"6\" text-anchor=\"end\">UNIMARK  /  IVORY</text>\n  </g>\n\n  <!-- Monument word, flush-left to the 140px spine -->\n  <text x=\"140\" y=\"560\"\n        font-family=\"Georgia, ui-serif, serif\"\n        font-size=\"460\"\n        fill=\"#0d1f3a\"\n        letter-spacing=\"-18\"\n        font-weight=\"400\">Silence.</text>\n\n  <!-- Secondary whispered line, same spine, deep vertical gap, tracking contrast only -->\n  <text x=\"144\" y=\"760\"\n        font-family=\"ui-sans-serif, system-ui, sans-serif\"\n        font-size=\"22\"\n        fill=\"#0d1f3a\"\n        letter-spacing=\"14\"\n        font-weight=\"400\">THE ONLY MATERIAL A BRAND CANNOT COUNTERFEIT.</text>\n\n  <!-- Bottom-left metadata cluster, isolated -->\n  <g font-family=\"ui-monospace, monospace\" fill=\"#7a90a8\">\n    <text x=\"140\" y=\"946\" font-size=\"14\" letter-spacing=\"3\" fill=\"#3a7ac8\">— 07</text>\n    <text x=\"140\" y=\"972\" font-size=\"13\" letter-spacing=\"2\">UNIMARK IVORY</text>\n    <text x=\"140\" y=\"994\" font-size=\"13\" letter-spacing=\"2\">MANIFESTO SERIES</text>\n    <text x=\"140\" y=\"1016\" font-size=\"13\" letter-spacing=\"2\">APR · 2026</text>\n  </g>\n\n  <!-- Bottom-right pagination, minimal, no rules -->\n  <g font-family=\"ui-monospace, monospace\" fill=\"#7a90a8\">\n    <text x=\"1780\" y=\"1016\" font-size=\"13\" letter-spacing=\"3\" text-anchor=\"end\">007 / 024</text>\n  </g>\n</svg>",
-      "layoutNotes": "Flush-left grid with a wide breathing margin on the right (roughly 35% of canvas width left as void). The primary concept word anchors the upper-center zone at near-full monument scale, left-aligned to the same margin rail as all other elements. A single secondary line — a terse sub-concept, attribution, or definition fragment — sits below with a deep vertical gap, distinguished by tracking contrast alone, not weight or size jump. Page number and contextual metadata remain pinned as a tight cluster in the bottom-left corner, isolated from the word by pure negative space."
+      "promptCore": "The slide reads like a thesis sentence stripped to its subject: one oversized anchor word holds the visual field as an unshakeable declaration while a single compressed subordinate line hovers below it — restrained, exact, and only as long as it must be. Compositional rhythm comes entirely from scale contrast between the dominant word and the quiet supporting text, not from color geometry or illustration. The mood is symposium-austere — the empty canvas is not absence but argument. Avoid icons, gradient washes, pull-quote boxes, or any element that implies the type needs assistance.",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1920 1080\" preserveAspectRatio=\"xMidYMid meet\">\n<rect width=\"1920\" height=\"1080\" fill=\"#e8f0f7\"/>\n<text x=\"140\" y=\"620\" font-family=\"ui-sans-serif, system-ui, sans-serif\" font-size=\"440\" font-weight=\"700\" fill=\"#0d1f3a\" letter-spacing=\"-22\">SIGNAL</text>\n<text x=\"148\" y=\"710\" font-family=\"ui-sans-serif, system-ui, sans-serif\" font-size=\"44\" font-weight=\"400\" fill=\"#0d1f3a\" letter-spacing=\"-0.5\">A symposium on the discipline of saying one thing.</text>\n<g font-family=\"ui-sans-serif, system-ui, sans-serif\" font-size=\"16\" fill=\"#7a90a8\" letter-spacing=\"3\">\n<text x=\"140\" y=\"985\">SECTION 01 — KEYNOTE</text>\n<text x=\"140\" y=\"1015\" fill=\"#0d1f3a\">VIGNELLI ANNOUNCE / SPRING SYMPOSIUM 2026</text>\n</g>\n<text x=\"1780\" y=\"1015\" font-family=\"ui-sans-serif, system-ui, sans-serif\" font-size=\"16\" fill=\"#3a7ac8\" letter-spacing=\"3\" text-anchor=\"end\">001 / 024</text>\n</svg>",
+      "layoutNotes": "12-column grid, content left-ranged from column 1 through column 9 with a consistent breathing outer margin on all four sides — no edge-to-edge bleed. The primary concept word sits at vertical center-high (roughly the upper 55% of the slide height), scaled to dominate; a single subordinate line — short phrase, stat, or attribution — falls immediately beneath it, separated by tight leading alone with no inserted rule. A compressed metadata cluster (section label, folio number) is pinned hard to bottom-left; no header band, no footer band, no decorative fills of any kind."
     }
   ]
 }

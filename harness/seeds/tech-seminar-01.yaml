@@ -1,7 +1,7 @@
 id: tech-seminar-01
 category: tech-seminar
 brief: |
-  Bilingual Korean/English ML paper review — the canonical MindForge seminar
+  Bilingual Korean/English ML paper review — the canonical business seminar
   format. Title slide carries a gradient mesh wave at the top, the paper title
   in dark sans + assignment label in lighter all-caps below. Quiet, precise,
   scholarly without being dry. The kind of slide a Korean ML lab would project
@@ -12,7 +12,7 @@ constraints:
   - Korean and Latin coexist at near-equal weight, never dominate each other
   - No illustrations, no photos — only typography, gradient, and one wave
 inspiration:
-  - mindforge-seminar
+  - business-ml-seminar
   - korean-ml-lab-friday
   - pretendard-academic
   - paper-review-deck
