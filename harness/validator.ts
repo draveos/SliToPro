@@ -28,6 +28,7 @@ export const CATEGORIES = [
   'newsletter-info',
   'korean-modern',
   'tech-seminar',
+  'portfolio',
 ] as const;
 
 export const EXAMPLE_KINDS = ['title', 'content'] as const;

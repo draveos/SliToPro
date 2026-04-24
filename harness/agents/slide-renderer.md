@@ -29,6 +29,13 @@ prolog. Begin with `<svg ` and end with `</svg>`.
   write plausible bullets / quote / stat. Content should match the
   category's tone (e.g., academic uses scholarly phrasing, pitch uses
   bold growth metrics, editorial uses quotable lines).
+- **NEVER use real personal names** found in the design reference (e.g.
+  "전해원", "이수진", "김민준"). These are people in the source decks.
+  Use neutral placeholders instead — Korean: `홍길동` / `OOO` / `성명`,
+  English: `[Your Name]` / `Jane Doe`. Same applies to phone numbers,
+  emails, URLs, company names — substitute with `hello@example.com`,
+  `+82 10-XXXX-XXXX`, `Studio Name`, etc. Templates are reusable
+  scaffolds, not someone else's portfolio.
 - Type: use only generic font-family stacks — `Georgia, ui-serif, serif`,
   `ui-sans-serif, system-ui, sans-serif`, `ui-monospace, monospace`.
   Do not name a specific brand font.

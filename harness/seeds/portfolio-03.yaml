@@ -1,0 +1,24 @@
+id: portfolio-03
+category: portfolio
+brief: |
+  Editorial agency portfolio (V4 grammar). White ground with subtle gray
+  accent panels. Type leans on a classic high-contrast Didone-influenced
+  serif for the giant display word ("UI/UX", "Design", "Studio") with
+  sans tracking for the KICKER ABOVE and DESIGNER BELOW. Wide letter-
+  spacing on the sans labels. Signature is 1-2 organic blob shapes
+  (orange + soft gray + occasional black) bleeding off the corners as
+  ornament. Right side hosts a framed UI mockup zone (header bar +
+  sidebar + grid of cards). Black solid CTA pill ("Start Slide ▸")
+  bottom-left. Top nav strip with brand wordmark + 3 menu items.
+constraints:
+  - Display headline must be high-contrast Didone-class serif
+  - Wide-tracked sans for KICKER ABOVE + DESIGNER BELOW labels
+  - 1-2 organic blob shapes bleeding off slide corners as ornament
+  - Right side carries a UI/dashboard mockup composition (header + sidebar + cards)
+  - Black solid CTA pill bottom-left + top nav strip with wordmark
+inspiration:
+  - editorial-agency-portfolio
+  - didone-display-serif
+  - organic-blob-ornament
+  - dashboard-mockup-frame
+paletteHint: White ground, near-black ink, ONE warm orange-coral accent for the blob, soft cool gray for accent panels and the UI mockup chrome.

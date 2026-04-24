@@ -1,0 +1,26 @@
+id: portfolio-04
+category: portfolio
+brief: |
+  B&W black-bar editorial portfolio (V6 grammar). Pure white background,
+  edge-to-edge, no frame, no ornament. Heavy black Pretendard ExtraBold
+  Korean name centered at 130-160px. The signature gesture: a thick
+  BLACK horizontal bar (~80% slide width, ~140px tall) sits behind the
+  centered Korean name — letters PIERCE the bar (top half on white,
+  bottom half over the bar, OR vice versa). The bar is shorter than the
+  text on either side; that asymmetric overrun creates the pierce.
+  Section dividers use ━━━━ thick black rules bracketing a centered
+  sans label. Highlight tags = solid black rectangles with white sans
+  inside, used as nav/identity. Closing slide repeats the black-bar-
+  pierce treatment with 감사합니다.
+constraints:
+  - The black-bar-pierce hero must appear on the title preview (Preview 1)
+  - Section dividers use thick black rules bracketing a centered short label
+  - Highlight tags (black rectangles with white sans inside) appear as project labels
+  - Pure white background only — no frame, no color, no ornament beyond the black bar
+  - Mono Latin subtitle ("Product Designer" / "UX Researcher") in mid-gray above the name
+inspiration:
+  - korean-designer-portfolio
+  - black-bar-pierce
+  - fashion-magazine-minimal
+  - heavy-pretendard-extrabold
+paletteHint: Pure white background, deep ink black for the bar and headline, mid-gray for mono Latin subtitle, near-black for highlight tags. No accent color — the bar is the brand.

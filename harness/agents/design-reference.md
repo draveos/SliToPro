@@ -35,6 +35,20 @@ Pick ONE primary content gesture; do not stack multiple.
   - Stat callout: huge numeral cols 1–7, label cols 8–12 OR centered
 - Page number bottom-right (cols 11–12, y≈1000)
 
+**COMPOSITIONAL FRAMES** — wrap the whole slide as identity, not decoration.
+Pick at most ONE per template (then apply consistently across both kinds).
+- **Outer slate frame + inner canvas** — 40–80px solid neutral border on
+  all four edges (slate gray, ink, or warm taupe), with a white/cream
+  inner panel. Whole slide reads as "report inside a folio". Forces the
+  content to live in a bounded inner-rect, not edge-to-edge.
+- **Notebook + paperclip frame** — thin rounded outer outline + small
+  paperclip silhouette top-left, hamburger or dot-menu icon top-right.
+  Reads as "stationery / organized thinking", great for biz reports.
+- **Card-on-pasteboard** — slide is a single white card centered on a
+  tinted pasteboard background (with shadow optional). App-like, modern.
+- **Edge-to-edge full bleed** — no frame at all, the chrome is just
+  whitespace and a hairline footer. Premium minimal default.
+
 ---
 
 ## 2 · Decoration vocabulary
@@ -51,6 +65,10 @@ restraint with intent.
 - **Vertical tick rail** — side-margin rule with sunk number. Architectural.
 - **Stacked label + numeral** — "CHAPTER · 02".
 - **Oversized fraction** — only on closing pages.
+- **Dual-pill section indicator** — two small rounded pills stacked
+  vertically, both showing the same numeral: a colored pill on top
+  (yellow / accent) over a near-black pill below. Used as a deliberate
+  identity anchor on every slide of a marketing/campaign deck.
 
 ### Section labels & kickers
 - **Uppercase tracked** — workhorse, mono + high letter-spacing.
@@ -61,6 +79,12 @@ restraint with intent.
 - **Serif italic** — lowercase, essayistic, slow.
 - **Vertical kicker** — rotated label in the margin.
 - **Status dot + label** — colored dot before kicker. "Live" feel.
+- **Checkmark + label** — `✓ 제목`. Small filled checkmark prefixing
+  the section title. Korean biz / report register, polite and orderly.
+- **Dark rounded pill label** — fully filled near-black rounded
+  rectangle (height ~50–70px) with white sans label inside. Used as a
+  stable identifier on lighter beige/white backgrounds; can repeat
+  3–6× per slide as the structural rhythm.
 
 ### Rules & dividers
 - **Hairline** — 1px neutral, full width. Quietest, most reliable.
@@ -71,6 +95,13 @@ restraint with intent.
 - **Vertical rule** — between columns or signaling a pull-quote.
 - **Accent marker bar** — short vertical fill as title marker.
 - **Ornamental dots** — centered dingbats. Book-chapter transitions, rare.
+- **Bracket rule** — `━━━━ TEXT ━━━━` thick horizontal rules on both
+  sides of a centered short label. Editorial gravitas, used as section
+  divider on portfolio / minimal decks.
+- **Black-pierce bar** — a thick solid black horizontal bar (slide-wide
+  or 80% wide, ~120–180px tall) with the headline TEXT positioned so it
+  overlaps/clips into the bar (top half on white, bottom half over the
+  bar — or vice versa). Hero-only, very identity-defining.
 
 ### Callouts & emphasis
 - **Oversized open quote** — giant serif `"` as visual anchor.
@@ -81,6 +112,12 @@ restraint with intent.
 - **Margin annotation** — sidebar note past hairline. Edwardian.
 - **Circled word** — hand-drawn ellipse. One per slide.
 - **Bracket + label** — `}── label` joining a range to a label.
+- **Highlight tag** — solid near-black rectangle (no rounding, or
+  slight 4–8px) with white sans label INSIDE, sized like a marker pen
+  swipe over a key word/phrase. Limit ≤3 per slide; they're loud.
+- **Skill speed-bar row** — uniform thin horizontal progress bars
+  stacked (4–6 rows), each with a label on the left and a percentage
+  on the right. Resume / portfolio specific, never on body slides.
 
 ### Corner treatments
 - **Corner ticks** — small L-marks. Cropped-frame feel.
@@ -121,6 +158,9 @@ restraint with intent.
 - **Half-bleed band** — image fills top/bottom half, text fills other.
 - **Single-edge rule** — rule only top or bottom. Quiet but structured.
 - **Inset card** — slide is a card on tinted pasteboard. App-like.
+- **Pastel gradient blob watermark** — one large soft pastel gradient
+  blob (sky→lavender, peach→cream) bleeding off one corner. Adds
+  atmosphere without competing with type. Editorial portfolio register.
 
 ---
 
@@ -173,6 +213,27 @@ Pick the personality that fits the category. All sizes scale to 1920×1080.
 - hierarchy: hand face is JEWELRY. One heading, one accent mark, one caption. Sans does work.
 - avoid: body copy or data labels in hand face — readability collapses.
 
+### Dual-Weight Hangul  (corporate-pro, korean-modern, academic-paper, tech-seminar[covers])
+- eyebrow 24px 500 sans (Pretendard Medium) UPPERCASE +12% tracking
+- heading line 1: 180px **200 (Thin/Light)** Hangul — outline weight
+- heading line 2: 180px **800 (ExtraBold)** Hangul — heavy weight
+- subhead 28px 500 sans, near-black
+- body 26px 400 sans, leading 1.55
+- caption 14px 400 UPPERCASE +18% tracking
+- tracking: heading −2%
+- hierarchy: WEIGHT contrast within the same size — light line + heavy line stacked. Both lines hold the same x-height; the visual rhythm comes from stroke weight, not size. The heavy line carries the noun; the light line carries the modifier.
+- avoid: changing size between the two lines (kills the gesture). Don't go below 120px (contrast collapses). Don't add italic — the duality is the design.
+
+### Serif Italic Editorial Latin  (pastel-soft, editorial-mag, luxe-dark-gold, [bilingual portfolio])
+- eyebrow 18px 400 sans UPPERCASE +20% tracking
+- heading 144px 400 italic serif (Playfair-class) — Latin word(s) only
+- subhead 28px 400 sans, near-black
+- body 22px 400 sans, leading 1.55
+- caption 14px 400 italic serif
+- tracking: heading −1%
+- hierarchy: serif italic Latin = identity, sans = context. On bilingual decks, the Latin word leads at display size; Korean sub-title sits beneath in light sans (Noto Sans KR Light at 36–42px).
+- avoid: serif italic for body (readability collapses). Pair with humanist sans always. Don't use a roman serif for the headline — the italic is the gesture.
+
 ---
 
 ## 4 · Genre exemplars (quality bar)
@@ -209,6 +270,24 @@ When rendering for these, aim for this level of considered craft.
 - **Type**: wide geometric display (Orbitron-equiv) at ~304px wordmark. Mono for micro HUD. Headline gets 3-layer RGB-split glitch (pink offset left, cyan offset right).
 - **Decoration**: CSS-only perspective floor (crossed gradients rotated 68° on X). Starfield. Scanlines at overlay blend. Vertical Latin column right (faux katakana). HUD chrome top + bottom.
 - **Risk**: the word IS a marquee, not a headline. Sub-copy lives at the bottom like a footer. Trust the wordmark to hold the room.
+
+### corporate-pro-slate · "Filed and squared" (Korean report aesthetic)
+- **Palette**: cool slate frame (~#5b6878) wrapping the slide on all sides + warm-white inner canvas (~#fbfbf8) + ink (~#222) + ONE restrained accent (steel blue or warm tan). The whole slide reads as a report inside a folio.
+- **Type**: Dual-Weight Hangul personality for the hero — line 1 light (200), line 2 heavy (800), both at 180px. Body 28px 400 sans (Pretendard Regular). Eyebrow 16px UPPERCASE Latin with `✓` checkmark prefix.
+- **Decoration**: ALL slides wear the slate outer frame + white inner canvas — non-negotiable. Section header = `✓ 제목` followed by a hairline rule beneath. Process slide = three light-gray circles (radius ~120px) with line icons inside, connected by dotted lines. Card grid = light gray header strip (~#e8e8eb) + thin 1px border body. Page number always omitted (frame already grounds the slide).
+- **Risk**: the slate frame makes the deck feel filed, not floating — every slide must wear it. The dual-weight hero must keep BOTH lines at the same size — change weight, not size. Resist adding any third color; restraint is the brand.
+
+### korean-biz-paperclip · "Folio / Notebook page" (Korean stationery aesthetic)
+- **Palette**: soft beige paper base (~#efeae0 to #f5f0e6) + ink black for type + cool gray for sub-text. ONE pale accent (sage, muted blue, or warm tan) used only inside dark-pill labels' icons. Whole slide reads as a notebook page.
+- **Type**: heavy Korean sans (Pretendard Bold/Black-class) at 80–110px for headers, 24–28px regular for body. ALL CAPS Latin reserved for date footer. Eyebrow uses `✓` checkmark + uppercase tracked.
+- **Decoration**: signature = small **paperclip silhouette** top-left + hamburger or `≡` icon top-right (always present, every slide). Outer thin rounded notebook frame. Section labels live INSIDE **dark rounded pills** (height ~50–60px, near-black fill, white sans inside, often prefixed with `✓`). Beige content panels nest inside the white area. Calendar week-grid (5×7 cells with ranges highlighted) for schedule slides. Use thick black arrow `→` between issue/response columns.
+- **Risk**: the paperclip is the entire identity — tiny but unmistakable. EVERY slide gets the paperclip + hamburger chrome. Use the dark rounded pill labels generously (3–6 per slide is fine) — they're the structural rhythm. Avoid: sans body, gradients, photographs.
+
+### marketing-pop-yellow · "Highlighter campaign" (Korean marketing deck)
+- **Palette**: cream/off-white base (~#fafaf5) + ink black + ONE saturated yellow (~#FFD83A or #FFE94A) used like a marker pen. Cool gray for chart bars. NO third color.
+- **Type**: heavy Korean sans (Pretendard Bold/Black) at 60–90px for headers — center-set on most slides. Body 22–28px regular. ALL CAPS Latin only inside the section pill or footer.
+- **Decoration**: signature = **dual-pill section indicator** at top-center (yellow rounded pill above near-black rounded pill, both showing the same numeral, e.g. `02` / `02`). **Highlight tags** wrap key takeaways (yellow fill, black text, marker-pen feel). Round line-icons sit inside soft circle wells. Closing slide = giant `"` open-quote symbol in yellow + black above the gratitude line. Optional: friendly people line illustrations (small, anchoring corner). Section pages always show subtitle in mid-gray sans below the centered hero.
+- **Risk**: yellow is the marker pen, NOT the background. It marks 1–3 specific things per slide; the rest stays cream + ink. Black is the structural workhorse. The dual section-pill is ALWAYS present — it's the through-line. Avoid: gradients, more than one accent color, dark backgrounds.
 
 ### tech-seminar · "ML/DL paper review style" (bilingual KR/EN)
 - **Palette**: white base, near-black sans for headlines, vivid blue (~#1f7ae0) for numerals + emphasis. Section banner uses purple→cyan horizontal gradient (~#7e5de8 → #5fd4e0). Section ornaments may add a third gradient fade (orange tail) when the slide is "intro/title" mood.
@@ -349,6 +428,55 @@ when generating portfolio-leaning slides.
 - Brand monogram top-left, chip-style label top-right.
 - Mood: confident silence, "the type IS the design", premium minimal
   Korean.
+
+### V6 — B&W black-bar editorial (Korean designer minimal)
+- Background: pure white edge-to-edge — no frame, no ornament.
+- Type: heavy black Korean sans (Pretendard ExtraBold-class) at 130–160px,
+  set as a single name centered. Mono Latin subtitle ("Product Designer")
+  in mid-gray above the name. Footer subtitle in tracked sans, very small.
+- Signature: a thick **BLACK horizontal bar** (~80% slide width, ~140px
+  tall) sits behind the centered Korean name — the name's letters
+  PIERCE the bar (top half on white, bottom half over the bar, OR vice
+  versa). The bar is shorter than the text on either side — that
+  asymmetric overrun creates the "pierce" effect.
+- Section dividers: `━━━━ 주요 프로젝트 ━━━━` — thick black rules
+  bracketing centered sans label. Use as standalone divider slides
+  between major sections.
+- Highlight tags: solid black rectangles with white sans label inside
+  (used as nav/identity, not just emphasis). Stack them vertically as
+  TOC items or scatter as project labels.
+- Project slides: small image placeholder + black highlight tag label +
+  short body paragraph. Composition asymmetric, unhurried.
+- Closing slide: same black-bar-pierce treatment with `감사합니다` +
+  small subtitle below (`OOO이었습니다` / `[Your Name] thanks you`).
+- Mood: confident silent minimalism, fashion-magazine portfolio,
+  "the bar IS the brand". Pure ink-on-paper; resist any color.
+
+### V7 — Pastel serif editorial portfolio (mist + gradient blob)
+- Background: misty warm-gray (~#e7e6e2) with ONE large pastel gradient
+  blob (sky blue → soft lavender) bleeding from a corner as atmosphere.
+  Blob opacity ~0.4–0.6, no hard edges.
+- Type: classic **serif italic English** ("Portfolio", "Contents",
+  "About Me", "Skills & Competencies", "Key Projects", "Portfolio
+  Showcase", "Education & Certifications") at 96–144px italic 400 — these
+  English section words ARE the identity. Korean sub-title in light sans
+  (Noto Sans KR Light at 36–42px) sits beside the English word.
+- TOC pattern: large serif italic "Contents" left + bilingual numbered
+  list right (`01 자기 소개 (About Me)`, `02 역량 및 스킬 (Skills &
+  Competencies)`, etc).
+- About / profile page: small label `OOO Your Name` left + body bullet
+  highlighted with bold underline + photo placeholder right.
+- Skill speed-bar pattern: 4–6 uniform thin bars with `기술명` label
+  left + percentage right; partial-fill in dark accent.
+- Project page: full image placeholder left or right + key/value meta
+  column on opposite side (목표 / 기간 / 기여도 / 결과 / 사용 툴).
+  Generous breathing room, hairline section divider beneath the title.
+- Education / timeline: left column = year ranges (`2015.8 - 2018.12`)
+  + right column = labeled items, each with a sub-line.
+- Closing slide: small serif italic "Thank you" centered between two
+  thin horizontal rules, with one-line subtitle below in light sans.
+- Mood: museum-catalog quietness, premium humanist editorial, soft
+  and slow. The Latin word leads, Korean sub-title follows.
 
 ---
 

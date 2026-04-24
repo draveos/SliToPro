@@ -177,14 +177,13 @@ Now produce { layoutNotes, promptCore } for the **${kind}** slide of this templa
 
 function buildRendererPrompt(
   metadata: Record<string, unknown>,
-  kind: string,
+  _kind: string,
   layoutNotes: string,
   promptCore: string,
   palette: PaletteRecord,
 ): string {
   return `Template: ${metadata.title}
 Category: ${metadata.category}
-Slide kind: ${kind}
 
 Design philosophy:
 ${metadata.philosophy}

@@ -1,0 +1,27 @@
+id: portfolio-05
+category: portfolio
+brief: |
+  Pastel serif editorial portfolio (V7 grammar). Misty warm-gray ground
+  (~#e7e6e2) with ONE large pastel gradient blob (sky blue → soft
+  lavender) bleeding from a corner as atmosphere; opacity ~0.5, no hard
+  edges. Type leans on classic serif italic English — "Portfolio",
+  "Contents", "About Me", "Skills & Competencies" — at 96-144px italic
+  400. These English section words ARE the identity. Korean sub-title
+  in light Noto Sans KR sits beside the English word. Bilingual
+  numbered TOC (`01 자기 소개 (About Me)`). Skill speed-bar pattern:
+  4-6 thin uniform progress bars with label-percentage pairs. Project
+  page = full image placeholder + key/value meta column on opposite
+  side (목표 / 기간 / 기여도 / 결과). Closing = small serif italic
+  "Thank you" between two thin horizontal rules.
+constraints:
+  - Misty warm-gray background (~#e7e6e2) with ONE pastel gradient blob bleeding off a corner
+  - Headline must be classic serif italic English (Playfair-class) at 96-144px
+  - Korean sub-title in light sans (Noto Sans KR Light), pairing with the English headline
+  - At least one preview should include either skill speed-bars OR the bilingual numbered TOC
+  - Closing register is small serif italic "Thank you" between thin rules
+inspiration:
+  - korean-portfolio-pastel
+  - playfair-italic-display
+  - museum-catalog-quietness
+  - gradient-blob-watermark
+paletteHint: Misty warm-gray base (~#e7e6e2 / #ece8e0), near-black serif ink, soft sky-blue→lavender pastel gradient for the corner blob, mid-gray for sans body and meta labels.

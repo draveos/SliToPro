@@ -1,5 +1,5 @@
 import type { Template, Palette, ExampleKind } from './types';
-import { CATEGORY_LABEL, EXAMPLE_KIND_LABEL } from './types';
+import { CATEGORY_LABEL } from './types';
 
 /**
  * Assembles the user-copyable prompt for a single example slide of a template,
@@ -17,7 +17,6 @@ export function buildPrompt(template: Template, kind: ExampleKind, palette: Pale
   return `You are designing a single presentation slide.
 
 CATEGORY: ${CATEGORY_LABEL[template.category]}
-SLIDE KIND: ${EXAMPLE_KIND_LABEL[kind]}
 TEMPLATE: ${template.title}
 DESCRIPTION: ${template.description}
 
@@ -34,7 +33,7 @@ PALETTE — "${palette.name}":
 - Neutral (muted text, borders): ${palette.neutral}${layout}
 
 CONTENT TO PLACE:
-[Replace this with your slide content: title, bullet points, image descriptions]
+[Replace this with your slide content: title, bullet points, stats, image descriptions, etc. If left empty, ASK the user what content they want before drawing.]
 
 OUTPUT: Describe the slide visually in detail, then provide HTML/CSS or SVG code that renders it at 1920x1080.`;
 }

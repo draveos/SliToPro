@@ -20,6 +20,7 @@ export const CATEGORIES = [
   'newsletter-info',
   'korean-modern',
   'tech-seminar',
+  'portfolio',
 ] as const;
 
 export type Category = (typeof CATEGORIES)[number];
@@ -46,14 +47,15 @@ export const CATEGORY_LABEL: Record<Category, string> = {
   'newsletter-info': 'Newsletter Info',
   'korean-modern': 'Korean Modern',
   'tech-seminar': 'Tech Seminar',
+  'portfolio': 'Portfolio',
 };
 
 export const EXAMPLE_KINDS = ['title', 'content'] as const;
 export type ExampleKind = (typeof EXAMPLE_KINDS)[number];
 
 export const EXAMPLE_KIND_LABEL: Record<ExampleKind, string> = {
-  title: 'Title slide',
-  content: 'Content slide',
+  title: 'Preview 1',
+  content: 'Preview 2',
 };
 
 export interface Palette {

@@ -1,0 +1,23 @@
+id: portfolio-01
+category: portfolio
+brief: |
+  Tech-spec mono portfolio (V1 grammar). Designed as if a UX team's
+  internal spec sheet — light warm-gray ground (~#ebebeb), heavy black
+  Pretendard-style Korean headlines, ALL-CAPS Latin subtitle in mid-gray.
+  The recurring motif is an iPhone outline (line-art rounded rectangle
+  ~280×580 proportion) used as content frame and chapter divider. Chrome
+  is restrained: hamburger top-left, chevron-right top-right, monogram
+  bottom-right, fine micro-text bottom-left. Reads like a confidential
+  design-system document.
+constraints:
+  - The iPhone-outline motif must appear (as frame OR content container) on at least one preview
+  - Heavy black sans Korean headlines, ALL-CAPS Latin secondary text in mid-gray
+  - Light warm-gray (~#ebebeb) background, no other panel colors
+  - Spec-sheet chrome (hamburger / chevron / monogram / micro-text) must be present
+  - No serif, no gradient, no illustration — just type, line-art, and grid
+inspiration:
+  - design-system-spec-sheet
+  - korean-ux-team-doc
+  - line-art-iphone-frame
+  - pretendard-extrabold
+paletteHint: Very light warm gray base (~#ebebeb / #f0eeea), near-black ink for headlines, mid-gray for ALL-CAPS subtitle, ONE muted secondary tone for the iPhone outline.

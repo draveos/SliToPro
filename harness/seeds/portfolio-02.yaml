@@ -1,0 +1,23 @@
+id: portfolio-02
+category: portfolio
+brief: |
+  Bold dark portfolio (V2 grammar). Pure black background, edge-to-edge.
+  Huge white display sans headline (Helvetica-bold-equiv) often prefixed
+  with a # hashtag (the # is identity). Signature is a 4-cell grid of
+  vibrant single-color geometric icons — purple square, pink asterisk-
+  flower, orange staircase, green arches — each in its own black-bordered
+  cell. Footer band is a solid orange (~#FF5A1F) edge-to-edge with
+  centered URL in white sans. Hashtag-style metadata top-right and above
+  the footer. Contemporary tech-portfolio energy.
+constraints:
+  - Background is pure black for the whole slide
+  - The 4-cell vibrant geometric icon grid is mandatory on at least one preview
+  - Solid orange footer band (~#FF5A1F) running edge-to-edge, centered URL inside
+  - Headline is huge white display sans, often # prefixed
+  - No serif, no gradient — flat saturated blocks only
+inspiration:
+  - reallygreatsite-canva
+  - hashtag-identity
+  - contemporary-tech-portfolio
+  - flat-vibrant-icons
+paletteHint: Pure black background, white display headline, four saturated icon colors (purple / hot-pink / orange / green), one full-width orange footer band.
